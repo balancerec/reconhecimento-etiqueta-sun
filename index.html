@@ -78,6 +78,15 @@ function orientedCanvas(source,angle,scale=1){
 }
 function improveContrast(source){const c=document.createElement('canvas');c.width=source.width;c.height=source.height;const ctx=c.getContext('2d',{willReadFrequently:true});ctx.drawImage(source,0,0);const image=ctx.getImageData(0,0,c.width,c.height);const a=image.data;for(let i=0;i<a.length;i+=4){let lum=.299*a[i]+.587*a[i+1]+.114*a[i+2];let v=Math.max(0,Math.min(255,(lum-128)*1.55+128));a[i]=a[i+1]=a[i+2]=v;}ctx.putImageData(image,0,0);return c;}
 // SUN V4: segmentação de regiões ciano em resolução reduzida, sem rede.
+// Dimensão física informada: 101 mm largura × 151 mm altura (bordas externas).
+// A razão geométrica não fornece escala absoluta em pixels.
+const SUN_LABEL_GEOMETRY=Object.freeze({widthMm:101,heightMm:151,portraitRatio:101/151,landscapeRatio:151/101});
+function labelGeometry(box){
+ const ratio=box.w/box.h,portraitError=Math.abs(Math.log(ratio/SUN_LABEL_GEOMETRY.portraitRatio)),landscapeError=Math.abs(Math.log(ratio/SUN_LABEL_GEOMETRY.landscapeRatio));
+ const error=Math.min(portraitError,landscapeError),orientation=portraitError<=landscapeError?'vertical':'horizontal';
+ // Tolerância deliberadamente ampla para perspectiva, margens e recortes parciais.
+ return {ratio,orientation,error,compatible:error<=Math.log(1.45),confidence:Math.max(0,1-error/Math.log(1.45))};
+}
 function blueRegions(canvas){
  const W=canvas.width,H=canvas.height,ctx=canvas.getContext('2d',{willReadFrequently:true});const a=ctx.getImageData(0,0,W,H).data;
  const mask=new Uint8Array(W*H),seen=new Uint8Array(W*H);let total=0;
@@ -94,14 +103,14 @@ function blueRegions(canvas){
    for(const n of [v-1,v+1,v-nx,v+nx]){if(n<0||n>=occupied.length||visited[n]||!occupied[n])continue;if(Math.abs(n%nx-x)+Math.abs(Math.floor(n/nx)-y)!==1)continue;visited[n]=1;q.push(n)}
   }
   let box={x:x0*cell,y:y0*cell,w:Math.min(W,(x1+1)*cell)-x0*cell,h:Math.min(H,(y1+1)*cell)-y0*cell,score:count};
-  if(box.w>W*.24&&box.h>H*.12&&box.w*box.h>W*H*.065)regions.push(box);
+  if(box.w>W*.24&&box.h>H*.12&&box.w*box.h>W*H*.065){box.geometry=labelGeometry(box);regions.push(box);}
  }
- return regions.sort((a,b)=>b.w*b.h-a.w*a.h).slice(0,8);
+ return regions.sort((a,b)=>(Number(b.geometry.compatible)-Number(a.geometry.compatible)) || (b.geometry.confidence-a.geometry.confidence) || (b.w*b.h-a.w*a.h)).slice(0,8);
 }
 function cropCanvas(c,b){const margin=4,x=Math.max(0,b.x-margin),y=Math.max(0,b.y-margin),w=Math.min(c.width-x,b.w+margin*2),h=Math.min(c.height-y,b.h+margin*2);const out=document.createElement('canvas');out.width=w;out.height=h;out.getContext('2d').drawImage(c,x,y,w,h,0,0,w,h);return out;}
 function findLabels(source,angle){const c=orientedCanvas(source,angle,Math.min(1,1100/Math.max(source.naturalWidth,source.naturalHeight)));return {canvas:c,regions:blueRegions(c)};}
-function setLabelOptions(labels){const select=$('sunLabelChoice'),prior=select.value;select.innerHTML='';labels.forEach((v,i)=>{let o=document.createElement('option');o.value=String(i);o.textContent='Etiqueta '+(i+1)+' · '+Math.round(v.box.w)+'×'+Math.round(v.box.h)+' px';select.append(o)});if(labels.length){select.value=labels[Number(prior)]?prior:'0';showCrop(labels[Number(select.value)])}}
-function showCrop(label){if(!label)return;const crop=cropCanvas(label.canvas,label.box),preview=$('sunCropPreview');preview.width=crop.width;preview.height=crop.height;preview.getContext('2d').drawImage(crop,0,0);preview.style.display='block';lastCrop=crop;$('sunZoneStatus').textContent='Região azul detectada. Confira se o recorte contém somente uma etiqueta completa.';}
+function setLabelOptions(labels){const select=$('sunLabelChoice'),prior=select.value;select.innerHTML='';labels.forEach((v,i)=>{let o=document.createElement('option');o.value=String(i);o.textContent='Etiqueta '+(i+1)+' · '+Math.round(v.box.w)+'×'+Math.round(v.box.h)+' px · '+(v.box.geometry?.compatible?'formato compatível':'formato a conferir');select.append(o)});if(labels.length){select.value=labels[Number(prior)]?prior:'0';showCrop(labels[Number(select.value)])}}
+function showCrop(label){if(!label)return;const crop=cropCanvas(label.canvas,label.box),preview=$('sunCropPreview');preview.width=crop.width;preview.height=crop.height;preview.getContext('2d').drawImage(crop,0,0);preview.style.display='block';lastCrop=crop;$('sunZoneStatus').textContent='Região azul detectada · '+(label.box.geometry?.compatible?'proporção compatível':'proporção fora da tolerância')+' com 101 × 151 mm (referência física). Confira bordas, recorte e perspectiva; a medida não comprova a escala da foto.';}
 $('sunLabelChoice').onchange=()=>{showCrop(detectedLabels[Number($('sunLabelChoice').value)]);if(img&&!autoRunning)autoRecognize()};
 function sunParse(raw){const t=raw.toUpperCase().replace(/[|]/g,'1'),norm=t.replace(/\s+/g,' '),pick=re=>norm.match(re)?.[1]||'';
  const out={Sku:pick(/(?:ITEM|IT[EÉ]M)\s*[:.\-]?\s*(\d{6})/),Qty:pick(/QTDE\s*[:.\-]?\s*(\d{1,5})/),Layer:pick(/LASTRO\s*[:.\-]?\s*(\d{1,4})/),Shelf:pick(/VALIDADE\s*[:.\-]?\s*(\d+\s*ANOS?)/),Lot:pick(/(?:LT|LOTE)\s*[:.\-]?\s*(\d{5,12})/),Doc:pick(/DOC\s*ENTRADA\s*[:.\-]?\s*(\d{8,14})/)};
@@ -117,9 +126,9 @@ async function autoRecognize(){
  try{
   autoProgress('1/4 · Localizando as etiquetas azuis...');
   for(const angle of [0,90,180,270]){const result=findLabels(source,angle);for(const box of result.regions)candidatesLabels.push({canvas:result.canvas,box,angle});}
-  candidatesLabels.sort((a,b)=>b.box.w*b.box.h-a.box.w*a.box.h);
+  candidatesLabels.sort((a,b)=>(Number(b.box.geometry?.compatible)-Number(a.box.geometry?.compatible)) || ((b.box.geometry?.confidence||0)-(a.box.geometry?.confidence||0)) || (b.box.w*b.box.h-a.box.w*a.box.h));
   // Manter opções de uma única orientação para evitar duplicatas das mesmas etiquetas.
-  if(candidatesLabels.length){const chosenAngle=candidatesLabels[0].angle;detectedLabels=candidatesLabels.filter(x=>x.angle===chosenAngle);setLabelOptions(detectedLabels);angleBest=chosenAngle;}else{detectedLabels=[];$('sunZoneStatus').textContent='Região azul não localizada: OCR na imagem completa.';}
+  if(candidatesLabels.length){const chosenAngle=candidatesLabels[0].angle;detectedLabels=candidatesLabels.filter(x=>x.angle===chosenAngle);setLabelOptions(detectedLabels);angleBest=chosenAngle;}else{detectedLabels=[];$('sunZoneStatus').textContent='Região azul não localizada: OCR na imagem completa. Referência física: 101 × 151 mm.';}
   autoProgress('2/4 · Procurando código de barras GS1-128...');
   if('BarcodeDetector' in window){
    try{const formats=await BarcodeDetector.getSupportedFormats();if(formats.includes('code_128')){
@@ -164,6 +173,7 @@ async function autoRecognize(){
  finally{autoRunning=false;if(source===img){$('sunAuto').disabled=false;$('sunScan').disabled=false;$('sunOCR').disabled=false;}quality()}
 }
 $('sunAuto').onclick=autoRecognize;
+ window.SUN_LABEL_GEOMETRY=SUN_LABEL_GEOMETRY;
 
 })();
 </script><script id="sun-v5-pallet">
@@ -198,4 +208,4 @@ function audit(){const sku=byId('sunSku').value.trim(),q=integer('sunQty'),l=int
  window.SUN_PALLET_V5={catalog,audit};
  audit();
 })();
-</script></body></html>
+</script><script id="sun-v7-geometry-info">(()=>{const anchor=document.getElementById('sunZoneStatus');if(!anchor)return;const info=document.createElement('p');info.style.cssText='font-size:12px;opacity:.8;line-height:1.5;margin:8px 0';info.textContent='Referência física SUN: 10,1 cm (largura) × 15,1 cm (altura). O scanner prioriza regiões azuis com proporções compatíveis, mas exige conferência visual.';anchor.insertAdjacentElement('afterend',info);})();</script></body></html>
