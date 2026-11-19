@@ -1,0 +1,29 @@
+{
+    "files":  [
+                  "index.html",
+                  "backend-client.js",
+                  "compose.yaml",
+                  ".dockerignore",
+                  "README.md",
+                  "Instalar.cmd",
+                  "windows\\install.ps1",
+                  "windows\\common.ps1",
+                  "windows\\runtime.ps1",
+                  "windows\\test-labels.ps1",
+                  "docs\\etiquetas-dun-sun.svg",
+                  "backend\\app.py",
+                  "backend\\core.py",
+                  "backend\\Dockerfile",
+                  "backend\\README.md",
+                  "backend\\requirements-dev.txt",
+                  "backend\\requirements.txt",
+                  "backend\\VALIDACAO.md",
+                  "backend\\vision.py",
+                  "backend\\tests\\smoke_vision.py",
+                  "backend\\tests\\test_core.py",
+                  "backend\\tests\\test_extraction.py",
+                  "backend\\tests\\test_http.py",
+                  "package-manifest.json"
+              ],
+    "version":  "0.2.0"
+}

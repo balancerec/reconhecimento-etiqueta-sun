@@ -19,7 +19,7 @@ if(typeof module!=='undefined')module.exports={baseUrl,request};
 if(!root.document)return;
 const $=id=>document.getElementById(id);
 const state={result:null,index:0,callback:null,controller:null,generation:0,busy:false,base:null};
-const names={sku:'SKU',product_description:'Descrição',volume_ml:'Volume (ml)',units_per_case:'Unidades por caixa',manufacturing_date:'Fabricação',expiration_date:'Vencimento',lot:'Lote',auxiliary_code:'Código auxiliar',gtin14:'GTIN-14 (OCR)',quantity_boxes:'Quantidade de caixas',lastro:'LASTRO',shelf_life:'Prazo de validade',entry_document:'Documento de entrada',sscc:'SSCC (OCR)'};
+const names={sku:'SKU',product_description:'Descrição',volume_ml:'Volume (ml)',units_per_case:'Unidades por caixa',manufacturing_date:'Fabricação',expiration_date:'Vencimento',lot:'Lote',auxiliary_code:'Código auxiliar',gtin14:'GTIN-14',quantity_boxes:'Quantidade de caixas',lastro:'LASTRO',shelf_life:'Prazo de validade',entry_document:'Documento de entrada',sscc:'SSCC'};
 const numeric=new Set(['volume_ml','units_per_case','quantity_boxes','lastro']);
 const message=t=>{$('backendConnection').textContent=t;};
 const storage={get(k){try{return localStorage.getItem(k);}catch{return null;}},set(k,v){try{localStorage.setItem(k,v);}catch{}}};
@@ -39,6 +39,11 @@ function render(){
  }
  const v=label.validation;
  $('backendValidation').textContent='Inspeção '+state.result.id+' · '+label.label_type+' · '+v.status+' · Barras: '+(label.barcode.decoded_value||'não decodificadas')+' · Erros: '+(v.errors.join(', ')||'nenhum')+' · Avisos: '+v.warnings.join(', ')+'. Revisão humana obrigatória.';
+ const evidence=$('backendEvidence');
+ if(evidence){evidence.replaceChildren();for(const item of label.field_evidence||[]){
+  const row=document.createElement('p');row.className='sun-muted';
+  row.textContent=(names[item.field_name]||item.field_name)+': '+(item.normalized_value??'ausente')+' · '+item.source+' · '+(item.engine||'operador')+(item.confidence!=null?' · índice do motor '+Math.round(item.confidence*100)+'%':'');evidence.append(row);
+ }}
  state.callback?.(label);
 }
 function options(preferred){
@@ -53,10 +58,28 @@ async function recognize(kind,file,callback){
  const base=baseUrl($('backendUrl').value.trim(),root.location);
  state.controller=new AbortController();const controller=state.controller;
  controls(true);message('Processando imagem no backend. Aguarde...');
- const timeout=setTimeout(()=>controller.abort(),300000);
+ const timeout=setTimeout(()=>controller.abort(),600000);
  try{
   const body=new FormData();body.append('image',file);
-  const result=await request(base,'/v1/recognize',{method:'POST',body,signal:controller.signal});
+  const job=await request(base,'/v2/jobs',{method:'POST',body,signal:controller.signal});
+  if(!job.id)throw Error('Servidor incompatível. Atualize a instalação local.');
+  let result;
+  while(generation===state.generation){
+   const status=await request(base,'/v2/jobs/'+encodeURIComponent(job.id),{signal:controller.signal});
+   if(generation!==state.generation)return;
+   message((status.progress||0)+'% ? '+(status.message||'Processando no servidor'));
+   for(const id of [kind==='dun'?'dunStatus':'sunAutoProgress']){const el=$(id);if(el)el.textContent=(status.progress||0)+'% ? '+(status.message||'Processando');}
+   if(status.status==='COMPLETED'){result=status.result;break;}
+   if(status.status==='FAILED')throw Error(status.message||'Falha no reconhecimento');
+   await new Promise((resolve,reject)=>{
+    const done=()=>{clearTimeout(timer);controller.signal.removeEventListener('abort',abort);};
+    const abort=()=>{done();reject(new DOMException('Cancelado','AbortError'));};
+    const timer=setTimeout(()=>{done();resolve();},800);
+    controller.signal.addEventListener('abort',abort,{once:true});
+    if(controller.signal.aborted)abort();
+   });
+  }
+  if(!result)return;
   if(generation!==state.generation)return;
   if(!result.id||!Array.isArray(result.labels))throw Error('Resposta incompatível com a API de etiquetas.');
   state.result=result;state.base=base;state.callback=callback;options(kind);message('Leitura armazenada no backend. Selecione uma etiqueta e revise os campos.');
@@ -92,7 +115,7 @@ async function save(){
 }
 root.LabelBackend={enabled:()=>!$('recognitionMode')||$('recognitionMode').value==='api',recognize,cancel,selected,snapshot:()=>state.result?JSON.parse(JSON.stringify(state.result)):null};
 root.addEventListener('DOMContentLoaded',()=>{
- $('recognitionMode').value=storage.get('labelRecognitionMode')||'api';$('backendUrl').value=storage.get('labelBackendUrl')||'';
+ const local=new URL(root.location.href).searchParams.get('local')==='1';$('recognitionMode').value=local?'api':(storage.get('labelRecognitionMode')||'api');$('backendUrl').value=local?'':(storage.get('labelBackendUrl')||'');
  for(const [id,key] of [['recognitionMode','labelRecognitionMode'],['backendUrl','labelBackendUrl']])$(id).addEventListener('change',()=>{cancel();storage.set(key,$(id).value);message('Configuração alterada. Execute o reconhecimento novamente.');});
  $('backendLabel').onchange=()=>{state.index=Number($('backendLabel').value);render();};
  $('backendHealth').onclick=async()=>{

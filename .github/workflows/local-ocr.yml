@@ -1,0 +1,35 @@
+name: Local OCR and Windows installer
+on:
+  push:
+    branches: [main]
+    paths: ['backend/**', 'windows/**', 'backend-client.js', 'compose.yaml', '.github/workflows/local-ocr.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  real-engines:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: JavaScript contract and flow
+        run: |
+          node test-integration.cjs
+          node test-ui-flow.cjs
+      - name: Build both OCR engines
+        run: docker build -f backend/Dockerfile -t proact-labels:test .
+      - name: Rules, HTTP contract and real synthetic OCR
+        run: |
+          docker run --rm proact-labels:test sh -c 'pip install -r requirements-dev.txt && python -m unittest discover -s tests -v'
+          docker run --rm proact-labels:test python tests/smoke_vision.py
+  windows-installer:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build embedded Windows installer
+        shell: powershell
+        run: ./windows/build-installer.ps1
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Instalar-Etiquetas-Windows
+          path: downloads/Instalar-Etiquetas.exe

@@ -1,5 +1,9 @@
-# Estado da valida??o
+# Validação da versão 0.2.0
 
-Testes automatizados de regras executados no ambiente de entrega. Compila??o sint?tica Python verificada. Docker e Tesseract n?o estavam dispon?veis no PATH; a API e o OCR n?o foram executados nas fotos. N?o h? taxa de acerto medida.
+24 testes Python de regras, extração, correções, fila e contrato HTTP passaram no ambiente de desenvolvimento. Nesses testes a inferência visual é simulada. Passaram também os testes JavaScript de contrato, envio multipart, polling, cancelamento, descarte de resultado antigo e correção auditável. Sintaxe dos scripts Python e PowerShell verificada, e instalador .NET compilado.
 
-Para homologar: iniciar o cont?iner; enviar cada imagem fornecida via /docs; conferir campos, coordenadas, barras e contagem de etiquetas manualmente. Repetir com rota??es de 90/180/270 graus, fotos desfocadas, reflexos, v?rios r?tulos e SKUs desconhecidos. Registrar valores esperados e obtidos. N?o usar o prot?tipo para aprova??o autom?tica.
+Docker Desktop foi localizado no caminho informado, mas a sessão de desenvolvimento recebeu permission denied ao acessar o named pipe do motor; o WSL retornou acesso negado. Por isso a instalação na máquina e o OCR das fotos originais não foram executados daqui.
+
+O workflow Local OCR and Windows installer executa o build Docker e smoke_vision.py: Tesseract e RapidOCR reais em imagens sintéticas DUN, SUN, rotação e múltiplas etiquetas. Consulte o resultado dessa execução no GitHub Actions. Esses testes não medem a acurácia em fotos de operação.
+
+O atalho Testar Etiquetas gera relatórios locais para as fotos originais de Pictures/ETIQUETAS, sem publicá-las. É necessário conferir manualmente os resultados com as imagens. Não foi atribuída uma taxa de acerto ao sistema.

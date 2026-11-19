@@ -8,18 +8,16 @@ import io
 class HttpContract(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.directory=Path(os.environ['TEMP'])/('labels-http-test-'+uuid.uuid4().hex);cls.directory.mkdir();os.environ['DATA_DIR']=str(cls.directory)
-        cls.stubs={}
-        cv=types.ModuleType('cv2');cv.COLOR_RGB2HSV=1;cv.COLOR_RGB2GRAY=2;cv.MORPH_CLOSE=3;cv.RETR_EXTERNAL=4;cv.CHAIN_APPROX_SIMPLE=5
-        cv.cvtColor=lambda a,*args:a;cv.inRange=lambda *args:None;cv.morphologyEx=lambda *args:None
-        cv.contourArea=lambda c:0;cv.findContours=lambda *args:([],None);cv.createCLAHE=lambda *args:types.SimpleNamespace(apply=lambda a:a)
-        ocr=types.ModuleType('pytesseract');ocr.Output=types.SimpleNamespace(DICT='dict');ocr.get_tesseract_version=lambda:'fake-test-engine'
-        def recognize(*args,**kwargs):
-            words='ITEM: 375825 QTDE: 22 LASTRO: 15 LT: 001234 DOC ENTRADA: 5083399711'.split()
-            return dict(text=words,conf=[90]*len(words),left=[0]*len(words),top=[0]*len(words),width=[10]*len(words),height=[10]*len(words))
-        ocr.image_to_data=recognize
-        zx=types.ModuleType('zxingcpp');zx.read_barcodes=lambda a:[]
-        cls.patch=patch.dict(sys.modules,{'cv2':cv,'pytesseract':ocr,'zxingcpp':zx});cls.patch.start()
+        cls.directory=Path(os.environ.get('TEMP',tempfile.gettempdir()))/('labels-http-test-'+uuid.uuid4().hex);cls.directory.mkdir();os.environ['DATA_DIR']=str(cls.directory)
+        vision=types.ModuleType('vision')
+        def recognize_labels(rgb,progress=lambda *args:None):
+            from core import parse,validate
+            kind,fields=parse('ITEM: 375825 QTDE: 22 LASTRO: 15 LT: 001234 DOC ENTRADA: 5083399711')
+            validation,pallet=validate(kind,fields)
+            return [dict(label_type=kind,fields=fields,validation=validation,pallet=pallet,raw_text='original OCR',field_evidence=[],barcode=dict(decoded_value=None,ocr_value=None,ocr_matches_barcode=None))],dict(elapsed_seconds=0)
+        vision.recognize_labels=recognize_labels
+        vision.health=lambda:dict(status='ok',version='0.2.0',engines=dict(rapidocr=True,tesseract=True))
+        cls.patch=patch.dict(sys.modules,{'vision':vision});cls.patch.start()
         sys.path.insert(0,str(Path(__file__).resolve().parents[1]));cls.app=importlib.import_module('app');cls.client=TestClient(cls.app.app)
     @classmethod
     def tearDownClass(cls):cls.patch.stop()
@@ -42,6 +40,22 @@ class HttpContract(unittest.TestCase):
         self.assertIn('CAPACITY_EXCEEDED',updated['labels'][0]['validation']['errors'])
         self.assertEqual(updated['labels'][0]['raw_text'],label['raw_text'])
         correction['value']='texto';self.assertEqual(self.client.post('/v1/inspections/'+rid+'/corrections',json=correction).status_code,422)
+    def test_jobs(self):
+        import time
+        im=io.BytesIO();Image.new('RGB',(200,300),'white').save(im,'PNG')
+        response=self.client.post('/v2/jobs',files={'image':('label.png',im.getvalue(),'image/png')})
+        self.assertEqual(response.status_code,202);job=response.json()
+        for _ in range(100):
+            status=self.client.get(job['status_url']).json()
+            if status['status'] in ('COMPLETED','FAILED'):break
+            time.sleep(.01)
+        self.assertEqual(status['status'],'COMPLETED');self.assertEqual(status['result']['labels'][0]['fields']['sku'],'375825')
+    def test_empty_operator_and_strict_types(self):
+        result=self.upload().json();rid=result['id']
+        correction={'label_index':0,'field_name':'quantity_boxes','value':True,'operator':'Teste','reason':'Teste'}
+        self.assertEqual(self.client.post('/v1/inspections/'+rid+'/corrections',json=correction).status_code,422)
+        correction.update(value=22,operator=' ')
+        self.assertEqual(self.client.post('/v1/inspections/'+rid+'/corrections',json=correction).status_code,422)
     def test_invalid_upload(self):
         self.assertEqual(self.client.post('/v1/recognize',files={'image':('x.jpg',b'invalid','image/jpeg')}).status_code,422)
         self.assertEqual(self.client.post('/v1/recognize',files={'image':('x.jpg',b'x'*(12*1024*1024+1),'image/jpeg')}).status_code,413)

@@ -1,83 +1,81 @@
-# PRO-ACT Mobile — Reconhecimento de Etiquetas DUN e SUN
+# PRO-ACT — Etiquetas DUN e SUN locais
 
-Aplicativo mobile para acompanhamento operacional e inspeção de etiquetas industriais de caixa (DUN) e unidade logística/palete (SUN).
+Página de produção e inspeção industrial com leitura local em CPU. A versão 0.2.0 combina Tesseract (português/inglês), RapidOCR/ONNX e ZXing, sem enviar imagens para serviços de IA.
 
-## Comparativo visual das etiquetas
+## Instalar no Windows
 
-![Comparativo visual das etiquetas DUN e SUN, com dimensões físicas e exemplos esquemáticos de códigos de barras](docs/etiquetas-dun-sun.svg)
+[Baixar Instalar-Etiquetas.exe](downloads/Instalar-Etiquetas.exe)
 
-> Ilustração vetorial baseada no esquema de referência fornecido. Não é uma reprodução fiel das etiquetas impressas nem o arquivo PNG original. Os códigos de barras desenhados são apenas ilustrativos, não devem ser decodificados.
+1. Execute o instalador na sua conta do Windows, com Docker Desktop instalado.
+2. Aguarde o download e a preparação dos motores na primeira instalação. É necessário acesso à internet nessa etapa.
+3. Abra **Abrir Etiquetas** na área de trabalho. O navegador acessará a página e a API no próprio computador.
 
-| Característica | DUN | SUN |
-| --- | --- | --- |
-| Aplicação | Caixa de produto | Palete / unidade logística |
-| Dimensões físicas | **8 × 8 cm** (80 × 80 mm) | **10,1 × 15,1 cm** (101 × 151 mm) |
-| Identificador | GTIN-14, quando aplicável e confirmado | SSCC-18 |
-| Reconhecimento | OCR e leitura óptica do código | OCR, leitura do código e validação logística |
+O instalador procura o Docker primeiro em `%LOCALAPPDATA%\Programs\DockerDesktop`, incluindo a instalação informada nesta máquina. Não exige configurar o Ubuntu manualmente; o Docker Desktop pode usar seu WSL normalmente. É preciso que o Docker esteja em Linux containers e acessível à sua conta.
 
-## Aplicativo
+A instalação fica em `%LOCALAPPDATA%\PROACT\Etiquetas`. Fotos e histórico do backend ficam em `data`, relatórios em `reports` e logs de instalação em `logs`. Atualizações preservam essas pastas e a configuração `.env`. O histórico antigo da página continua no armazenamento do navegador e não é migrado automaticamente.
 
-**[Abrir PRO-ACT Mobile no GitHub Pages](https://balancerec.github.io/reconhecimento-etiqueta-sun/)**
+Atalhos criados: **Abrir Etiquetas**, **Parar Etiquetas**, **Diagnostico Etiquetas** e **Testar Etiquetas**. O teste procura imagens em `Pictures\ETIQUETAS` ou extrai `ETIQUETAS.rar` para uma nova pasta de relatórios. Envia somente ao servidor em localhost e gera JSON/HTML para conferência. As fotos fornecidas não são incluídas neste repositório nem no instalador.
 
-O reconhecimento por OCR e a decodificação de códigos são processos distintos. Uma leitura textual não deve ser apresentada como validação do código de barras sem decodificação real.
-
-## Referências
-
-- [Diagrama vetorial DUN × SUN](docs/etiquetas-dun-sun.svg)
-
-
-## Backend integrado
-
-A página mantém o modo **Neste navegador** e agora oferece **Backend local / servidor** para os scanners DUN e SUN. Configure o motor no painel de etiquetas. No modo backend, a foto é enviada à API selecionada; não há troca silenciosa para OCR no navegador se a conexão falhar.
-
-### Iniciar página e API juntas
-
-Com Docker Desktop instalado, execute na raiz deste repositório:
+Alternativa: extraia `downloads/Etiquetas-Windows.zip` e execute `Instalar.cmd`. Para gerar novamente o executável a partir do código:
 
 ```powershell
-docker compose up --build -d
+powershell -NoProfile -ExecutionPolicy Bypass -File windows/build-installer.ps1
 ```
 
-Abra **http://localhost:8000**. Deixe o endereço da API vazio para usar o próprio servidor. A documentação HTTP fica em **http://localhost:8000/docs**. O contêiner instala Tesseract português/inglês e ZXing; o reconhecimento ocorre no servidor, sem serviços de IA externos.
+O executável é um bootstrap .NET com o projeto embarcado. Não instala drivers, não altera a distribuição Ubuntu e não apaga dados ao parar o aplicativo.
 
-### Usar a página do GitHub Pages
+## O que mudou na leitura
 
-GitHub Pages serve HTML e JavaScript, mas não executa Python/Tesseract. Hospede o backend separadamente com HTTPS e informe sua URL no painel. A origem `https://balancerec.github.io` já está na lista CORS. Para outra origem, ajuste `CORS_ORIGINS` no compose.
+- Localização de regiões brancas DUN e azuis SUN, com supressão de recortes duplicados.
+- Retificação de perspectiva e tentativa das quatro orientações.
+- Preservação das linhas, posições e texto bruto; extração de descrição e unidades como `750ML 12`.
+- Múltiplas leituras Tesseract e uma leitura RapidOCR independente no mesmo recorte.
+- Remoção auxiliar do fundo ciano e ajustes de contraste/limiarização.
+- Consenso por campo; empates ficam ausentes e divergências são registradas. Não troca S por 5 silenciosamente.
+- Leitura real de barras em variantes da imagem. Identificadores obtidos só das barras têm fonte `BARCODE`; isso não é apresentado como OCR concordante.
+- Processamento em fila com progresso, limite de recursos e erros visíveis. A página descarta respostas de fotos anteriores.
+- Regras de GTIN/SSCC, SKU, datas, LASTRO, capacidade e paletes parciais; revisão humana obrigatória.
 
-O compose fornecido atende somente localhost. Antes de exposição em rede, configure autenticação, HTTPS, controle de acesso, limites de concorrência e retenção dos arquivos. Este projeto não provisiona um servidor público.
+## Usar sem instalador
 
-### Fluxo de inspeção
+Na raiz do projeto:
 
-1. Escolha o motor e teste a conexão.
-2. Envie uma foto pelo scanner DUN ou SUN.
-3. Selecione a etiqueta no painel de resultado do backend.
-4. Revise campos, erros e avisos. O formulário correspondente recebe os dados da etiqueta selecionada.
-5. Para corrigir no servidor, edite os campos **do painel do backend**, informe operador e motivo e salve. As correções preservam os valores anteriores.
-6. Exporte o JSON para incluir as evidências OCR, barras, validações e histórico de correções.
+```powershell
+docker compose --project-name proact-etiquetas up --build -d
+```
 
-O botão original de registro SUN continua gravando no histórico local do navegador, incluindo o resultado do backend. Correções no servidor e parecer humano local são registros distintos. O backend não aprova automaticamente etiquetas.
+Abra http://localhost:8000/?local=1. A documentação HTTP está em http://localhost:8000/docs. Configure `LABEL_PORT` em `.env` para outra porta. O instalador escolhe uma porta livre entre 8000, 8010, 8020 e 8030.
 
-### API e armazenamento
+A API escuta apenas em localhost no compose. Antes de expor a outras máquinas, implemente autenticação, HTTPS, limites de acesso e política de retenção. A página no [GitHub Pages](https://balancerec.github.io/reconhecimento-etiqueta-sun/) continua disponível, mas não executa Docker: para usar o backend nela é necessária uma API HTTPS. Para este uso local, abra pelo atalho do Windows.
 
-- `POST /v1/recognize`: multipart com campo `image`, máximo 12 MB.
-- `GET /v1/inspections/{id}`: recuperar inspeção.
-- `POST /v1/inspections/{id}/corrections`: correção auditável.
-- `GET /health`: disponibilidade do Tesseract.
+## Inspecionar e corrigir
 
-Originais e resultados ficam em `./data`, fora do Git. Faça backup dessa pasta. Execute somente um processo Uvicorn nesta versão.
+Escolha o motor backend, envie a foto no scanner DUN ou SUN e selecione a etiqueta no painel de resultados. Confira os dados com a foto. As evidências indicam motor e fonte. Para salvar correções no servidor, edite os campos desse painel e informe operador e motivo. O JSON exportado preserva leituras originais, conflitos, barras, validações e correções.
 
-### Validação e limites
+O botão original de registro SUN mantém o parecer humano no histórico local do navegador. Esse parecer é separado do registro de correção no servidor. Nenhum resultado do OCR recebe aprovação automática.
 
-Passaram 14 testes Python de regras e contrato HTTP, mais os testes JavaScript de transporte, configuração, cancelamento, respostas antigas e correções. Os testes HTTP usam OCR/decoder simulados. Sintaxe dos scripts da página e do Python verificada. Não foi executado Docker, OCR real nem teste visual no navegador neste ambiente.
+## API
 
-A detecção separa regiões azuis SUN; fotos com várias DUN ou DUN e SUN juntas ainda exigem um detector melhor. Não há retificação de perspectiva, catálogo completo de descrições ou confiança calibrada. `product_description` permanece ausente no extrator atual. A lista de campos e avisos deixa essas pendências visíveis. Revisão humana obrigatória.
+- `POST /v2/jobs`: upload multipart `image`, devolve tarefa com progresso.
+- `GET /v2/jobs/{id}`: andamento ou resultado.
+- `POST /v1/recognize`: interface síncrona compatível.
+- `GET /v1/inspections/{id}` e `POST /v1/inspections/{id}/corrections`.
+- `GET /health`: verifica os dois motores; resposta degradada se RapidOCR não carregar.
+
+Limites: 12 MB, 24 megapixels, até seis regiões, uma inferência de cada vez, duas solicitações admitidas e orçamento aproximado de 210 segundos por imagem. Um processo Uvicorn nesta versão. A fila é transitória; resultados concluídos ficam em disco.
+
+## Verificação e limites
+
+Consulte [backend/VALIDACAO.md](backend/VALIDACAO.md). Testes de regras/HTTP usam motor simulado; o teste `smoke_vision.py` executa os motores reais em imagens sintéticas no Docker. A rotina GitHub Actions compila a imagem Docker e o instalador Windows.
+
+Não há percentual de acerto comprovado para as fotos de operação. Detecção por cor/contornos ainda pode falhar em etiquetas encostadas, fundos brancos, cortes ou reflexos intensos. O consenso não torna uma leitura correta por si só; conflitos são expostos. Homologue com fotos reais de diferentes lotes e câmeras.
 
 ```powershell
 cd backend
-python -m pip install -r requirements.txt -r requirements-dev.txt
 python -m unittest discover -s tests -v
 cd ..
 node test-integration.cjs
 node test-ui-flow.cjs
 ```
 
+Para testes HTTP fora do Docker, instale `backend/requirements-dev.txt` com FastAPI, Pillow e NumPy. Para o pipeline completo, use o Docker, que inclui pesos de OCR e bibliotecas nativas.
