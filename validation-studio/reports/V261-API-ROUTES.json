@@ -1,0 +1,19 @@
+{
+  "routes": [
+    "POST /api/v261/segmentation/click",
+    "POST /api/v261/segmentation/refine",
+    "POST /api/v261/segmentation/confirm",
+    "GET /api/v261/segmentation/{image_id}/{copy_id}",
+    "GET /api/v261/segmentation/{image_id}/{copy_id}/png"
+  ],
+  "router": "vision.api.segmentation_routes.create_router",
+  "included_before_static_mount": true,
+  "routes_registered": [
+    "POST /api/v261/segmentation/click",
+    "POST /api/v261/segmentation/refine",
+    "POST /api/v261/segmentation/confirm",
+    "GET /api/v261/segmentation/{image_id}/{copy_id}",
+    "GET /api/v261/segmentation/{image_id}/{copy_id}/png"
+  ],
+  "registered_before_static_mount": true
+}

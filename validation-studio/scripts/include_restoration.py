@@ -1,0 +1,3 @@
+from pathlib import Path
+p=Path(__file__).resolve().parents[1]/'vision'/'api'/'app.py';s=p.read_text(encoding='utf-8');s=s.replace('from vision.api.segmentation_routes import create_router','from vision.api.segmentation_routes import create_router\nfrom vision.api.restoration_routes import create_router as create_restoration_router');needle=" app.include_router(create_router(root,svc,GPU,root/'scripts/segment_label.py'))";assert needle in s;s=s.replace(needle,needle+"\n app.include_router(create_restoration_router(root,svc,GPU,root/'scripts/restoration_worker.py'))");p.write_text(s,encoding='utf-8')
+

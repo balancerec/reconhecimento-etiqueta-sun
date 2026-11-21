@@ -1,0 +1,34 @@
+{
+  "session_http": 200,
+  "dataset_http": 200,
+  "photo_count": 62,
+  "html_http": 200,
+  "restoration_routes": [
+    "/api/v270/restoration/compare",
+    "/api/v270/restoration/jobs/{job_id}",
+    "/api/v270/restoration/process",
+    "/api/v270/restoration/{image_id}/{processing_id}",
+    "/api/v270/restoration/{image_id}/{processing_id}/image",
+    "/api/v270/restoration/{image_id}/{processing_id}/manifest"
+  ],
+  "segmentation_routes": [
+    "/api/v261/segmentation/click",
+    "/api/v261/segmentation/confirm",
+    "/api/v261/segmentation/refine",
+    "/api/v261/segmentation/{image_id}/{copy_id}",
+    "/api/v261/segmentation/{image_id}/{copy_id}/png"
+  ],
+  "ui_ids_unique": true,
+  "workflow_stages": 5,
+  "state_feedback": true,
+  "design_tokens": false,
+  "node_handlers_syntax": "verified separately",
+  "basic_api_tests": {
+    "session": 200,
+    "dataset": 200,
+    "html": 200
+  },
+  "controls_unique": true,
+  "restored_ocr": "explicitly unavailable, not simulated",
+  "browser_validation": "pending; CUA browser host unavailable"
+}

@@ -1,0 +1,125 @@
+{
+  "routes": [],
+  "tests": [
+    {
+      "image": "20250929_075640.jpg",
+      "http": 200,
+      "segmentation_id": "c3601f2f1fba435880a49c1442a696af",
+      "vertices": 4,
+      "polygon": [
+        [
+          1107,
+          1479
+        ],
+        [
+          507,
+          2407
+        ],
+        [
+          2223,
+          3309
+        ],
+        [
+          2722,
+          2081
+        ]
+      ],
+      "area_pixels": 2245896,
+      "png_status": 200,
+      "png_signature": "89504e470d0a1a0a",
+      "png_size": [
+        3060,
+        4080
+      ],
+      "png_bytes": 19725346,
+      "original_unchanged": true,
+      "copy_id": "copy-1"
+    },
+    {
+      "image": "20261120_005329.jpg",
+      "http": 200,
+      "segmentation_id": "ae218a8589cd48bf897a9073148037b2",
+      "vertices": 4,
+      "polygon": [
+        [
+          809,
+          644
+        ],
+        [
+          825,
+          1967
+        ],
+        [
+          2843,
+          1982
+        ],
+        [
+          2836,
+          661
+        ]
+      ],
+      "area_pixels": 2688016,
+      "png_status": 200,
+      "png_signature": "89504e470d0a1a0a",
+      "png_size": [
+        4080,
+        2296
+      ],
+      "png_bytes": 17405978,
+      "original_unchanged": true,
+      "copy_id": "copy-1"
+    },
+    {
+      "image": "20261120_005329.jpg",
+      "http": 200,
+      "segmentation_id": "e790e13b4f6243e985ff027d276a3514",
+      "vertices": 4,
+      "polygon": [
+        [
+          2918,
+          666
+        ],
+        [
+          2912,
+          1987
+        ],
+        [
+          4079,
+          2013
+        ],
+        [
+          4079,
+          678
+        ]
+      ],
+      "area_pixels": 1583993,
+      "png_status": 200,
+      "png_signature": "89504e470d0a1a0a",
+      "png_size": [
+        4080,
+        2296
+      ],
+      "png_bytes": 17405853,
+      "original_unchanged": true,
+      "copy_id": "copy-2"
+    }
+  ],
+  "integration_enabled": false,
+  "two_copy_template_count": 2,
+  "two_copy_prediction_units": 0,
+  "two_copy_quantity_values": [],
+  "two_copy_ssccs": [],
+  "invalid_click_status": 422,
+  "routes_registered": [
+    "POST /api/v261/segmentation/click",
+    "POST /api/v261/segmentation/refine",
+    "POST /api/v261/segmentation/confirm",
+    "GET /api/v261/segmentation/{image_id}/{copy_id}",
+    "GET /api/v261/segmentation/{image_id}/{copy_id}/png"
+  ],
+  "root_cause_405": "Segmentation routes were absent from the FastAPI app; the patch script had an exact-string assertion that failed, so route code was never included. Static mount was last, but missing routes were intercepted by StaticFiles. Fixed using APIRouter included before mount.",
+  "mask_quality": "Not measured against human masks; blue segmentation may include cardboard; visual review required.",
+  "browser_visual_validation": "Not performed in this run. API endpoint and PNG file tested.",
+  "known_two_copy_limitation": "Test confirmed two independent physical-copy proposals (copy-1 and copy-2). Logistic-unit relation and SSCC/quantity preservation were not revalidated by this segmentation module; it does not mutate logistics predictions.",
+  "registered_before_static_mount": true
+}

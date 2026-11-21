@@ -1,0 +1,17 @@
+.venv*/
+data/
+evidence/
+wheelhouse/
+**/__pycache__/
+*.py[cod]
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.webp
+*.sqlite
+*.db
+*.zip
+

@@ -1,0 +1,13 @@
+{
+  "historical_predictions_modified": false,
+  "source_photos_modified": false,
+  "logistic_units_modified": false,
+  "integration_enabled": false,
+  "tests_failed": [],
+  "pending": [
+    "browser visual check",
+    "two-copy logistics assertion",
+    "false-positive blue regions",
+    "persistence/refine regression"
+  ]
+}

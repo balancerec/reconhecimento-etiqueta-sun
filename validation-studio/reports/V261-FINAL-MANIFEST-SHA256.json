@@ -1,0 +1,19 @@
+{
+  "vision/api/app.py": "afc4de6b756782811ec619ec3642d8ca962e7b7ee7c0b8856227fbedd55deeec",
+  "vision/api/segmentation_routes.py": "0dc6e9e135547f867435cb982699882a9febd10d3e6252269a74b7e85572dc6d",
+  "scripts/segment_label.py": "2e53693831eccaa68bb61656a3a1ec4233f948c17fb20638c1eff33ff4a5af8f",
+  "scripts/refine_mask.py": "d3f5ded19714b8dce3bd48fc1d174a3cf6198492f69f151790ac99ce082db9b7",
+  "frontend/validation-studio/index.html": "0b41f51865ffbe1542d50a557fce1d6908e8119c424df1cf1a1f393258ebc6c9",
+  "frontend/validation-studio/app.js": "8da7a16dff3ec8969ffd433cc235bf87ba1ea90c45435b3999fce00858798835",
+  "frontend/validation-studio/styles.css": "2a80efefc6915f2fc9b02ccf3cde1dc5cc201471e5ddf6ae743f04ad94f8f0dc",
+  "V261-FINAL-TECHNICAL.md": "d0074329418ce38f00d135c48ba6106c82759d09e39f66d5a5abed81daf8fe1e",
+  "V261-FINAL-TESTS.txt": "082818561f3c54bc873c01f3da97c13da3067802b57299a8fb2dd61042b799f5",
+  "V261-MASK-QUALITY.json": "14946806bbaf3c253bcafe96984fdcc29e2d9550adf971fba1462cc1202b3add",
+  "V261-BROWSER-VALIDATION.md": "157cbee6f7f74ce667013792116d4e4688197fccf30b26fce6290ee1063032e7",
+  "V261-COORDINATE-VALIDATION.json": "58be80f79788536f1fadb91483e5c3eedc91121261d34bed69794f99f99be5e9",
+  "V261-TWO-COPY-REGRESSION.json": "1c7d1f07f0c1329d0c1475608944a06b524897a39c4d8e2f3eac512873f3a82e",
+  "V261-PERSISTENCE-TEST.json": "1f7ab5d58ebec8cd56da6adf8e5b017f7c690c9e8dedacee4e4740479dccc3e7",
+  "V261-API-ROUTES.json": "a6eb1b9b943a659f4d8999e119cdfb2260aca1f31a9c84a6c8ab12ebadc51671",
+  "V261-GEOMETRY-VALIDATION.json": "e1cec19e23b519863bc58e8f965b50e6d2159181b32d5da0995a2148b8a24715",
+  "V261-REPRODUCAO.md": "8b65b00db212a2425bba32e188b9b6ba223c23fb281f45f20f54228d47bf9463"
+}

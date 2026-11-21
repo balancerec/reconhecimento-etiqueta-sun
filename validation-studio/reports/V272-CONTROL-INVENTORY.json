@@ -1,0 +1,512 @@
+[
+  {
+    "control_id": "search",
+    "current_label": "Todos os estadosN\u00e3o revisadoRascunhoAprovado62 fotografias de desenvolvimento. N\u00e3o constituem holdout independente.Selecione uma fotografiaOriginal \u2197\u2212",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "delegated/listener",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "skuFilter",
+    "current_label": "Todos os estadosN\u00e3o revisadoRascunhoAprovado62 fotografias de desenvolvimento. N\u00e3o constituem holdout independente.Selecione uma fotografiaOriginal \u2197\u2212",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "delegated/listener",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "ssccFilter",
+    "current_label": "Todos os estadosN\u00e3o revisadoRascunhoAprovado62 fotografias de desenvolvimento. N\u00e3o constituem holdout independente.Selecione uma fotografiaOriginal \u2197\u2212",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "delegated/listener",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "statusFilter",
+    "current_label": "Todos os estadosN\u00e3o revisadoRascunhoAprovado62 fotografias de desenvolvimento. N\u00e3o constituem holdout independente.Selecione uma fotografiaOriginal \u2197\u2212",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "delegated/listener",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "originalLink",
+    "current_label": "Original \u2197\u2212",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "delegated/listener",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "zoomOut",
+    "current_label": "\u2212",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "fit",
+    "current_label": "Ajustar",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "zoomIn",
+    "current_label": "+",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "rotate",
+    "current_label": "Girar 90\u00b0",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "smartSelect",
+    "current_label": "Sele\u00e7\u00e3o inteligente",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "auraToggle",
+    "current_label": "Aura ON",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "confirmSeg",
+    "current_label": "Confirmar contorno",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "discardSeg",
+    "current_label": "Descartar proposta",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "isolate",
+    "current_label": "Isolar etiqueta",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "restoreImage",
+    "current_label": "Restaurar foto",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "newCopy",
+    "current_label": "+ Via",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "finishPolygon",
+    "current_label": "Concluir pol\u00edgono",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "perspective",
+    "current_label": "Retificar perspectiva",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "showOCR",
+    "current_label": "Blocos OCRReprocessar CUDA",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "runOCR",
+    "current_label": "Reprocessar CUDA",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "closeRectify",
+    "current_label": "Fechar pr\u00e9via",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "brightness",
+    "current_label": "Contraste Satura\u00e7\u00e3o Atualizar pr\u00e9via",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "contrast",
+    "current_label": "Satura\u00e7\u00e3o Atualizar pr\u00e9via",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "saturation",
+    "current_label": "Atualizar pr\u00e9via",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "applyRectify",
+    "current_label": "Atualizar pr\u00e9via",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "rBrightness",
+    "current_label": "Contraste Satura\u00e7\u00e3o Nitidez 35% Deblur 20% Redu\u00e7\u00e3o de ru\u00eddo 15% CLAHE 25% Aplicar ajustes",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "delegated/listener",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "rContrast",
+    "current_label": "Satura\u00e7\u00e3o Nitidez 35% Deblur 20% Redu\u00e7\u00e3o de ru\u00eddo 15% CLAHE 25% Aplicar ajustes",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "delegated/listener",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "rSaturation",
+    "current_label": "Nitidez 35% Deblur 20% Redu\u00e7\u00e3o de ru\u00eddo 15% CLAHE 25% Aplicar ajustes",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "delegated/listener",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "rSharp",
+    "current_label": "Deblur 20% Redu\u00e7\u00e3o de ru\u00eddo 15% CLAHE 25% Aplicar ajustes",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "delegated/listener",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "rDeblur",
+    "current_label": "Redu\u00e7\u00e3o de ru\u00eddo 15% CLAHE 25% Aplicar ajustes",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "delegated/listener",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "rDenoise",
+    "current_label": "CLAHE 25% Aplicar ajustes",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "delegated/listener",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "rClahe",
+    "current_label": "Aplicar ajustes",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "delegated/listener",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "applyRestoration",
+    "current_label": "Aplicar ajustes",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "compareRestoration",
+    "current_label": "Comparar original",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "resetRestoration",
+    "current_label": "Restaurar padr\u00f5es",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "undoRestoration",
+    "current_label": "Desfazer",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "redoRestoration",
+    "current_label": "Refazer",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "reanalyze",
+    "current_label": "Reanalisar OCR/GS1",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "downloadRestored",
+    "current_label": "Exportar imagemExportar evid\u00eancias",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "delegated/listener",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "exportEvidence",
+    "current_label": "Exportar evid\u00eancias",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "reviewer",
+    "current_label": "Modo cego (ocultar sugest\u00f5es)Revisei todas as inst\u00e2ncias presentesConfirmo que n\u00e3o h\u00e1 etiqueta nesta fotografiaObserva\u00e7\u00f5es Hist\u00f3rico e avalia\u00e7\u00e3oHist\u00f3rico desta foto",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "blind",
+    "current_label": "Modo cego (ocultar sugest\u00f5es)Revisei todas as inst\u00e2ncias presentesConfirmo que n\u00e3o h\u00e1 etiqueta nesta fotografiaObserva\u00e7\u00f5es Hist\u00f3rico e avalia\u00e7\u00e3oHist\u00f3rico desta foto",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "exhaustive",
+    "current_label": "Revisei todas as inst\u00e2ncias presentesConfirmo que n\u00e3o h\u00e1 etiqueta nesta fotografiaObserva\u00e7\u00f5es Hist\u00f3rico e avalia\u00e7\u00e3oHist\u00f3rico desta foto",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "noLabels",
+    "current_label": "Confirmo que n\u00e3o h\u00e1 etiqueta nesta fotografiaObserva\u00e7\u00f5es Hist\u00f3rico e avalia\u00e7\u00e3oHist\u00f3rico desta foto",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "history",
+    "current_label": "Hist\u00f3rico desta foto",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "evaluation",
+    "current_label": "Avalia\u00e7\u00e3o humana",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "copySelect",
+    "current_label": "N\u00c3O REVISADORevis\u00e3o 0As sugest\u00f5es nunca se tornam gabarito automaticamente.SALVAR",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "save",
+    "current_label": "SALVAR",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "approve",
+    "current_label": "APROVAR",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "next",
+    "current_label": "PR\u00d3XIMA \u2192",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  },
+  {
+    "control_id": "export",
+    "current_label": "EXPORTAR",
+    "current_behavior": "handler reference inspected; see audit",
+    "event_handler": "inline assignment",
+    "api_dependency": "see app.js callsite",
+    "required_state": "runtime dependent",
+    "proposed_location": "contextual toolbar/panel",
+    "action": "KEEP/MOVE/CONTEXTUAL"
+  }
+]

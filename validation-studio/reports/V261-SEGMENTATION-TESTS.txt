@@ -1,0 +1,12 @@
+PASS compileall API e worker
+PASS rota POST registrada em APIRouter antes do mount estático
+PASS POST clique 20250929_075640.jpg: HTTP 200; 4 vértices; área > 0
+PASS GET PNG: HTTP 200; PNG RGBA; resolução original; alpha contém pixels transparentes e opacos
+PASS original SHA-256 preservado no teste
+PASS clique inválido: HTTP 422
+PASS 20261120_005329.jpg: duas vias distintas copy-1/copy-2 e duas propostas segmentadas
+PENDENTE segmentação de clique fora azul e erro controlado em teste automatizado
+PENDENTE persistência após restart / refinamento com remontagem da máscara
+PENDENTE validação visual no navegador, zoom/pan/rotação e qualidade de inclusão de fundo
+PENDENTE revalidar SSCC único e QTDE 72 no consolidator; segmentação não modifica a previsão
+

@@ -1,0 +1,13 @@
+{
+  "vision\\api\\app.py": "afc4de6b756782811ec619ec3642d8ca962e7b7ee7c0b8856227fbedd55deeec",
+  "vision\\api\\segmentation_routes.py": "888dd5e4a2fedcfdb9c03eb09a479e11fd7e54375971d8bab9908f0917a6d2b2",
+  "scripts\\segment_label.py": "2e53693831eccaa68bb61656a3a1ec4233f948c17fb20638c1eff33ff4a5af8f",
+  "frontend\\validation-studio\\app.js": "8da7a16dff3ec8969ffd433cc235bf87ba1ea90c45435b3999fce00858798835",
+  "frontend\\validation-studio\\index.html": "0b41f51865ffbe1542d50a557fce1d6908e8119c424df1cf1a1f393258ebc6c9",
+  "V261-HOTFIX-TECHNICAL.md": "df2c4d5619543d73cc54f2ae3c5f9570aa5d529220590a569e0b2011b0108e1b",
+  "V261-API-ROUTES.json": "f90e3e366f142f2f05b985f4ea97e4bea5b53aa9e16441f3b4a2e780997ce9af",
+  "V261-SEGMENTATION-TESTS.txt": "4ee731f8290b13c0dfd521a6bc27a7211c79ee8b428402cce53630a3e3f28f66",
+  "V261-VISUAL-VALIDATION.md": "8587cc7c021c1de4ab4aa6ed15fe6c6839c15a217ec2b6b7f76ea1685b3a6db1",
+  "V261-REGRESSION.json": "cbf2e2dd318ad88b023d93f18a7efb44da24a759c9aa4b221491a2d6293f52d2",
+  "V261-GEOMETRY-VALIDATION.json": "03b28669fd49614a159433e6a534ad62704799bc8a2065d9ff917835ffcb71c1"
+}

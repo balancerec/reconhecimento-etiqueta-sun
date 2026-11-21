@@ -1,0 +1,182 @@
+[
+  {
+    "id": null,
+    "label": "1 · Imagem",
+    "handler_declared_in_js": false
+  },
+  {
+    "id": null,
+    "label": "2 · Geometria",
+    "handler_declared_in_js": false
+  },
+  {
+    "id": null,
+    "label": "3 · Restauração",
+    "handler_declared_in_js": false
+  },
+  {
+    "id": null,
+    "label": "4 · OCR / GS1",
+    "handler_declared_in_js": false
+  },
+  {
+    "id": null,
+    "label": "5 · Homologação",
+    "handler_declared_in_js": false
+  },
+  {
+    "id": "zoomOut",
+    "label": "−",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "fit",
+    "label": "Ajustar",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "zoomIn",
+    "label": "+",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "rotate",
+    "label": "Girar 90°",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "smartSelect",
+    "label": "Seleção inteligente",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "auraToggle",
+    "label": "Aura ON",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "confirmSeg",
+    "label": "Confirmar contorno",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "discardSeg",
+    "label": "Descartar proposta",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "isolate",
+    "label": "Isolar etiqueta",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "restoreImage",
+    "label": "Restaurar foto",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "newCopy",
+    "label": "+ Via",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "finishPolygon",
+    "label": "Concluir polígono",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "perspective",
+    "label": "Retificar perspectiva",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "runOCR",
+    "label": "Executar OCR legado",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "closeRectify",
+    "label": "Fechar prévia",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "applyRectify",
+    "label": "Atualizar prévia",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "runOriginalOCR",
+    "label": "Executar OCR da fotografia original",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "runDerivativeOCR",
+    "label": "OCR do derivado · indisponível",
+    "handler_declared_in_js": false
+  },
+  {
+    "id": "applyRestoration",
+    "label": "Aplicar ajustes",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "compareRestoration",
+    "label": "Comparar original",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "resetRestoration",
+    "label": "Restaurar padrões",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "undoRestoration",
+    "label": "Desfazer",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "redoRestoration",
+    "label": "Refazer",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "reanalyze",
+    "label": "Reanalisar OCR/GS1",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "exportEvidence",
+    "label": "Exportar evidências",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "history",
+    "label": "Histórico desta foto",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "evaluation",
+    "label": "Avaliação humana",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "save",
+    "label": "SALVAR",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "approve",
+    "label": "APROVAR",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "next",
+    "label": "PRÓXIMA →",
+    "handler_declared_in_js": true
+  },
+  {
+    "id": "export",
+    "label": "EXPORTAR",
+    "handler_declared_in_js": true
+  }
+]

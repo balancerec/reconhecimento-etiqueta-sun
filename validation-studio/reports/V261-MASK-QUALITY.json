@@ -1,0 +1,7 @@
+{
+  "human_reference_masks_available": false,
+  "iou": null,
+  "dice": null,
+  "boundary_f1": null,
+  "warning": "No human masks; RGBA alpha proves transparency, not contour accuracy. Manual visual inspection required."
+}
