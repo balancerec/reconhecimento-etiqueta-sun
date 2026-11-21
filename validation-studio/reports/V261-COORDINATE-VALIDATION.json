@@ -1,0 +1,7 @@
+{
+  "coordinate_contract": "EXIF-normalized original image pixels",
+  "browser_tests": "not run; CUA browser host unavailable",
+  "roundtrip_zoom_pan_rotation": "pending",
+  "tolerance_px": null,
+  "api_click_and_coordinates": "passed with source image seed"
+}

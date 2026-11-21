@@ -1,0 +1,43 @@
+{
+  "width": 3060,
+  "height": 4080,
+  "click_original": {
+    "x": 2470,
+    "y": 2326
+  },
+  "contour": [
+    [
+      1107,
+      1479
+    ],
+    [
+      507,
+      2408
+    ],
+    [
+      2223,
+      3309
+    ],
+    [
+      2726,
+      2086
+    ]
+  ],
+  "area_pixels": 2248804,
+  "component_count": 61,
+  "color_model": "local median HSV seed tolerance",
+  "confidence_calibrated": null,
+  "status": "proposal_requires_human_confirmation",
+  "warnings": [
+    "classical color segmentation; inspect false inclusion/exclusion"
+  ],
+  "mask": "<STUDIO_WORKSPACE>data/segmentations/img-8250ffa8188d-5badc1/5379f6899a624b38908428fb68078f48.mask.png",
+  "rgba": "<STUDIO_WORKSPACE>data/segmentations/img-8250ffa8188d-5badc1/5379f6899a624b38908428fb68078f48.rgba.png",
+  "overlay": "<STUDIO_WORKSPACE>data/segmentations/img-8250ffa8188d-5badc1/5379f6899a624b38908428fb68078f48.overlay.png",
+  "segmentation_id": "5379f6899a624b38908428fb68078f48",
+  "image_id": "img-8250ffa8188d-5badc1",
+  "copy_id": null,
+  "reviewed": false,
+  "source_sha256": "8250ffa8188d3f63ef9e3a600f7bbbd7afa8a1b96760b4c86c8f7bc5625b8f6b"
+}
+

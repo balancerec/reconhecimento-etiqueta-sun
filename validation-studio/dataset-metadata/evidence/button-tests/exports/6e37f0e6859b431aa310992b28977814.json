@@ -1,0 +1,14 @@
+{
+  "algorithm_predictions_unchanged": true,
+  "annotation_count": 0,
+  "annotations": [],
+  "approved_only": true,
+  "audit_chain_valid": true,
+  "audit_last_hash": "dca6c08fc1a53ac7fbb7b575179f314c0867ef302efeb9efa074bcbfeebe8a71",
+  "export_id": "6e37f0e6859b431aa310992b28977814",
+  "exported_at": "2026-11-21T06:29:18.006490+00:00",
+  "independent_holdout": false,
+  "integration_enabled": false,
+  "schema_version": "SUN-V2.6-human-export"
+}
+

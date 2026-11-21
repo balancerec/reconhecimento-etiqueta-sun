@@ -1,0 +1,188 @@
+{
+  "screenshot": "Captura de tela 2026-11-21 022725.png",
+  "app_tested": "FastAPI TestClient, isolated temporary annotation DB",
+  "results": [
+    {
+      "button": "SeleÃ§Ã£o inteligente",
+      "result": "PASS",
+      "evidence": {
+        "http": 200
+      }
+    },
+    {
+      "button": "Contorno quadrilateral",
+      "result": "PASS",
+      "evidence": {
+        "vertices": 4
+      }
+    },
+    {
+      "button": "Isolar etiqueta",
+      "result": "PASS",
+      "evidence": {
+        "http": 200,
+        "rgba": true
+      }
+    },
+    {
+      "button": "Ajustar contorno",
+      "result": "PASS",
+      "evidence": {
+        "http": 200
+      }
+    },
+    {
+      "button": "Confirmar contorno",
+      "result": "PASS",
+      "evidence": {
+        "http": 200
+      }
+    },
+    {
+      "button": "Recuperar contorno",
+      "result": "PASS",
+      "evidence": {
+        "http": 200
+      }
+    },
+    {
+      "button": "Retificar perspectiva",
+      "result": "PASS_API_ONLY",
+      "evidence": {
+        "post_http": 200,
+        "png_http": 200,
+        "content_type": "image/png",
+        "browser_preview": "not tested"
+      }
+    },
+    {
+      "button": "Salvar rascunho",
+      "result": "PASS",
+      "evidence": {
+        "http": 200
+      }
+    },
+    {
+      "button": "Aprovar incompleto",
+      "result": "BLOCKED_EXPECTED",
+      "evidence": {
+        "http": 422
+      }
+    },
+    {
+      "button": "AvaliaÃ§Ã£o",
+      "result": "PASS",
+      "evidence": {
+        "http": 200
+      }
+    },
+    {
+      "button": "Exportar",
+      "result": "PASS",
+      "evidence": {
+        "http": 200
+      }
+    },
+    {
+      "button": "Zoom âˆ’",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "A automaÃ§Ã£o da aba Edge nÃ£o estÃ¡ disponÃ­vel; handler/efeito visual requer clique real"
+    },
+    {
+      "button": "Ajustar",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "A automaÃ§Ã£o da aba Edge nÃ£o estÃ¡ disponÃ­vel; handler/efeito visual requer clique real"
+    },
+    {
+      "button": "Zoom +",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "A automaÃ§Ã£o da aba Edge nÃ£o estÃ¡ disponÃ­vel; handler/efeito visual requer clique real"
+    },
+    {
+      "button": "Girar 90Â°",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "A automaÃ§Ã£o da aba Edge nÃ£o estÃ¡ disponÃ­vel; handler/efeito visual requer clique real"
+    },
+    {
+      "button": "Aura ON",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "A automaÃ§Ã£o da aba Edge nÃ£o estÃ¡ disponÃ­vel; handler/efeito visual requer clique real"
+    },
+    {
+      "button": "Descartar proposta",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "A automaÃ§Ã£o da aba Edge nÃ£o estÃ¡ disponÃ­vel; handler/efeito visual requer clique real"
+    },
+    {
+      "button": "Restaurar foto",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "A automaÃ§Ã£o da aba Edge nÃ£o estÃ¡ disponÃ­vel; handler/efeito visual requer clique real"
+    },
+    {
+      "button": "+ Via",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "A automaÃ§Ã£o da aba Edge nÃ£o estÃ¡ disponÃ­vel; handler/efeito visual requer clique real"
+    },
+    {
+      "button": "Concluir polÃ­gono",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "A automaÃ§Ã£o da aba Edge nÃ£o estÃ¡ disponÃ­vel; handler/efeito visual requer clique real"
+    },
+    {
+      "button": "Retificar perspectiva",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "A automaÃ§Ã£o da aba Edge nÃ£o estÃ¡ disponÃ­vel; handler/efeito visual requer clique real"
+    },
+    {
+      "button": "Blocos OCR",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "A automaÃ§Ã£o da aba Edge nÃ£o estÃ¡ disponÃ­vel; handler/efeito visual requer clique real"
+    },
+    {
+      "button": "Fechar prÃ©via",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "A automaÃ§Ã£o da aba Edge nÃ£o estÃ¡ disponÃ­vel; handler/efeito visual requer clique real"
+    },
+    {
+      "button": "PrÃ³xima",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "A automaÃ§Ã£o da aba Edge nÃ£o estÃ¡ disponÃ­vel; handler/efeito visual requer clique real"
+    },
+    {
+      "button": "workflow tabs",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "A automaÃ§Ã£o da aba Edge nÃ£o estÃ¡ disponÃ­vel; handler/efeito visual requer clique real"
+    },
+    {
+      "button": "sliders restauraÃ§Ã£o",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "A automaÃ§Ã£o da aba Edge nÃ£o estÃ¡ disponÃ­vel; handler/efeito visual requer clique real"
+    },
+    {
+      "button": "comparar original",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "A automaÃ§Ã£o da aba Edge nÃ£o estÃ¡ disponÃ­vel; handler/efeito visual requer clique real"
+    },
+    {
+      "button": "restaurar padrÃµes",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "A automaÃ§Ã£o da aba Edge nÃ£o estÃ¡ disponÃ­vel; handler/efeito visual requer clique real"
+    },
+    {
+      "button": "desfazer/refazer",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "A automaÃ§Ã£o da aba Edge nÃ£o estÃ¡ disponÃ­vel; handler/efeito visual requer clique real"
+    },
+    {
+      "button": "Blocos OCR toggle",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "DOM interaction required"
+    },
+    {
+      "button": "Próxima fotografia",
+      "result": "NOT_BROWSER_TESTED",
+      "evidence": "browser navigation interaction required"
+    }
+  ],
+  "browser_host": "unavailable"
+}

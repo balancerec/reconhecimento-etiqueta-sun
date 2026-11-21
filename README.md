@@ -82,4 +82,4 @@ Para testes HTTP fora do Docker, instale `backend/requirements-dev.txt` com Fast
 
 ## Validation Studio V2.6/V2.7
 
-O Validation Studio experimental e o laboratório de restauração V2.7 são desenvolvidos em um workspace local separado; não estão incluídos nesta versão 0.2.0 do repositório, do instalador ou do Docker. Os relatos anteriores de API não constituem validação visual, homologação do isolamento ou prova de melhoria do OCR. Consulte [docs/VALIDATION-STUDIO-STATUS.md](docs/VALIDATION-STUDIO-STATUS.md) para o escopo, limitações e critérios pendentes.
+O código experimental do Validation Studio está versionado em [`validation-studio/`](validation-studio/). Ele permanece separado do backend de produção: não está integrado ao instalador, ao Docker Compose nem ao fluxo do aplicativo 0.2.0. A presença do código no repositório não significa homologação visual, precisão validada ou melhoria comprovada do OCR. Consulte [docs/VALIDATION-STUDIO-STATUS.md](docs/VALIDATION-STUDIO-STATUS.md) e [validation-studio/README.md](validation-studio/README.md) para o escopo e as limitações.

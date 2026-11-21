@@ -1,0 +1,147 @@
+{
+  "width": 3060,
+  "height": 4080,
+  "click_original": {
+    "x": 2643,
+    "y": 1801
+  },
+  "contour": [
+    [
+      2549,
+      1787
+    ],
+    [
+      2552,
+      1817
+    ],
+    [
+      2591,
+      1846
+    ],
+    [
+      2626,
+      1852
+    ],
+    [
+      2650,
+      1836
+    ],
+    [
+      2693,
+      1873
+    ],
+    [
+      2736,
+      1892
+    ],
+    [
+      2742,
+      1905
+    ],
+    [
+      2785,
+      1923
+    ],
+    [
+      2804,
+      1947
+    ],
+    [
+      2838,
+      1960
+    ],
+    [
+      2843,
+      1971
+    ],
+    [
+      2862,
+      1957
+    ],
+    [
+      2853,
+      1937
+    ],
+    [
+      2833,
+      1934
+    ],
+    [
+      2818,
+      1915
+    ],
+    [
+      2796,
+      1913
+    ],
+    [
+      2790,
+      1897
+    ],
+    [
+      2760,
+      1891
+    ],
+    [
+      2749,
+      1869
+    ],
+    [
+      2733,
+      1866
+    ],
+    [
+      2722,
+      1850
+    ],
+    [
+      2726,
+      1830
+    ],
+    [
+      2703,
+      1846
+    ],
+    [
+      2670,
+      1824
+    ],
+    [
+      2680,
+      1800
+    ],
+    [
+      2653,
+      1805
+    ],
+    [
+      2642,
+      1787
+    ],
+    [
+      2609,
+      1778
+    ],
+    [
+      2585,
+      1754
+    ]
+  ],
+  "area_pixels": 13741,
+  "component_count": 215,
+  "color_model": "local median HSV seed tolerance",
+  "confidence_calibrated": null,
+  "status": "proposal_requires_human_confirmation",
+  "warnings": [
+    "classical color segmentation; inspect false inclusion/exclusion"
+  ],
+  "mask": "<STUDIO_WORKSPACE>data/segmentations/img-8250ffa8188d-5badc1/9a3470e3355f4f59b4a64022554d783a.mask.png",
+  "rgba": "<STUDIO_WORKSPACE>data/segmentations/img-8250ffa8188d-5badc1/9a3470e3355f4f59b4a64022554d783a.rgba.png",
+  "overlay": "<STUDIO_WORKSPACE>data/segmentations/img-8250ffa8188d-5badc1/9a3470e3355f4f59b4a64022554d783a.overlay.png",
+  "segmentation_id": "9a3470e3355f4f59b4a64022554d783a",
+  "image_id": "img-8250ffa8188d-5badc1",
+  "copy_id": null,
+  "reviewed": false,
+  "source_sha256": "8250ffa8188d3f63ef9e3a600f7bbbd7afa8a1b96760b4c86c8f7bc5625b8f6b"
+}
+

@@ -1,0 +1,12 @@
+{
+  "input": "photos/20261120_005329.jpg",
+  "seed": [
+    1825,
+    1322
+  ],
+  "mask": "<STUDIO_WORKSPACE>data/segmentations/img-6092e2c65e1c-a1b07d/ae218a8589cd48bf897a9073148037b2.mask.png",
+  "rgba": "<STUDIO_WORKSPACE>data/segmentations/img-6092e2c65e1c-a1b07d/ae218a8589cd48bf897a9073148037b2.rgba.png",
+  "overlay": "<STUDIO_WORKSPACE>data/segmentations/img-6092e2c65e1c-a1b07d/ae218a8589cd48bf897a9073148037b2.overlay.png",
+  "json": "<STUDIO_WORKSPACE>data/segmentations/img-6092e2c65e1c-a1b07d/ae218a8589cd48bf897a9073148037b2.json"
+}
+

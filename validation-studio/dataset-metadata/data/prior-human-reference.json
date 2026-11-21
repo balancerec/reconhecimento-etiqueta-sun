@@ -1,0 +1,471 @@
+{
+  "version": "SUN-V22-human-approved-reference-1",
+  "fields": [
+    "sku",
+    "descricao",
+    "qtde",
+    "lastro",
+    "lote",
+    "documento_entrada",
+    "validade_impressa",
+    "sscc"
+  ],
+  "references": [
+    {
+      "sun_id": "100789465031448370",
+      "reference_image": "20261120_005329.jpg",
+      "reference_copy": "left visible copy",
+      "header_evidence": "evidence/header-20261120_005329.png",
+      "fields": {
+        "sku": {
+          "value": "375829",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005329.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "descricao": {
+          "value": "PATO GERM LIMP SANIT MARINE 500ML 12",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005329.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "qtde": {
+          "value": "72",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005329.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "lastro": {
+          "value": "18",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005329.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "lote": {
+          "value": "8428859",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005329.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "documento_entrada": {
+          "value": "5083542846",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005329.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "validade_impressa": {
+          "value": "2 ANO",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005329.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "sscc": {
+          "value": "100789465031448370",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005329.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        }
+      },
+      "source_original": "photos/20261120_005329.jpg",
+      "source_sha256": "6092e2c65e1cfa8ee08eedd1c4bf1ff2212391c6e43f2712a9fa2665d05a0ba9",
+      "reviewer": "JHONATA",
+      "review_state": "human_approved",
+      "human_approved": true,
+      "reference_scope": "printed values in stated reference copy; canonical SUN comparison on other photos is diagnostic, visibility not yet annotated per image/copy",
+      "files": [
+        "20261120_005245.jpg",
+        "20261120_005250.jpg",
+        "20261120_005300.jpg",
+        "20261120_005306.jpg",
+        "20261120_005329.jpg",
+        "20261120_005335.jpg",
+        "20261120_005427.jpg"
+      ],
+      "oracle_header_original_image": "20261120_005329.jpg",
+      "v22_evidence": {
+        "source_path": "photos/20261120_005329.jpg",
+        "source_sha256": "6092e2c65e1cfa8ee08eedd1c4bf1ff2212391c6e43f2712a9fa2665d05a0ba9",
+        "original_pixel_crop": [
+          790,
+          620,
+          2850,
+          1420
+        ],
+        "crop_path": "evidence/reference-20261120_005329.png",
+        "crop_sha256": "606c7430cecba3ffa74a72bcd36a4424cf3be7422e8cbc6ef074186b74eae475",
+        "transformation": "crop only; no generative processing",
+        "reviewer": "assistant",
+        "human_approved": false
+      },
+      "reviewed_at": "2026-11-20T17:16:06.238Z"
+    },
+    {
+      "sun_id": "100789465031448844",
+      "reference_image": "20261120_005348.jpg",
+      "reference_copy": "right visible copy",
+      "header_evidence": "evidence/header-20261120_005348.png",
+      "fields": {
+        "sku": {
+          "value": "399118",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005348.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "descricao": {
+          "value": "GLADE ODOR CONCEN CHA BRANCO 120ml 12",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005348.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "qtde": {
+          "value": "294",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005348.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "lastro": {
+          "value": "49",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005348.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "lote": {
+          "value": "8427513",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005348.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "documento_entrada": {
+          "value": "5083542821",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005348.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "validade_impressa": {
+          "value": "2 ANO",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005348.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "sscc": {
+          "value": "100789465031448844",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005348.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        }
+      },
+      "source_original": "photos/20261120_005348.jpg",
+      "source_sha256": "59909aa9f62c0f07f96d2534d8267ef4e7b57ac2d0309bb05aa881aa38d622db",
+      "reviewer": "JHONATA",
+      "review_state": "human_approved",
+      "human_approved": true,
+      "reference_scope": "printed values in stated reference copy; canonical SUN comparison on other photos is diagnostic, visibility not yet annotated per image/copy",
+      "files": [
+        "20261120_005339.jpg",
+        "20261120_005344.jpg",
+        "20261120_005348.jpg",
+        "20261120_005355.jpg",
+        "20261120_005359.jpg"
+      ],
+      "oracle_header_original_image": "20261120_005348.jpg",
+      "v22_evidence": {
+        "source_path": "photos/20261120_005348.jpg",
+        "source_sha256": "59909aa9f62c0f07f96d2534d8267ef4e7b57ac2d0309bb05aa881aa38d622db",
+        "original_pixel_crop": [
+          2000,
+          850,
+          3400,
+          1430
+        ],
+        "crop_path": "evidence/reference-20261120_005348.png",
+        "crop_sha256": "a27993f288ea4759864dbda85f4973f0ea1457e34f043c51fcbf633202625a83",
+        "transformation": "crop only; no generative processing",
+        "reviewer": "assistant",
+        "human_approved": false
+      },
+      "reviewed_at": "2026-11-20T17:16:06.238Z"
+    },
+    {
+      "sun_id": "100789465031448509",
+      "reference_image": "20261120_005416.jpg",
+      "reference_copy": "only fully visible copy",
+      "header_evidence": "evidence/header-20261120_005416.png",
+      "fields": {
+        "sku": {
+          "value": "375829",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005416.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "descricao": {
+          "value": "PATO GERM LIMP SANIT MARINE 500ML 12",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005416.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "qtde": {
+          "value": "72",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005416.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "lastro": {
+          "value": "18",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005416.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "lote": {
+          "value": "8428859",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005416.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "documento_entrada": {
+          "value": "5083542722",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005416.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "validade_impressa": {
+          "value": "2 ANO",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005416.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "sscc": {
+          "value": "100789465031448509",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_005416.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        }
+      },
+      "source_original": "photos/20261120_005416.jpg",
+      "source_sha256": "31e01f34bcc8e796920fa9f81a79e0a9a7780bb84ce46297549d390dc0e574fe",
+      "reviewer": "JHONATA",
+      "review_state": "human_approved",
+      "human_approved": true,
+      "reference_scope": "printed values in stated reference copy; canonical SUN comparison on other photos is diagnostic, visibility not yet annotated per image/copy",
+      "files": [
+        "20261120_005414.jpg",
+        "20261120_005416.jpg",
+        "20261120_005419.jpg"
+      ],
+      "oracle_header_original_image": "20261120_005416.jpg",
+      "v22_evidence": {
+        "source_path": "photos/20261120_005416.jpg",
+        "source_sha256": "31e01f34bcc8e796920fa9f81a79e0a9a7780bb84ce46297549d390dc0e574fe",
+        "original_pixel_crop": [
+          220,
+          1250,
+          2050,
+          2080
+        ],
+        "crop_path": "evidence/reference-20261120_005416.png",
+        "crop_sha256": "dd953a7a7e720305133ab8a0b22c10f2f688e8f3fc45137bc8b95c0fee862f18",
+        "transformation": "crop only; no generative processing",
+        "reviewer": "assistant",
+        "human_approved": false
+      },
+      "reviewed_at": "2026-11-20T17:16:06.238Z"
+    },
+    {
+      "sun_id": "100789465031448936",
+      "reference_image": "20261120_011434.jpg",
+      "reference_copy": "main fully visible copy",
+      "header_evidence": "evidence/review-20261120_011426.jpg",
+      "crosscheck_image": "20261120_011426.jpg",
+      "lot_zoom_evidence": "evidence/lot-group4-crop.png",
+      "fields": {
+        "sku": {
+          "value": "375829",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_011434.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "descricao": {
+          "value": "PATO GERM LIMP SANIT MARINE 500ML 12",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_011434.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "qtde": {
+          "value": "72",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_011434.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "lastro": {
+          "value": "18",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_011434.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "lote": {
+          "value": "8428859",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_011434.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "documento_entrada": {
+          "value": "5083542848",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_011434.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "validade_impressa": {
+          "value": "2 ANO",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_011434.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        },
+        "sscc": {
+          "value": "100789465031448936",
+          "presence": "present",
+          "visual_review": "legible_in_reference",
+          "source_image": "20261120_011434.jpg",
+          "human_review_status": "confirmed",
+          "human_reviewer": "JHONATA",
+          "human_reviewed_at": "2026-11-20T17:16:06.238Z"
+        }
+      },
+      "source_original": "photos/20261120_011434.jpg",
+      "source_sha256": "8dcf6d7cfe73e89edb6d29d91230b906accee07761f0ea230c2487a21be6ad4e",
+      "reviewer": "JHONATA",
+      "review_state": "human_approved",
+      "human_approved": true,
+      "reference_scope": "printed values in stated reference copy; canonical SUN comparison on other photos is diagnostic, visibility not yet annotated per image/copy",
+      "files": [
+        "20261120_011413.jpg",
+        "20261120_011416.jpg",
+        "20261120_011420.jpg",
+        "20261120_011422.jpg",
+        "20261120_011426.jpg",
+        "20261120_011432.jpg",
+        "20261120_011434.jpg",
+        "20261120_011437.jpg",
+        "20261120_011439.jpg"
+      ],
+      "oracle_header_original_image": "20261120_011426.jpg",
+      "v22_evidence": {
+        "source_path": "photos/20261120_011434.jpg",
+        "source_sha256": "8dcf6d7cfe73e89edb6d29d91230b906accee07761f0ea230c2487a21be6ad4e",
+        "original_pixel_crop": [
+          0,
+          1480,
+          2150,
+          2270
+        ],
+        "crop_path": "evidence/reference-20261120_011434.png",
+        "crop_sha256": "9aa495423e18d5ef4495004d706435fad8b25768cf6d0f3d24aa11e93e201025",
+        "transformation": "crop only; no generative processing",
+        "reviewer": "assistant",
+        "human_approved": false
+      },
+      "reviewed_at": "2026-11-20T17:16:06.238Z"
+    }
+  ],
+  "accuracy_certification_allowed": false,
+  "source_policy": "Values transcribed by visual inspection, not promoted from OCR candidates. Human homologation still pending.",
+  "human_approved": true,
+  "reviewer": "JHONATA",
+  "reviewed_at": "2026-11-20T17:16:06.238Z",
+  "human_review_source_sha256": "edbf3597769e4594164bc64c2d35cade6fcb4c4bba9dca24332963e1bb9fd37d",
+  "independent_accuracy_certification_allowed": false,
+  "integration_enabled": false,
+  "reference_scope": "Human-approved printed values in the four stated reference copies only. Per-photo/per-copy visibility and independent evaluation remain pending."
+}
+

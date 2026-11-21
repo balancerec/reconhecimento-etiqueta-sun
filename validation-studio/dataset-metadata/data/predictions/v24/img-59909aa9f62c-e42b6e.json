@@ -1,0 +1,3390 @@
+py-2-descricao-0.png"
+        },
+        {
+          "roi_id": "20261120_005348-copy-2-descricao-0",
+          "field": "descricao",
+          "recipe": {
+            "field": "descricao",
+            "box": [
+              332,
+              0,
+              1311,
+              57
+            ],
+            "anchor_ids": [
+              0
+            ],
+            "method": "right_of_ITEM_and_observed_SKU"
+          },
+          "variant": "gray",
+          "blocks": [
+            {
+              "id": 0,
+              "text": "GLADE OD0R CONCEN CHA BRANCO 12Oml 12",
+              "confidence": 0.911906809420199,
+              "polygon_local": [
+                [
+                  111.0,
+                  0.0
+                ],
+                [
+                  951.0,
+                  5.0
+                ],
+                [
+                  951.0,
+                  52.0
+                ],
+                [
+                  111.0,
+                  45.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score",
+              "polygon_original": [
+                [
+                  2484.38720703125,
+                  910.0572509765625
+                ],
+                [
+                  3310.359619140625,
+                  916.8314819335938
+                ],
+                [
+                  3311.884521484375,
+                  962.9663696289062
+                ],
+                [
+                  2484.984619140625,
+                  954.0291137695312
+                ]
+              ]
+            }
+          ],
+          "source_evidence": "evidence/20261120_005348-copy-2-descricao-0.png"
+        },
+        {
+          "roi_id": "20261120_005348-copy-2-descricao-0",
+          "field": "descricao",
+          "recipe": {
+            "field": "descricao",
+            "box": [
+              332,
+              0,
+              1311,
+              57
+            ],
+            "anchor_ids": [
+              0
+            ],
+            "method": "right_of_ITEM_and_observed_SKU"
+          },
+          "variant": "clahe_blue",
+          "blocks": [
+            {
+              "id": 0,
+              "text": "GLADE 0D0R CONCEN CHA BRANCO 12OmI 12",
+              "confidence": 0.8955727638425054,
+              "polygon_local": [
+                [
+                  111.0,
+                  0.0
+                ],
+                [
+                  951.0,
+                  5.0
+                ],
+                [
+                  951.0,
+                  52.0
+                ],
+                [
+                  110.0,
+                  45.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score",
+              "polygon_original": [
+                [
+                  2484.38720703125,
+                  910.0572509765625
+                ],
+                [
+                  3310.359619140625,
+                  916.8314819335938
+                ],
+                [
+                  3311.884521484375,
+                  962.9663696289062
+                ],
+                [
+                  2484.004638671875,
+                  954.0266723632812
+                ]
+              ]
+            }
+          ],
+          "source_evidence": "evidence/20261120_005348-copy-2-descricao-0.png"
+        },
+        {
+          "roi_id": "20261120_005348-copy-2-validade_impressa-1",
+          "field": "validade_impressa",
+          "recipe": {
+            "field": "validade_impressa",
+            "box": [
+              690,
+              110,
+              1311,
+              165
+            ],
+            "anchor_ids": [
+              9
+            ],
+            "method": "right_of_VALIDADE_anchor"
+          },
+          "variant": "color_1x",
+          "blocks": [
+            {
+              "id": 0,
+              "text": "2",
+              "confidence": 0.9997177720069885,
+              "polygon_local": [
+                [
+                  127.0,
+                  12.0
+                ],
+                [
+                  155.0,
+                  12.0
+                ],
+                [
+                  155.0,
+                  44.0
+                ],
+                [
+                  127.0,
+                  44.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score",
+              "polygon_original": [
+                [
+                  2853.87158203125,
+                  1030.5399169921875
+                ],
+                [
+                  2881.4677734375,
+                  1030.6192626953125
+                ],
+                [
+                  2882.1884765625,
+                  1062.119384765625
+                ],
+                [
+                  2854.57177734375,
+                  1062.0355224609375
+                ]
+              ]
+            },
+            {
+              "id": 1,
+              "text": "ANO",
+              "confidence": 0.9928571184476217,
+              "polygon_local": [
+                [
+                  180.0,
+                  11.0
+                ],
+                [
+                  279.0,
+                  10.0
+                ],
+                [
+                  280.0,
+                  47.0
+                ],
+                [
+                  181.0,
+                  47.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score",
+              "polygon_original": [
+                [
+                  2906.090576171875,
+                  1029.7064208984375
+                ],
+                [
+                  3003.721435546875,
+                  1029.002685546875
+                ],
+                [
+                  3005.64794921875,
+                  1065.45166015625
+                ],
+                [
+                  2907.908935546875,
+                  1065.1533203125
+                ]
+              ]
+            }
+          ],
+          "source_evidence": "evidence/20261120_005348-copy-2-validade_impressa-1.png"
+        },
+        {
+          "roi_id": "20261120_005348-copy-2-validade_impressa-1",
+          "field": "validade_impressa",
+          "recipe": {
+            "field": "validade_impressa",
+            "box": [
+              690,
+              110,
+              1311,
+              165
+            ],
+            "anchor_ids": [
+              9
+            ],
+            "method": "right_of_VALIDADE_anchor"
+          },
+          "variant": "color_2x",
+          "blocks": [
+            {
+              "id": 0,
+              "text": "2",
+              "confidence": 0.999750554561615,
+              "polygon_local": [
+                [
+                  254.0,
+                  23.0
+                ],
+                [
+                  309.0,
+                  23.0
+                ],
+                [
+                  309.0,
+                  89.0
+                ],
+                [
+                  254.0,
+                  89.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score",
+              "polygon_original": [
+                [
+                  2853.86083984375,
+                  1030.048095703125
+                ],
+                [
+                  2880.963623046875,
+                  1030.1259765625
+                ],
+                [
+                  2881.70654296875,
+                  1062.6104736328125
+                ],
+                [
+                  2854.582763671875,
+                  1062.528076171875
+                ]
+              ]
+            },
+            {
+              "id": 1,
+              "text": "ANO",
+              "confidence": 0.9930528998374939,
+              "polygon_local": [
+                [
+                  361.0,
+                  22.0
+                ],
+                [
+                  559.0,
+                  21.0
+                ],
+                [
+                  560.0,
+                  93.0
+                ],
+                [
+                  362.0,
+                  95.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score",
+              "polygon_original": [
+                [
+                  2906.58349609375,
+                  1029.7078857421875
+                ],
+                [
+                  3004.2275390625,
+                  1029.4962158203125
+                ],
+                [
+                  3005.63525390625,
+                  1064.9586181640625
+                ],
+                [
+                  2907.92041015625,
+                  1065.64599609375
+                ]
+              ]
+            }
+          ],
+          "source_evidence": "evidence/20261120_005348-copy-2-validade_impressa-1.png"
+        },
+        {
+          "roi_id": "20261120_005348-copy-2-validade_impressa-1",
+          "field": "validade_impressa",
+          "recipe": {
+            "field": "validade_impressa",
+            "box": [
+              690,
+              110,
+              1311,
+              165
+            ],
+            "anchor_ids": [
+              9
+            ],
+            "method": "right_of_VALIDADE_anchor"
+          },
+          "variant": "gray",
+          "blocks": [
+            {
+              "id": 0,
+              "text": "2",
+              "confidence": 0.9996116757392883,
+              "polygon_local": [
+                [
+                  127.0,
+                  11.0
+                ],
+                [
+                  155.0,
+                  11.0
+                ],
+                [
+                  155.0,
+                  44.0
+                ],
+                [
+                  127.0,
+                  44.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score",
+              "polygon_original": [
+                [
+                  2853.849853515625,
+                  1029.556396484375
+                ],
+                [
+                  2881.4453125,
+                  1029.6356201171875
+                ],
+                [
+                  2882.1884765625,
+                  1062.119384765625
+                ],
+                [
+                  2854.57177734375,
+                  1062.0355224609375
+                ]
+              ]
+            },
+            {
+              "id": 1,
+              "text": "ANO",
+              "confidence": 0.9908978740374247,
+              "polygon_local": [
+                [
+                  180.0,
+                  11.0
+                ],
+                [
+                  280.0,
+                  10.0
+                ],
+                [
+                  280.0,
+                  47.0
+                ],
+                [
+                  180.0,
+                  48.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score",
+              "polygon_original": [
+                [
+                  2906.090576171875,
+                  1029.7064208984375
+                ],
+                [
+                  3004.708251953125,
+                  1029.0054931640625
+                ],
+                [
+                  3005.64794921875,
+                  1065.45166015625
+                ],
+                [
+                  2906.945068359375,
+                  1066.1356201171875
+                ]
+              ]
+            }
+          ],
+          "source_evidence": "evidence/20261120_005348-copy-2-validade_impressa-1.png"
+        },
+        {
+          "roi_id": "20261120_005348-copy-2-validade_impressa-1",
+          "field": "validade_impressa",
+          "recipe": {
+            "field": "validade_impressa",
+            "box": [
+              690,
+              110,
+              1311,
+              165
+            ],
+            "anchor_ids": [
+              9
+            ],
+            "method": "right_of_VALIDADE_anchor"
+          },
+          "variant": "clahe_blue",
+          "blocks": [
+            {
+              "id": 0,
+              "text": "2",
+              "confidence": 0.9995755553245544,
+              "polygon_local": [
+                [
+                  126.0,
+                  11.0
+                ],
+                [
+                  156.0,
+                  11.0
+                ],
+                [
+                  156.0,
+                  44.0
+                ],
+                [
+                  126.0,
+                  44.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score",
+              "polygon_original": [
+                [
+                  2852.864501953125,
+                  1029.5535888671875
+                ],
+                [
+                  2882.430908203125,
+                  1029.638427734375
+                ],
+                [
+                  2883.1748046875,
+                  1062.1224365234375
+                ],
+                [
+                  2853.585693359375,
+                  1062.0325927734375
+                ]
+              ]
+            },
+            {
+              "id": 1,
+              "text": "ANO",
+              "confidence": 0.9914877613385519,
+              "polygon_local": [
+                [
+                  179.0,
+                  11.0
+                ],
+                [
+                  281.0,
+                  9.0
+                ],
+                [
+                  281.0,
+                  47.0
+                ],
+                [
+                  179.0,
+                  49.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score",
+              "polygon_original": [
+                [
+                  2905.1044921875,
+                  1029.70361328125
+                ],
+                [
+                  3005.669921875,
+                  1028.024169921875
+                ],
+                [
+                  3006.6357421875,
+                  1065.45458984375
+                ],
+                [
+                  2905.9814453125,
+                  1067.1180419921875
+                ]
+              ]
+            }
+          ],
+          "source_evidence": "evidence/20261120_005348-copy-2-validade_impressa-1.png"
+        }
+      ],
+      "evidence_rectified": "evidence/20261120_005348-copy-2-rectified.png",
+      "observed_anchors": [
+        "ENTRADA",
+        "ITEM",
+        "LASTRO",
+        "QTDE",
+        "SSCC",
+        "VALIDADE"
+      ],
+      "original_to_rectified": [
+        [
+          1.0597038237328902,
+          -0.0035929576115294533,
+          -2170.8827358263
+        ],
+        [
+          -0.0024041898967016675,
+          1.0604621866210782,
+          -959.1083314560851
+        ],
+        [
+          5.229931325731438e-06,
+          2.4323394703815802e-05,
+          1.0
+        ]
+      ],
+      "large_printed_number_observations": [
+        {
+          "value": "78946503144884",
+          "polygon_original": [
+            [
+              2150.49267578125,
+              1141.5064697265625
+            ],
+            [
+              3201.957763671875,
+              1149.10107421875
+            ],
+            [
+              3205.2412109375,
+              1257.3626708984375
+            ],
+            [
+              2151.11083984375,
+              1250.148681640625
+            ]
+          ],
+          "confidence": 0.998378826039178,
+          "source": "OCR",
+          "used_for_identity": false
+        }
+      ],
+      "large_number_consistency_observations": [
+        {
+          "large_number": "78946503144884",
+          "sscc": "100789465031448844",
+          "empirical_relation": "sscc[3:17] == printed14",
+          "matches": true,
+          "used_for_identity": false,
+          "formal_rule_generalization_validated": false
+        }
+      ],
+      "quality_flags": [
+        "human_visibility_unreviewed"
+      ],
+      "orientation_trials": [
+        {
+          "k": 0,
+          "score": 26.403423500423497,
+          "blocks": [
+            {
+              "id": 0,
+              "text": "ITEM:399118",
+              "confidence": 0.9859093698588285,
+              "polygon_local": [
+                [
+                  24.0,
+                  3.0
+                ],
+                [
+                  326.0,
+                  3.0
+                ],
+                [
+                  326.0,
+                  43.0
+                ],
+                [
+                  24.0,
+                  43.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 1,
+              "text": "GLADE 0D0R CONCEN CHA BRANCO 120ml 12",
+              "confidence": 0.8965497178000372,
+              "polygon_local": [
+                [
+                  443.0,
+                  0.0
+                ],
+                [
+                  1282.0,
+                  5.0
+                ],
+                [
+                  1282.0,
+                  51.0
+                ],
+                [
+                  443.0,
+                  44.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 2,
+              "text": "QTDE",
+              "confidence": 0.9826168268918991,
+              "polygon_local": [
+                [
+                  53.0,
+                  61.0
+                ],
+                [
+                  176.0,
+                  61.0
+                ],
+                [
+                  176.0,
+                  99.0
+                ],
+                [
+                  53.0,
+                  99.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 3,
+              "text": "294",
+              "confidence": 0.9994488557179769,
+              "polygon_local": [
+                [
+                  396.0,
+                  58.0
+                ],
+                [
+                  481.0,
+                  58.0
+                ],
+                [
+                  481.0,
+                  101.0
+                ],
+                [
+                  396.0,
+                  101.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 4,
+              "text": "BT:",
+              "confidence": 0.9461734096209208,
+              "polygon_local": [
+                [
+                  612.0,
+                  58.0
+                ],
+                [
+                  687.0,
+                  58.0
+                ],
+                [
+                  687.0,
+                  99.0
+                ],
+                [
+                  612.0,
+                  99.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 5,
+              "text": "LT:",
+              "confidence": 0.9435965021451315,
+              "polygon_local": [
+                [
+                  948.0,
+                  59.0
+                ],
+                [
+                  1011.0,
+                  59.0
+                ],
+                [
+                  1011.0,
+                  101.0
+                ],
+                [
+                  948.0,
+                  101.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 6,
+              "text": "8427513",
+              "confidence": 0.9984385286058698,
+              "polygon_local": [
+                [
+                  1074.0,
+                  59.0
+                ],
+                [
+                  1202.0,
+                  63.0
+                ],
+                [
+                  1201.0,
+                  104.0
+                ],
+                [
+                  1073.0,
+                  100.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 7,
+              "text": "LASTRO",
+              "confidence": 0.9732183118661245,
+              "polygon_local": [
+                [
+                  36.0,
+                  121.0
+                ],
+                [
+                  162.0,
+                  121.0
+                ],
+                [
+                  162.0,
+                  157.0
+                ],
+                [
+                  36.0,
+                  157.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 8,
+              "text": "49",
+              "confidence": 0.9971368908882141,
+              "polygon_local": [
+                [
+                  374.0,
+                  120.0
+                ],
+                [
+                  434.0,
+                  120.0
+                ],
+                [
+                  434.0,
+                  158.0
+                ],
+                [
+                  374.0,
+                  158.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 9,
+              "text": "VALIDADE:",
+              "confidence": 0.9852685597207811,
+              "polygon_local": [
+                [
+                  523.0,
+                  121.0
+                ],
+                [
+                  687.0,
+                  121.0
+                ],
+                [
+                  687.0,
+                  155.0
+                ],
+                [
+                  523.0,
+                  155.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 10,
+              "text": "2ANO",
+              "confidence": 0.960093155503273,
+              "polygon_local": [
+                [
+                  814.0,
+                  118.0
+                ],
+                [
+                  970.0,
+                  120.0
+                ],
+                [
+                  970.0,
+                  159.0
+                ],
+                [
+                  813.0,
+                  156.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 11,
+              "text": "D0CENTRADA:5083542821",
+              "confidence": 0.9725619015239534,
+              "polygon_local": [
+                [
+                  35.0,
+                  175.0
+                ],
+                [
+                  455.0,
+                  175.0
+                ],
+                [
+                  455.0,
+                  208.0
+                ],
+                [
+                  35.0,
+                  208.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 12,
+              "text": "FORN.",
+              "confidence": 0.9376684427261353,
+              "polygon_local": [
+                [
+                  550.0,
+                  169.0
+                ],
+                [
+                  641.0,
+                  173.0
+                ],
+                [
+                  639.0,
+                  212.0
+                ],
+                [
+                  548.0,
+                  208.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 13,
+              "text": "78946503144884",
+              "confidence": 0.998378826039178,
+              "polygon_local": [
+                [
+                  100.0,
+                  237.0
+                ],
+                [
+                  1166.0,
+                  241.0
+                ],
+                [
+                  1166.0,
+                  350.0
+                ],
+                [
+                  100.0,
+                  347.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 14,
+              "text": "SsCC-18",
+              "confidence": 0.6732713878154755,
+              "polygon_local": [
+                [
+                  24.0,
+                  383.0
+                ],
+                [
+                  201.0,
+                  383.0
+                ],
+                [
+                  201.0,
+                  413.0
+                ],
+                [
+                  24.0,
+                  413.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 15,
+              "text": "(0010078946503144884",
+              "confidence": 0.9334971696138382,
+              "polygon_local": [
+                [
+                  28.0,
+                  422.0
+                ],
+                [
+                  629.0,
+                  424.0
+                ],
+                [
+                  628.0,
+                  477.0
+                ],
+                [
+                  28.0,
+                  475.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            }
+          ]
+        },
+        {
+          "k": 1,
+          "score": 6.346701628501351,
+          "blocks": [
+            {
+              "id": 0,
+              "text": "GLADE 0DOR CONCEN CHA BRANCO 12OmI 12",
+              "confidence": 0.9023922520714838,
+              "polygon_local": [
+                [
+                  6.0,
+                  30.0
+                ],
+                [
+                  53.0,
+                  30.0
+                ],
+                [
+                  47.0,
+                  867.0
+                ],
+                [
+                  0.0,
+                  867.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 1,
+              "text": "8427513",
+              "confidence": 0.9970419917787824,
+              "polygon_local": [
+                [
+                  65.0,
+                  111.0
+                ],
+                [
+                  104.0,
+                  112.0
+                ],
+                [
+                  99.0,
+                  246.0
+                ],
+                [
+                  60.0,
+                  245.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 2,
+              "text": "78946503144884",
+              "confidence": 0.9975848070212773,
+              "polygon_local": [
+                [
+                  231.0,
+                  134.0
+                ],
+                [
+                  364.0,
+                  134.0
+                ],
+                [
+                  360.0,
+                  1227.0
+                ],
+                [
+                  226.0,
+                  1227.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 3,
+              "text": "LT:",
+              "confidence": 0.8740206956863403,
+              "polygon_local": [
+                [
+                  63.0,
+                  255.0
+                ],
+                [
+                  97.0,
+                  255.0
+                ],
+                [
+                  97.0,
+                  369.0
+                ],
+                [
+                  63.0,
+                  369.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 4,
+              "text": "2ANO",
+              "confidence": 0.9547624289989471,
+              "polygon_local": [
+                [
+                  120.0,
+                  340.0
+                ],
+                [
+                  158.0,
+                  340.0
+                ],
+                [
+                  158.0,
+                  503.0
+                ],
+                [
+                  120.0,
+                  503.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 5,
+              "text": "BT",
+              "confidence": 0.9899550080299377,
+              "polygon_local": [
+                [
+                  61.0,
+                  631.0
+                ],
+                [
+                  100.0,
+                  631.0
+                ],
+                [
+                  100.0,
+                  723.0
+                ],
+                [
+                  61.0,
+                  723.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 6,
+              "text": "VALIDADE:",
+              "confidence": 0.94440096616745,
+              "polygon_local": [
+                [
+                  119.0,
+                  630.0
+                ],
+                [
+                  156.0,
+                  630.0
+                ],
+                [
+                  156.0,
+                  793.0
+                ],
+                [
+                  119.0,
+                  793.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 7,
+              "text": "FORN.",
+              "confidence": 0.9802383422851563,
+              "polygon_local": [
+                [
+                  175.0,
+                  685.0
+                ],
+                [
+                  208.0,
+                  686.0
+                ],
+                [
+                  205.0,
+                  762.0
+                ],
+                [
+                  172.0,
+                  761.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 8,
+              "text": "（0010078946503144884",
+              "confidence": 0.9281133741140366,
+              "polygon_local": [
+                [
+                  425.0,
+                  676.0
+                ],
+                [
+                  484.0,
+                  677.0
+                ],
+                [
+                  478.0,
+                  1284.0
+                ],
+                [
+                  419.0,
+                  1284.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 9,
+              "text": "294",
+              "confidence": 0.9992276827494303,
+              "polygon_local": [
+                [
+                  60.0,
+                  831.0
+                ],
+                [
+                  101.0,
+                  831.0
+                ],
+                [
+                  101.0,
+                  912.0
+                ],
+                [
+                  60.0,
+                  912.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 10,
+              "text": "D0C ENTRADA:5083542821",
+              "confidence": 0.9414603655988519,
+              "polygon_local": [
+                [
+                  171.0,
+                  856.0
+                ],
+                [
+                  210.0,
+                  856.0
+                ],
+                [
+                  213.0,
+                  1277.0
+                ],
+                [
+                  173.0,
+                  1277.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 11,
+              "text": "49",
+              "confidence": 0.9971335530281067,
+              "polygon_local": [
+                [
+                  122.0,
+                  874.0
+                ],
+                [
+                  155.0,
+                  874.0
+                ],
+                [
+                  155.0,
+                  940.0
+                ],
+                [
+                  122.0,
+                  940.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 12,
+              "text": "399118",
+              "confidence": 0.9985753496487936,
+              "polygon_local": [
+                [
+                  6.0,
+                  986.0
+                ],
+                [
+                  44.0,
+                  986.0
+                ],
+                [
+                  44.0,
+                  1120.0
+                ],
+                [
+                  6.0,
+                  1120.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 13,
+              "text": "ITEM:",
+              "confidence": 0.9693250775337219,
+              "polygon_local": [
+                [
+                  6.0,
+                  1124.0
+                ],
+                [
+                  43.0,
+                  1124.0
+                ],
+                [
+                  43.0,
+                  1288.0
+                ],
+                [
+                  6.0,
+                  1288.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 14,
+              "text": "QTDE",
+              "confidence": 0.9718291461467743,
+              "polygon_local": [
+                [
+                  60.0,
+                  1127.0
+                ],
+                [
+                  101.0,
+                  1127.0
+                ],
+                [
+                  101.0,
+                  1262.0
+                ],
+                [
+                  60.0,
+                  1262.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 15,
+              "text": "LASTRO",
+              "confidence": 0.973225345214208,
+              "polygon_local": [
+                [
+                  119.0,
+                  1149.0
+                ],
+                [
+                  157.0,
+                  1149.0
+                ],
+                [
+                  157.0,
+                  1273.0
+                ],
+                [
+                  119.0,
+                  1273.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            }
+          ]
+        },
+        {
+          "k": 2,
+          "score": -3.5965633031967523,
+          "blocks": [
+            {
+              "id": 0,
+              "text": "0010078946503144884",
+              "confidence": 0.9589235029722515,
+              "polygon_local": [
+                [
+                  681.0,
+                  391.0
+                ],
+                [
+                  1281.0,
+                  391.0
+                ],
+                [
+                  1281.0,
+                  441.0
+                ],
+                [
+                  681.0,
+                  441.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 1,
+              "text": "SSCC-18",
+              "confidence": 0.7374998586518424,
+              "polygon_local": [
+                [
+                  1112.0,
+                  455.0
+                ],
+                [
+                  1286.0,
+                  455.0
+                ],
+                [
+                  1286.0,
+                  482.0
+                ],
+                [
+                  1112.0,
+                  482.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 2,
+              "text": "78946503144884",
+              "confidence": 0.9983785705907005,
+              "polygon_local": [
+                [
+                  146.0,
+                  517.0
+                ],
+                [
+                  1208.0,
+                  520.0
+                ],
+                [
+                  1208.0,
+                  627.0
+                ],
+                [
+                  146.0,
+                  623.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 3,
+              "text": "FORN.",
+              "confidence": 0.9261582374572754,
+              "polygon_local": [
+                [
+                  674.0,
+                  654.0
+                ],
+                [
+                  763.0,
+                  658.0
+                ],
+                [
+                  761.0,
+                  697.0
+                ],
+                [
+                  672.0,
+                  693.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 4,
+              "text": "D0CENTRADA:5083542821",
+              "confidence": 0.9772695927392869,
+              "polygon_local": [
+                [
+                  857.0,
+                  659.0
+                ],
+                [
+                  1278.0,
+                  659.0
+                ],
+                [
+                  1278.0,
+                  692.0
+                ],
+                [
+                  857.0,
+                  692.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 5,
+              "text": "2ANO",
+              "confidence": 0.9423154294490814,
+              "polygon_local": [
+                [
+                  342.0,
+                  709.0
+                ],
+                [
+                  498.0,
+                  709.0
+                ],
+                [
+                  498.0,
+                  747.0
+                ],
+                [
+                  342.0,
+                  747.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 6,
+              "text": "VALIDADE:",
+              "confidence": 0.9739665455288358,
+              "polygon_local": [
+                [
+                  627.0,
+                  712.0
+                ],
+                [
+                  789.0,
+                  712.0
+                ],
+                [
+                  789.0,
+                  746.0
+                ],
+                [
+                  627.0,
+                  746.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 7,
+              "text": "49",
+              "confidence": 0.9952957630157471,
+              "polygon_local": [
+                [
+                  878.0,
+                  710.0
+                ],
+                [
+                  939.0,
+                  710.0
+                ],
+                [
+                  939.0,
+                  747.0
+                ],
+                [
+                  878.0,
+                  747.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 8,
+              "text": "LASTRO",
+              "confidence": 0.9761229952176412,
+              "polygon_local": [
+                [
+                  1152.0,
+                  711.0
+                ],
+                [
+                  1274.0,
+                  711.0
+                ],
+                [
+                  1274.0,
+                  746.0
+                ],
+                [
+                  1152.0,
+                  746.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 9,
+              "text": "8427513",
+              "confidence": 0.9985259601048061,
+              "polygon_local": [
+                [
+                  110.0,
+                  762.0
+                ],
+                [
+                  237.0,
+                  764.0
+                ],
+                [
+                  236.0,
+                  805.0
+                ],
+                [
+                  110.0,
+                  803.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 10,
+              "text": "LT:",
+              "confidence": 0.9532370766003927,
+              "polygon_local": [
+                [
+                  306.0,
+                  766.0
+                ],
+                [
+                  363.0,
+                  766.0
+                ],
+                [
+                  363.0,
+                  806.0
+                ],
+                [
+                  306.0,
+                  806.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 11,
+              "text": "BT:",
+              "confidence": 0.9259710311889648,
+              "polygon_local": [
+                [
+                  623.0,
+                  767.0
+                ],
+                [
+                  700.0,
+                  767.0
+                ],
+                [
+                  700.0,
+                  807.0
+                ],
+                [
+                  623.0,
+                  807.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 12,
+              "text": "294",
+              "confidence": 0.9993447065353394,
+              "polygon_local": [
+                [
+                  829.0,
+                  765.0
+                ],
+                [
+                  917.0,
+                  765.0
+                ],
+                [
+                  917.0,
+                  812.0
+                ],
+                [
+                  829.0,
+                  812.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 13,
+              "text": "QTDE",
+              "confidence": 0.9883172363042831,
+              "polygon_local": [
+                [
+                  1133.0,
+                  768.0
+                ],
+                [
+                  1259.0,
+                  766.0
+                ],
+                [
+                  1259.0,
+                  804.0
+                ],
+                [
+                  1134.0,
+                  806.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 14,
+              "text": "GLADE 0D0R CONCEN CHA BRANC0 120ml 12",
+              "confidence": 0.900383719721356,
+              "polygon_local": [
+                [
+                  28.0,
+                  814.0
+                ],
+                [
+                  867.0,
+                  822.0
+                ],
+                [
+                  867.0,
+                  865.0
+                ],
+                [
+                  28.0,
+                  860.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 15,
+              "text": "ITEM:399118",
+              "confidence": 0.9871327877044678,
+              "polygon_local": [
+                [
+                  986.0,
+                  824.0
+                ],
+                [
+                  1291.0,
+                  824.0
+                ],
+                [
+                  1291.0,
+                  864.0
+                ],
+                [
+                  986.0,
+                  864.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            }
+          ]
+        },
+        {
+          "k": 3,
+          "score": 6.335419544827293,
+          "blocks": [
+            {
+              "id": 0,
+              "text": "(0010078946503144884",
+              "confidence": 0.9213058754801751,
+              "polygon_local": [
+                [
+                  384.0,
+                  23.0
+                ],
+                [
+                  450.0,
+                  23.0
+                ],
+                [
+                  450.0,
+                  637.0
+                ],
+                [
+                  384.0,
+                  637.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 1,
+              "text": "D0CENTRADA:5083542821",
+              "confidence": 0.972270667552948,
+              "polygon_local": [
+                [
+                  657.0,
+                  34.0
+                ],
+                [
+                  696.0,
+                  34.0
+                ],
+                [
+                  696.0,
+                  451.0
+                ],
+                [
+                  657.0,
+                  451.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 2,
+              "text": "ITEM:399118",
+              "confidence": 0.9873120893131603,
+              "polygon_local": [
+                [
+                  824.0,
+                  25.0
+                ],
+                [
+                  861.0,
+                  25.0
+                ],
+                [
+                  861.0,
+                  323.0
+                ],
+                [
+                  824.0,
+                  323.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 3,
+              "text": "LASTRO",
+              "confidence": 0.9737253884474436,
+              "polygon_local": [
+                [
+                  707.0,
+                  40.0
+                ],
+                [
+                  746.0,
+                  40.0
+                ],
+                [
+                  748.0,
+                  165.0
+                ],
+                [
+                  710.0,
+                  166.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 4,
+              "text": "QTDE",
+              "confidence": 0.9721845239400864,
+              "polygon_local": [
+                [
+                  767.0,
+                  48.0
+                ],
+                [
+                  808.0,
+                  48.0
+                ],
+                [
+                  808.0,
+                  181.0
+                ],
+                [
+                  767.0,
+                  181.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 5,
+              "text": "78946503144884",
+              "confidence": 0.9969356102602822,
+              "polygon_local": [
+                [
+                  508.0,
+                  90.0
+                ],
+                [
+                  634.0,
+                  90.0
+                ],
+                [
+                  634.0,
+                  1177.0
+                ],
+                [
+                  508.0,
+                  1177.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 6,
+              "text": "49",
+              "confidence": 0.9975872337818146,
+              "polygon_local": [
+                [
+                  712.0,
+                  374.0
+                ],
+                [
+                  746.0,
+                  374.0
+                ],
+                [
+                  746.0,
+                  434.0
+                ],
+                [
+                  712.0,
+                  434.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 7,
+              "text": "294",
+              "confidence": 0.9994637966156006,
+              "polygon_local": [
+                [
+                  766.0,
+                  397.0
+                ],
+                [
+                  809.0,
+                  397.0
+                ],
+                [
+                  809.0,
+                  482.0
+                ],
+                [
+                  766.0,
+                  482.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 8,
+              "text": "GLADE 0D0R CONCEN CHA BRANC0 120ml 12",
+              "confidence": 0.8806052981196223,
+              "polygon_local": [
+                [
+                  822.0,
+                  441.0
+                ],
+                [
+                  865.0,
+                  441.0
+                ],
+                [
+                  860.0,
+                  1282.0
+                ],
+                [
+                  814.0,
+                  1282.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 9,
+              "text": "VALIDADE:",
+              "confidence": 0.9603482087453207,
+              "polygon_local": [
+                [
+                  710.0,
+                  520.0
+                ],
+                [
+                  748.0,
+                  521.0
+                ],
+                [
+                  746.0,
+                  684.0
+                ],
+                [
+                  707.0,
+                  683.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 10,
+              "text": "FORN.",
+              "confidence": 0.9806946754455567,
+              "polygon_local": [
+                [
+                  662.0,
+                  547.0
+                ],
+                [
+                  694.0,
+                  547.0
+                ],
+                [
+                  694.0,
+                  626.0
+                ],
+                [
+                  662.0,
+                  626.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 11,
+              "text": "BT",
+              "confidence": 0.9944876432418823,
+              "polygon_local": [
+                [
+                  770.0,
+                  610.0
+                ],
+                [
+                  806.0,
+                  610.0
+                ],
+                [
+                  806.0,
+                  679.0
+                ],
+                [
+                  770.0,
+                  679.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 12,
+              "text": "2ANO",
+              "confidence": 0.8831682205200195,
+              "polygon_local": [
+                [
+                  702.0,
+                  811.0
+                ],
+                [
+                  746.0,
+                  810.0
+                ],
+                [
+                  751.0,
+                  974.0
+                ],
+                [
+                  707.0,
+                  976.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 13,
+              "text": "LT:",
+              "confidence": 0.8934114774068197,
+              "polygon_local": [
+                [
+                  772.0,
+                  949.0
+                ],
+                [
+                  807.0,
+                  949.0
+                ],
+                [
+                  807.0,
+                  1058.0
+                ],
+                [
+                  772.0,
+                  1058.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            },
+            {
+              "id": 14,
+              "text": "8427513",
+              "confidence": 0.9984737634658813,
+              "polygon_local": [
+                [
+                  766.0,
+                  1073.0
+                ],
+                [
+                  804.0,
+                  1073.0
+                ],
+                [
+                  804.0,
+                  1200.0
+                ],
+                [
+                  766.0,
+                  1200.0
+                ]
+              ],
+              "confidence_semantics": "uncalibrated OCR score"
+            }
+          ]
+        }
+      ],
+      "legacy_orientation": 0
+    }
+  ],
+  "candidate_regions": [
+    {
+      "region_id": "label-0",
+      "quad": [
+        [
+          699.4285888671875,
+          894.5076293945312
+        ],
+        [
+          2010.857177734375,
+          906.1624145507812
+        ],
+        [
+          2002.1142578125,
+          1768.6192626953125
+        ],
+        [
+          676.1142578125,
+          1774.4466552734375
+        ]
+      ],
+      "method": "blue_hull_corner_quad",
+      "area": 1170875.086294416,
+      "detection_confidence": null,
+      "id": "label-0",
+      "mask_recipe": "V2.3 frozen HSV/convex hull",
+      "geometric_confidence": null
+    },
+    {
+      "region_id": "label-1",
+      "quad": [
+        [
+          2051.6572265625,
+          909.076171875
+        ],
+        [
+          3336.857177734375,
+          911.9898681640625
+        ],
+        [
+          3366.0,
+          1777.3603515625
+        ],
+        [
+          2054.571533203125,
+          1768.6192626953125
+        ]
+      ],
+      "method": "blue_hull_corner_quad",
+      "area": 1148496.0791878172,
+      "detection_confidence": null,
+      "id": "label-1",
+      "mask_recipe": "V2.3 frozen HSV/convex hull",
+      "geometric_confidence": null
+    }
+  ],
+  "logistic_units": [
+    {
+      "sscc": "100789465031448844",
+      "copy_ids": [
+        "copy-1",
+        "copy-2"
+      ],
+      "fields": {
+        "sku": {
+          "value": "399118",
+          "candidates": [
+            {
+              "raw_value": "399118",
+              "normalized_value": "399118",
+              "value": "399118",
+              "field": "sku",
+              "copy_id": "copy-2",
+              "region_id": "label-1",
+              "polygon_original": [
+                [
+                  2241.939208984375,
+                  914.3826293945312
+                ],
+                [
+                  2367.03271484375,
+                  914.6693725585938
+                ],
+                [
+                  2367.413330078125,
+                  949.8263549804688
+                ],
+                [
+                  2242.2158203125,
+                  949.5169067382812
+                ]
+              ],
+              "confidence": 0.9978823661804199,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4_fresh_baseline",
+              "method": "upright_header_same_row",
+              "status": "observed_candidate",
+              "provider_evidence": "baseline-gpu-proof.json",
+              "ambiguities": []
+            }
+          ],
+          "status": "observed_candidate",
+          "agreement_copy_ids": [
+            "copy-2"
+          ]
+        },
+        "descricao": {
+          "value": "GLADE 0D0R CONCEN CHA BRANCO 120ml 12",
+          "candidates": [
+            {
+              "raw_value": "GLADE 0D0R CONCEN CHA BRANCO 120ml 12",
+              "normalized_value": "GLADE 0D0R CONCEN CHA BRANCO 120ml 12",
+              "value": "GLADE 0D0R CONCEN CHA BRANCO 120ml 12",
+              "field": "descricao",
+              "copy_id": "copy-2",
+              "region_id": "label-1",
+              "polygon_original": [
+                [
+                  2484.38720703125,
+                  910.0572509765625
+                ],
+                [
+                  3309.372314453125,
+                  916.8292236328125
+                ],
+                [
+                  3310.863525390625,
+                  961.981201171875
+                ],
+                [
+                  2484.971435546875,
+                  953.0509643554688
+                ]
+              ],
+              "confidence": 0.8965497178000372,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4_fresh_baseline",
+              "method": "geometry_ordered_blocks",
+              "status": "observed_complete_pattern_not_semantic_validation",
+              "spatial_association_verified": true,
+              "provider_evidence": "baseline-gpu-proof.json",
+              "ambiguities": [
+                {
+                  "token": "0D0R",
+                  "reason": "mixed letters and 0/1; retained without O/I substitution"
+                }
+              ]
+            }
+          ],
+          "status": "observed_candidate",
+          "agreement_copy_ids": [
+            "copy-2"
+          ]
+        },
+        "qtde": {
+          "value": "294",
+          "candidates": [
+            {
+              "raw_value": "294",
+              "normalized_value": "294",
+              "value": "294",
+              "field": "qtde",
+              "copy_id": "copy-2",
+              "region_id": "label-1",
+              "polygon_original": [
+                [
+                  2443.051025390625,
+                  969.5771484375
+                ],
+                [
+                  2516.573974609375,
+                  969.7661743164062
+                ],
+                [
+                  2517.093505859375,
+                  1006.0217895507812
+                ],
+                [
+                  2443.507568359375,
+                  1005.8189086914062
+                ]
+              ],
+              "confidence": 0.9994621872901917,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4_fresh_baseline",
+              "method": "upright_header_same_row",
+              "status": "observed_candidate",
+              "provider_evidence": "baseline-gpu-proof.json",
+              "ambiguities": []
+            }
+          ],
+          "status": "observed_candidate",
+          "agreement_copy_ids": [
+            "copy-2"
+          ]
+        },
+        "lastro": {
+          "value": "49",
+          "candidates": [
+            {
+              "raw_value": "49",
+              "normalized_value": "49",
+              "value": "49",
+              "field": "lastro",
+              "copy_id": "copy-2",
+              "region_id": "label-1",
+              "polygon_original": [
+                [
+                  2420.26708984375,
+                  1030.2738037109375
+                ],
+                [
+                  2474.242919921875,
+                  1030.4293212890625
+                ],
+                [
+                  2474.67431640625,
+                  1062.8477783203125
+                ],
+                [
+                  2420.657470703125,
+                  1062.68310546875
+                ]
+              ],
+              "confidence": 0.9979304075241089,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4_fresh_baseline",
+              "method": "upright_header_same_row",
+              "status": "observed_candidate",
+              "provider_evidence": "baseline-gpu-proof.json",
+              "ambiguities": []
+            }
+          ],
+          "status": "observed_candidate",
+          "agreement_copy_ids": [
+            "copy-2"
+          ]
+        },
+        "lote": {
+          "value": "8427513",
+          "candidates": [
+            {
+              "raw_value": "8427513",
+              "normalized_value": "8427513",
+              "value": "8427513",
+              "field": "lote",
+              "copy_id": "copy-1",
+              "region_id": "label-0",
+              "polygon_original": [
+                [
+                  1771.501220703125,
+                  964.4931640625
+                ],
+                [
+                  1891.5462646484375,
+                  968.3709106445312
+                ],
+                [
+                  1890.163818359375,
+                  1003.4442749023438
+                ],
+                [
+                  1770.0618896484375,
+                  999.6282348632812
+                ]
+              ],
+              "confidence": 0.9987077457564217,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4_fresh_baseline",
+              "method": "upright_header_same_row",
+              "status": "observed_candidate",
+              "provider_evidence": "baseline-gpu-proof.json",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "8427513",
+              "normalized_value": "8427513",
+              "value": "8427513",
+              "field": "lote",
+              "copy_id": "copy-2",
+              "region_id": "label-1",
+              "polygon_original": [
+                [
+                  3110.781005859375,
+                  974.2403564453125
+                ],
+                [
+                  3227.3720703125,
+                  977.490234375
+                ],
+                [
+                  3227.391357421875,
+                  1009.9483642578125
+                ],
+                [
+                  3110.711669921875,
+                  1006.6744995117188
+                ]
+              ],
+              "confidence": 0.998155585357121,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4_fresh_baseline",
+              "method": "upright_header_same_row",
+              "status": "observed_candidate",
+              "provider_evidence": "baseline-gpu-proof.json",
+              "ambiguities": []
+            }
+          ],
+          "status": "observed_candidate",
+          "agreement_copy_ids": [
+            "copy-1",
+            "copy-2"
+          ]
+        },
+        "documento_entrada": {
+          "value": "5083542821",
+          "candidates": [
+            {
+              "raw_value": "ENTRADA:5083542821",
+              "normalized_value": "5083542821",
+              "value": "5083542821",
+              "field": "documento_entrada",
+              "copy_id": "copy-2",
+              "region_id": "label-1",
+              "polygon_original": [
+                [
+                  2161.9248046875,
+                  1084.4814453125
+                ],
+                [
+                  2494.635986328125,
+                  1085.5338134765625
+                ],
+                [
+                  2494.988525390625,
+                  1111.1402587890625
+                ],
+                [
+                  2162.0771484375,
+                  1110.043701171875
+                ]
+              ],
+              "confidence": 0.9874562852912478,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4_fresh_baseline",
+              "method": "explicit_same_block",
+              "status": "observed_candidate",
+              "provider_evidence": "baseline-gpu-proof.json",
+              "ambiguities": []
+            }
+          ],
+          "status": "observed_candidate",
+          "agreement_copy_ids": [
+            "copy-2"
+          ]
+        },
+        "validade_impressa": {
+          "value": "2 ANO",
+          "candidates": [
+            {
+              "raw_value": "2ANO",
+              "normalized_value": "2 ANO",
+              "value": "2 ANO",
+              "field": "validade_impressa",
+              "copy_id": "copy-1",
+              "region_id": "label-0",
+              "polygon_original": [
+                [
+                  1510.320068359375,
+                  1021.2422485351562
+                ],
+                [
+                  1660.925048828125,
+                  1022.3055419921875
+                ],
+                [
+                  1660.400390625,
+                  1058.5379638671875
+                ],
+                [
+                  1509.72607421875,
+                  1057.5577392578125
+                ]
+              ],
+              "confidence": 0.9676635712385178,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4_fresh_baseline",
+              "method": "geometry_ordered_blocks",
+              "status": "observed_printed_value",
+              "spatial_association_verified": true,
+              "provider_evidence": "baseline-gpu-proof.json",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "2 ANO",
+              "normalized_value": "2 ANO",
+              "value": "2 ANO",
+              "field": "validade_impressa",
+              "copy_id": "copy-1",
+              "region_id": "label-0",
+              "polygon_original": [
+                [
+                  1659.94287109375,
+                  1022.2986450195312
+                ],
+                [
+                  1659.4461669921875,
+                  1056.5721435546875
+                ],
+                [
+                  1565.9869384765625,
+                  1054.980224609375
+                ],
+                [
+                  1513.7381591796875,
+                  1053.6561279296875
+                ],
+                [
+                  1514.2503662109375,
+                  1022.2510986328125
+                ],
+                [
+                  1567.5091552734375,
+                  1020.6657104492188
+                ]
+              ],
+              "confidence": 0.9935141007105509,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4",
+              "method": "color_1x",
+              "status": "observed_printed_value",
+              "spatial_association_verified": true,
+              "provider_evidence": "recovery-gpu-proof.json",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "2 ANO",
+              "normalized_value": "2 ANO",
+              "value": "2 ANO",
+              "field": "validade_impressa",
+              "copy_id": "copy-1",
+              "region_id": "label-0",
+              "polygon_original": [
+                [
+                  1659.94287109375,
+                  1022.2986450195312
+                ],
+                [
+                  1659.4320068359375,
+                  1057.5518798828125
+                ],
+                [
+                  1565.979248046875,
+                  1055.470703125
+                ],
+                [
+                  1513.2447509765625,
+                  1053.65283203125
+                ],
+                [
+                  1513.757080078125,
+                  1022.2476196289062
+                ],
+                [
+                  1567.0167236328125,
+                  1020.6622314453125
+                ]
+              ],
+              "confidence": 0.99139404296875,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4",
+              "method": "color_2x",
+              "status": "observed_printed_value",
+              "spatial_association_verified": true,
+              "provider_evidence": "recovery-gpu-proof.json",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "2 ANO",
+              "normalized_value": "2 ANO",
+              "value": "2 ANO",
+              "field": "validade_impressa",
+              "copy_id": "copy-1",
+              "region_id": "label-0",
+              "polygon_original": [
+                [
+                  1659.94287109375,
+                  1022.2986450195312
+                ],
+                [
+                  1659.4320068359375,
+                  1057.5518798828125
+                ],
+                [
+                  1565.9715576171875,
+                  1055.9613037109375
+                ],
+                [
+                  1512.7513427734375,
+                  1053.649658203125
+                ],
+                [
+                  1513.27978515625,
+                  1021.2631225585938
+                ],
+                [
+                  1566.5242919921875,
+                  1020.6587524414062
+                ]
+              ],
+              "confidence": 0.9926930467287699,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4",
+              "method": "gray",
+              "status": "observed_printed_value",
+              "spatial_association_verified": true,
+              "provider_evidence": "recovery-gpu-proof.json",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "2 ANO",
+              "normalized_value": "2 ANO",
+              "value": "2 ANO",
+              "field": "validade_impressa",
+              "copy_id": "copy-1",
+              "region_id": "label-0",
+              "polygon_original": [
+                [
+                  1659.9287109375,
+                  1023.2774658203125
+                ],
+                [
+                  1659.4461669921875,
+                  1056.5721435546875
+                ],
+                [
+                  1565.9869384765625,
+                  1054.980224609375
+                ],
+                [
+                  1511.7803955078125,
+                  1052.661376953125
+                ],
+                [
+                  1513.27978515625,
+                  1021.2631225585938
+                ],
+                [
+                  1566.5089111328125,
+                  1021.6389770507812
+                ]
+              ],
+              "confidence": 0.9954813917477926,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4",
+              "method": "clahe_blue",
+              "status": "observed_printed_value",
+              "spatial_association_verified": true,
+              "provider_evidence": "recovery-gpu-proof.json",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "2ANO",
+              "normalized_value": "2 ANO",
+              "value": "2 ANO",
+              "field": "validade_impressa",
+              "copy_id": "copy-2",
+              "region_id": "label-1",
+              "polygon_original": [
+                [
+                  2850.828125,
+                  1026.5977783203125
+                ],
+                [
+                  3004.708251953125,
+                  1029.0054931640625
+                ],
+                [
+                  3005.69873046875,
+                  1067.4234619140625
+                ],
+                [
+                  2850.6708984375,
+                  1063.9935302734375
+                ]
+              ],
+              "confidence": 0.960093155503273,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4_fresh_baseline",
+              "method": "geometry_ordered_blocks",
+              "status": "observed_printed_value",
+              "spatial_association_verified": true,
+              "provider_evidence": "baseline-gpu-proof.json",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "2 ANO",
+              "normalized_value": "2 ANO",
+              "value": "2 ANO",
+              "field": "validade_impressa",
+              "copy_id": "copy-2",
+              "region_id": "label-1",
+              "polygon_original": [
+                [
+                  3005.64794921875,
+                  1065.45166015625
+                ],
+                [
+                  2907.908935546875,
+                  1065.1533203125
+                ],
+                [
+                  2854.57177734375,
+                  1062.0355224609375
+                ],
+                [
+                  2853.87158203125,
+                  1030.5399169921875
+                ],
+                [
+                  2906.090576171875,
+                  1029.7064208984375
+                ],
+                [
+                  3003.721435546875,
+                  1029.002685546875
+                ]
+              ],
+              "confidence": 0.9928571184476217,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4",
+              "method": "color_1x",
+              "status": "observed_printed_value",
+              "spatial_association_verified": true,
+              "provider_evidence": "recovery-gpu-proof.json",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "2 ANO",
+              "normalized_value": "2 ANO",
+              "value": "2 ANO",
+              "field": "validade_impressa",
+              "copy_id": "copy-2",
+              "region_id": "label-1",
+              "polygon_original": [
+                [
+                  3005.63525390625,
+                  1064.9586181640625
+                ],
+                [
+                  2907.92041015625,
+                  1065.64599609375
+                ],
+                [
+                  2854.582763671875,
+                  1062.528076171875
+                ],
+                [
+                  2853.86083984375,
+                  1030.048095703125
+                ],
+                [
+                  2906.58349609375,
+                  1029.7078857421875
+                ],
+                [
+                  3004.2275390625,
+                  1029.4962158203125
+                ]
+              ],
+              "confidence": 0.9930528998374939,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4",
+              "method": "color_2x",
+              "status": "observed_printed_value",
+              "spatial_association_verified": true,
+              "provider_evidence": "recovery-gpu-proof.json",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "2 ANO",
+              "normalized_value": "2 ANO",
+              "value": "2 ANO",
+              "field": "validade_impressa",
+              "copy_id": "copy-2",
+              "region_id": "label-1",
+              "polygon_original": [
+                [
+                  3005.64794921875,
+                  1065.45166015625
+                ],
+                [
+                  2906.945068359375,
+                  1066.1356201171875
+                ],
+                [
+                  2854.57177734375,
+                  1062.0355224609375
+                ],
+                [
+                  2853.849853515625,
+                  1029.556396484375
+                ],
+                [
+                  3004.708251953125,
+                  1029.0054931640625
+                ]
+              ],
+              "confidence": 0.9908978740374247,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4",
+              "method": "gray",
+              "status": "observed_printed_value",
+              "spatial_association_verified": true,
+              "provider_evidence": "recovery-gpu-proof.json",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "2 ANO",
+              "normalized_value": "2 ANO",
+              "value": "2 ANO",
+              "field": "validade_impressa",
+              "copy_id": "copy-2",
+              "region_id": "label-1",
+              "polygon_original": [
+                [
+                  3006.6357421875,
+                  1065.45458984375
+                ],
+                [
+                  2905.9814453125,
+                  1067.1180419921875
+                ],
+                [
+                  2853.585693359375,
+                  1062.0325927734375
+                ],
+                [
+                  2852.864501953125,
+                  1029.5535888671875
+                ],
+                [
+                  3005.669921875,
+                  1028.024169921875
+                ]
+              ],
+              "confidence": 0.9914877613385519,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4",
+              "method": "clahe_blue",
+              "status": "observed_printed_value",
+              "spatial_association_verified": true,
+              "provider_evidence": "recovery-gpu-proof.json",
+              "ambiguities": []
+            }
+          ],
+          "status": "observed_candidate",
+          "agreement_copy_ids": [
+            "copy-1",
+            "copy-2"
+          ]
+        },
+        "sscc": {
+          "value": "100789465031448844",
+          "candidates": [
+            {
+              "raw_value": "(00)100789465031448844",
+              "normalized_value": "100789465031448844",
+              "value": "100789465031448844",
+              "field": "sscc",
+              "copy_id": "copy-1",
+              "region_id": "label-0",
+              "polygon_original": [
+                [
+                  769.1488647460938,
+                  1404.8153076171875
+                ],
+                [
+                  1973.5538330078125,
+                  1406.2423095703125
+                ],
+                [
+                  1972.539306640625,
+                  1595.4910888671875
+                ],
+                [
+                  762.2077026367188,
+                  1597.58251953125
+                ]
+              ],
+              "confidence": null,
+              "confidence_semantics": "not provided",
+              "source": "ZXing-C++",
+              "method": "rectified_copy_color",
+              "status": "observed_candidate",
+              "spatial_association_verified": true,
+              "symbology_identifier": "]C1",
+              "ai": "00",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "(00)100789465031448844",
+              "normalized_value": "100789465031448844",
+              "value": "100789465031448844",
+              "field": "sscc",
+              "copy_id": "copy-1",
+              "region_id": "label-0",
+              "polygon_original": [
+                [
+                  769.1488647460938,
+                  1404.8153076171875
+                ],
+                [
+                  1973.5538330078125,
+                  1406.2423095703125
+                ],
+                [
+                  1969.087158203125,
+                  1737.0264892578125
+                ],
+                [
+                  758.5328979492188,
+                  1741.7552490234375
+                ]
+              ],
+              "confidence": null,
+              "confidence_semantics": "not provided",
+              "source": "ZXing-C++",
+              "method": "rectified_copy_blue",
+              "status": "observed_candidate",
+              "spatial_association_verified": true,
+              "symbology_identifier": "]C1",
+              "ai": "00",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "(00)100789465031448844",
+              "normalized_value": "100789465031448844",
+              "value": "100789465031448844",
+              "field": "sscc",
+              "copy_id": "copy-1",
+              "region_id": "label-0",
+              "polygon_original": [
+                [
+                  769.0,
+                  1408.0
+                ],
+                [
+                  1973.0,
+                  1408.0
+                ],
+                [
+                  1972.0,
+                  1568.0
+                ],
+                [
+                  764.0,
+                  1568.0
+                ]
+              ],
+              "confidence": null,
+              "confidence_semantics": "not provided",
+              "source": "ZXing-C++",
+              "method": "original_image_color",
+              "status": "observed_candidate",
+              "spatial_association_verified": true,
+              "symbology_identifier": "]C1",
+              "ai": "00",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "(00)100789465031448844",
+              "normalized_value": "100789465031448844",
+              "value": "100789465031448844",
+              "field": "sscc",
+              "copy_id": "copy-1",
+              "region_id": "label-0",
+              "polygon_original": [
+                [
+                  769.0,
+                  1420.0
+                ],
+                [
+                  1974.0,
+                  1420.0
+                ],
+                [
+                  1971.0,
+                  1676.0
+                ],
+                [
+                  760.0,
+                  1676.0
+                ]
+              ],
+              "confidence": null,
+              "confidence_semantics": "not provided",
+              "source": "ZXing-C++",
+              "method": "original_image_blue",
+              "status": "observed_candidate",
+              "spatial_association_verified": true,
+              "symbology_identifier": "]C1",
+              "ai": "00",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "(00）100 78946 503144884 4",
+              "normalized_value": "100789465031448844",
+              "value": "100789465031448844",
+              "field": "sscc",
+              "copy_id": "copy-1",
+              "region_id": "label-0",
+              "polygon_original": [
+                [
+                  1399.1251220703125,
+                  1329.2423095703125
+                ],
+                [
+                  1398.4072265625,
+                  1369.861083984375
+                ],
+                [
+                  1313.7532958984375,
+                  1371.69970703125
+                ],
+                [
+                  925.5220947265625,
+                  1379.0281982421875
+                ],
+                [
+                  708.9464111328125,
+                  1378.6864013671875
+                ],
+                [
+                  710.521240234375,
+                  1318.6197509765625
+                ],
+                [
+                  926.9310913085938,
+                  1319.1575927734375
+                ]
+              ],
+              "confidence": 0.8806858318192619,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4",
+              "method": "color_1x",
+              "status": "observed_candidate",
+              "spatial_association_verified": true,
+              "provider_evidence": "recovery-gpu-proof.json",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "(00）100 78946 503144884 4",
+              "normalized_value": "100789465031448844",
+              "value": "100789465031448844",
+              "field": "sscc",
+              "copy_id": "copy-1",
+              "region_id": "label-0",
+              "polygon_original": [
+                [
+                  1399.5750732421875,
+                  1328.9493408203125
+                ],
+                [
+                  1398.8424072265625,
+                  1370.41943359375
+                ],
+                [
+                  923.4227294921875,
+                  1379.1341552734375
+                ],
+                [
+                  708.9998168945312,
+                  1378.796142578125
+                ],
+                [
+                  710.5803833007812,
+                  1318.510498046875
+                ],
+                [
+                  924.8384399414062,
+                  1319.0433349609375
+                ]
+              ],
+              "confidence": 0.8859786135809762,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4",
+              "method": "color_2x",
+              "status": "observed_candidate",
+              "spatial_association_verified": true,
+              "provider_evidence": "recovery-gpu-proof.json",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "（00)10078946 503144884 4",
+              "normalized_value": "100789465031448844",
+              "value": "100789465031448844",
+              "field": "sscc",
+              "copy_id": "copy-1",
+              "region_id": "label-0",
+              "polygon_original": [
+                [
+                  1403.1519775390625,
+                  1326.28125
+                ],
+                [
+                  1400.3431396484375,
+                  1372.838134765625
+                ],
+                [
+                  1074.3687744140625,
+                  1384.245361328125
+                ],
+                [
+                  707.957275390625,
+                  1377.6829833984375
+                ],
+                [
+                  710.5474853515625,
+                  1317.619384765625
+                ],
+                [
+                  1353.4554443359375,
+                  1325.1715087890625
+                ]
+              ],
+              "confidence": 0.9055243755380312,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4",
+              "method": "gray",
+              "status": "observed_candidate",
+              "spatial_association_verified": true,
+              "provider_evidence": "recovery-gpu-proof.json",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "(00)1 00 78946 503144884 4",
+              "normalized_value": "100789465031448844",
+              "value": "100789465031448844",
+              "field": "sscc",
+              "copy_id": "copy-1",
+              "region_id": "label-0",
+              "polygon_original": [
+                [
+                  704.5647583007812,
+                  1313.6026611328125
+                ],
+                [
+                  1410.2969970703125,
+                  1315.4097900390625
+                ],
+                [
+                  1409.11572265625,
+                  1382.7655029296875
+                ],
+                [
+                  702.774658203125,
+                  1381.6827392578125
+                ]
+              ],
+              "confidence": 0.9421759935525748,
+              "confidence_semantics": "uncalibrated OCR score",
+              "source": "RapidOCR_PP-OCRv4",
+              "method": "adaptive",
+              "status": "observed_candidate",
+              "spatial_association_verified": true,
+              "provider_evidence": "recovery-gpu-proof.json",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "(00)100789465031448844",
+              "normalized_value": "100789465031448844",
+              "value": "100789465031448844",
+              "field": "sscc",
+              "copy_id": "copy-2",
+              "region_id": "label-1",
+              "polygon_original": [
+                [
+                  2140.17578125,
+                  1410.1053466796875
+                ],
+                [
+                  3318.85888671875,
+                  1415.796875
+                ],
+                [
+                  3329.7275390625,
+                  1746.5277099609375
+                ],
+                [
+                  2139.965576171875,
+                  1738.7825927734375
+                ]
+              ],
+              "confidence": null,
+              "confidence_semantics": "not provided",
+              "source": "ZXing-C++",
+              "method": "rectified_copy_color",
+              "status": "observed_candidate",
+              "spatial_association_verified": true,
+              "symbology_identifier": "]C1",
+              "ai": "00",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "(00)100789465031448844",
+              "normalized_value": "100789465031448844",
+              "value": "100789465031448844",
+              "field": "sscc",
+              "copy_id": "copy-2",
+              "region_id": "label-1",
+              "polygon_original": [
+                [
+                  2141.168212890625,
+                  1411.107666015625
+                ],
+                [
+                  3318.891845703125,
+                  1416.800537109375
+                ],
+                [
+                  3329.694091796875,
+                  1745.508544921875
+                ],
+                [
+                  2139.960205078125,
+                  1737.769775390625
+                ]
+              ],
+              "confidence": null,
+              "confidence_semantics": "not provided",
+              "source": "ZXing-C++",
+              "method": "rectified_copy_blue",
+              "status": "observed_candidate",
+              "spatial_association_verified": true,
+              "symbology_identifier": "]C1",
+              "ai": "00",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "(00)100789465031448844",
+              "normalized_value": "100789465031448844",
+              "value": "100789465031448844",
+              "field": "sscc",
+              "copy_id": "copy-2",
+              "region_id": "label-1",
+              "polygon_original": [
+                [
+                  2141.0,
+                  1422.0
+                ],
+                [
+                  3319.0,
+                  1422.0
+                ],
+                [
+                  3330.0,
+                  1736.0
+                ],
+                [
+                  2140.0,
+                  1736.0
+                ]
+              ],
+              "confidence": null,
+              "confidence_semantics": "not provided",
+              "source": "ZXing-C++",
+              "method": "original_image_color",
+              "status": "observed_candidate",
+              "spatial_association_verified": true,
+              "symbology_identifier": "]C1",
+              "ai": "00",
+              "ambiguities": []
+            },
+            {
+              "raw_value": "(00)100789465031448844",
+              "normalized_value": "100789465031448844",
+              "value": "100789465031448844",
+              "field": "sscc",
+              "copy_id": "copy-2",
+              "region_id": "label-1",
+              "polygon_original": [
+                [
+                  2141.0,
+                  1419.0
+                ],
+                [
+                  3320.0,
+                  1419.0
+                ],
+                [
+                  3330.0,
+                  1736.0
+                ],
+                [
+                  2140.0,
+                  1736.0
+                ]
+              ],
+              "confidence": null,
+              "confidence_semantics": "not provided",
+              "source": "ZXing-C++",
+              "method": "original_image_blue",
+              "status": "observed_candidate",
+              "spatial_association_verified": true,
+              "symbology_identifier": "]C1",
+              "ai": "00",
+              "ambiguities": []
+            }
+          ],
+          "status": "observed_candidate",
+          "agreement_copy_ids": [
+            "copy-1",
+            "copy-2"
+          ]
+        }
+      },
+      "quantity": "294",
+      "quantity_unit": null,
+      "quantity_unit_status": "not inferred from pallet capacity",
+      "lastro": "49",
+      "lastro_unit": null,
+      "consolidation_status": "same_valid_spatially_associated_sscc",
+      "conflicts": [],
+      "requires_review": true,
+      "acceptance_status": "experimental_candidate_only",
+      "production_approved": false,
+      "identity_policy": "spatial barcode or dedicated complete HRT; global OCR fragments diagnostic only",
+      "quantity_policy": "never sum duplicate printed copies"
+    }
+  ],
+  "integration_enabled": false,
+  "source_prediction": "V25 verified V24 output; not human annotations"
+}
+

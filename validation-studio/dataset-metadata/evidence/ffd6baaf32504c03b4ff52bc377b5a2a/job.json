@@ -1,0 +1,57 @@
+{
+  "photo": {
+    "id": "img-8250ffa8188d-5badc1",
+    "name": "20250929_075640.jpg",
+    "path": "photos/20250929_075640.jpg",
+    "sha256": "8250ffa8188d3f63ef9e3a600f7bbbd7afa8a1b96760b4c86c8f7bc5625b8f6b",
+    "width": 3060,
+    "height": 4080,
+    "exif_orientation": 6,
+    "qualified_ssccs": [
+      "100789465029216585"
+    ],
+    "observed_skus": [],
+    "copy_candidates": 1,
+    "quality": {
+      "classification": "boa",
+      "reasons": [
+        "no_selected_heuristic_threshold_exceeded"
+      ],
+      "metrics": {
+        "evaluation_max_side": 1600,
+        "resize_scale": 0.39215686274509803,
+        "whole_image_laplacian_variance": 946.9193030705557,
+        "gray_p01_p50_p99": [
+          17.0,
+          160.0,
+          185.0
+        ],
+        "gray_standard_deviation": 50.829446659310086,
+        "dark_fraction_lt35": 0.053884895833333335,
+        "bright_fraction_gt245": 3.0208333333333334e-05,
+        "blue_fraction": 0.2664921875,
+        "candidate_area_fraction": 0.18198125,
+        "label_laplacian_variance": 3826.632044835427,
+        "label_light_low_saturation_fraction": 0.0001974791358999897,
+        "blue_dark_fraction": 0.17603208984214058,
+        "maximum_opposite_edge_ratio": 1.1870537779739292,
+        "edge_angles_degrees": [
+          20.929660634589172
+        ],
+        "median_observed_text_height_original_pixels": 50.47349555699767
+      },
+      "occlusion_human_truth": null,
+      "text_legibility_human_truth": null,
+      "barcode_visually_present_human_truth": null,
+      "interpretation": "heuristic only; white pixels may be paper/lighting, dark pixels may be ink/shadow; no definitive human labels"
+    },
+    "baseline_prediction": "data/predictions/v24/img-8250ffa8188d-5badc1.json",
+    "baseline_prediction_sha256": "be4a198c68ffeea0f54a48c0b2f937f31b56b7903f27e520b9888ee7a30d2c93",
+    "dataset_role": "development",
+    "independent_holdout": false
+  },
+  "baseline_path": "<STUDIO_WORKSPACE>data/predictions/v24/img-8250ffa8188d-5badc1.json",
+  "job_dir": "<STUDIO_WORKSPACE>evidence/ffd6baaf32504c03b4ff52bc377b5a2a",
+  "output_path": "<STUDIO_WORKSPACE>data/predictions/v26-gpu/img-8250ffa8188d-5badc1--ffd6baaf32504c03b4ff52bc377b5a2a.json"
+}
+

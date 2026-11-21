@@ -1,0 +1,24 @@
+{
+  "input": "photos/20261120_005329.jpg",
+  "polygon": [
+    [
+      809,
+      644
+    ],
+    [
+      825,
+      1967
+    ],
+    [
+      2843,
+      1982
+    ],
+    [
+      2836,
+      661
+    ]
+  ],
+  "mask": "<STUDIO_WORKSPACE>data/segmentations/img-6092e2c65e1c-a1b07d/12dda31740e14df8841ad589e8a2d452.mask.png",
+  "rgba": "<STUDIO_WORKSPACE>data/segmentations/img-6092e2c65e1c-a1b07d/12dda31740e14df8841ad589e8a2d452.rgba.png"
+}
+

@@ -1,71 +1,64 @@
-# Estado da documentação e do Validation Studio
+# Estado do Validation Studio V2.6/V2.7
 
-**Data da revisão:** 2026-11-21  
-**Repositório:** `balancerec/reconhecimento-etiqueta-sun`  
-**Branch documental:** `docs/studio-v26-v27-status-2026-11-21`  
-**Base consultada:** `main` em `60e3f7ecf66f0dda589580bb7e38af7c08275ad9`
+**Data:** 2026-11-21  
+**Reposit?rio:** `balancerec/reconhecimento-etiqueta-sun`  
+**C?digo experimental:** [`validation-studio/`](../validation-studio/)  
+**Workspace de origem:** `%TEMP%\sun-v26-studio-20261120-01`
 
-## Escopo
+## Escopo e publica??o
 
-O repositório Git contém o aplicativo local PRO-ACT Etiquetas versão 0.2.0: página integrada, API em `backend/`, instalador Windows e pipeline local DUN/SUN. A documentação dessa aplicação está no README da raiz e em `backend/VALIDACAO.md`.
+O c?digo-fonte selecionado do Studio e seus relat?rios est?o em `validation-studio/`. Fotografias originais e derivados visuais foram exclu?dos. Registros JSON/TXT e SQLite sem pixels foram inclu?dos em `validation-studio/dataset-metadata/`; caminhos locais foram sanitizados. Os dois ZIPs de c?digo foram inspecionados e n?o cont?m entradas de imagem. Ambientes virtuais, wheels e cache visual foram exclu?dos. O `.gitignore` bloqueia imagens e dados locais futuros.
 
-O **Validation Studio V2.6/V2.7 não está incluído neste repositório**. Seu workspace de desenvolvimento é:
+Este c?digo ? **experimental** e permanece separado do aplicativo 0.2.0: n?o est? integrado ao backend de produ??o, instalador, Docker Compose, Mobile, SAP ou Zebra.
 
-`C:\Users\balancerec\AppData\Local\Temp\sun-v26-studio-20261120-01`
+## V2.6.1 ? sele??o e isolamento
 
-Portanto, as funcionalidades do Studio descritas abaixo não fazem parte do instalador, do Docker Compose ou do GitHub Pages desta branch. Esta atualização registra a separação para que a documentação não apresente o protótipo como capacidade do pacote 0.2.0.
+O registro de desenvolvimento informa que as rotas de proposta, refinamento, confirma??o e recupera??o geraram m?scara e PNG RGBA em testes de API; foi registrado tamb?m hash original preservado nesses testes anteriores. A a??o **Isolar etiqueta** recebeu altera??o local para solicitar a m?scara caso ela ainda n?o esteja em mem?ria, partindo do centro do pol?gono ativo.
 
-## Status do Studio experimental
+A verifica??o sint?tica do JavaScript e a resposta HTTP do arquivo servido foram registradas. **Isso n?o certifica a intera??o visual, precis?o do recorte ou transpar?ncia sem fundo.**
 
-### V2.6.1 — seleção e isolamento
+Pendente:
 
-Histórico de desenvolvimento registra endpoints de proposta, refinamento, confirmação e recuperação; geração de máscara/PNG RGBA; e preservação do hash original em testes de API anteriores. Esses resultados não foram repetidos durante esta atualização documental.
+- validar clique, aura, ajuste de v?rtices, isolamento e exporta??o em navegador real;
+- medir m?scara contra anota??o humana independente;
+- comprovar alinhamento sob zoom, pan e rota??es;
+- confirmar salvamento e recupera??o ap?s reiniciar;
+- reexecutar duas vias em `20261120_005329.jpg` e verificar a consolida??o SSCC/QTDE.
 
-A ação **Isolar etiqueta** recebeu uma correção local para solicitar uma máscara quando ainda não existe segmentação em memória, usando o centro do polígono ativo como semente, e então carregar o PNG RGBA. A alteração passou pela verificação sintática de JavaScript e o servidor em `127.0.0.1:8000` serviu o novo `app.js`. Isso comprova que a alteração chegou ao arquivo servido; **não comprova a qualidade do recorte nem o funcionamento visual do botão**.
+## V2.7 ? restaura??o e rean?lise
 
-Ainda pendente:
+A interface experimental oferece controles de restaura??o e worker local. O worker aplica denoise, unsharp masking (deblur conservador), CLAHE e ajustes de tom via OpenCV CPU; registra `ocr_status: pending` e `cuda_used: false`. N?o se deve anunciar deconvolu??o real ou acelera??o CUDA nessa etapa.
 
-- validação no navegador real do clique, overlay, edição, isolamento e exportação;
-- medir inclusão de papelão/fundo contra máscara humana revisada;
-- confirmar coordenadas sob zoom, pan e rotações;
-- salvar e recuperar a geometria após reiniciar;
-- testar novamente duas vias de `20261120_005329.jpg` e executar a consolidação SSCC/QTDE.
+A rean?lise RapidOCR/ZXing sobre derivado n?o foi comprovada ponta a ponta. N?o h? prova reproduz?vel neste pacote de job real conclu?do, melhoria OCR ou compara??o de desempenho em imagem derivada.
 
-### V2.7 — restauração e reanálise
+## Resultados e valida??o
 
-O workspace contém uma UI experimental de restauração e um worker local. A implementação é parcial: a reanálise RapidOCR/ZXing do derivado ainda não está integrada e verificada de ponta a ponta. Não há evidência reproduzível nesta atualização de um job real concluído, de OCR do derivado, de melhoria de leitura ou de comparação CPU/GPU do processamento.
+Os relat?rios V2.6.1/V2.7.2 est?o em `validation-studio/reports/`; metadados de predi??o e revis?o est?o em `validation-studio/dataset-metadata/`. Esses artefatos registram desenvolvimento e pend?ncias, n?o precis?o de produ??o.
 
-Os controles de brilho, contraste, saturação, nitidez, denoise e CLAHE são ferramentas de transformação de imagem. Uma imagem aprimorada não confirma a verdade textual de SKU, lote, quantidade, validade ou SSCC.
+- N?o h? holdout independente documentado.
+- N?o se calculou nova acur?cia.
+- Leituras restauradas n?o substituem previs?es hist?ricas nem ground truth.
+- Nenhuma fotografia foi adicionada nesta atualiza??o.
 
-## Separação de resultados e versões
+## Reproduzir o workspace
 
-- Resultados históricos V1–V2.5, gabaritos e fotografias originais permanecem fora deste repositório.
-- Não se calculou nova acurácia nesta atualização.
-- Não há holdout independente documentado para o Studio.
-- As anotações humanas não devem ser usadas como lookup pelo reconhecimento automático.
-- As fotos originais não devem ser editadas nem adicionadas ao Git.
+Use Python compat?vel com Windows e instale as depend?ncias do projeto. O ambiente virtual local n?o foi publicado e ainda n?o h? arquivo de depend?ncias completo validado em instala??o limpa. A configura??o OCR hist?rica referencia um interpretador GPU externo; confira `validation-studio/vision/api/app.py` antes de executar. As fotografias devem permanecer em diret?rio local ignorado pelo Git.
 
-## Reproduzir o aplicativo versionado neste repositório
-
-Na raiz do checkout, a documentação da versão 0.2.0 usa:
+O comando usado no workspace de desenvolvimento ?:
 
 ```powershell
-docker compose --project-name proact-etiquetas up --build -d
+.\.venv-api\Scripts\python.exe -m uvicorn vision.api.app:create_app --factory --host 127.0.0.1 --port 8000
 ```
 
-A página integrada é `http://localhost:8000/?local=1`; a documentação da API é `http://localhost:8000/docs`. Se a porta estiver ocupada, consulte primeiro o processo que já a está usando ou configure `LABEL_PORT` conforme o README. Não inicie uma segunda instância na mesma porta.
+Se a porta estiver em uso, verifique o servidor ativo antes de iniciar outra inst?ncia. Esse comando n?o comprova que os motores OCR estejam dispon?veis em instala??o limpa.
 
-Os comandos de validação documentados para a versão 0.2.0 estão em `backend/VALIDACAO.md`. O escopo declarado ali inclui testes com inferência simulada e smoke tests com imagens sintéticas; não equivale a uma medição de acurácia em fotografias industriais.
+## Pr?ximos crit?rios
 
-## Próximos critérios para incorporar o Studio ao Git
+1. publicar depend?ncias reproduz?veis e configura??o sem caminhos espec?ficos desta m?quina;
+2. executar testes automatizados e guardar logs reproduz?veis;
+3. validar controles no navegador real, incluindo **Isolar etiqueta**;
+4. medir m?scaras com refer?ncias humanas sem reutiliz?-las como holdout;
+5. completar OCR/ZXing dos derivados sem sobrescrever resultados;
+6. testar persist?ncia, duas vias e integridade dos originais;
+7. manter integra??o com produ??o desativada at? homologa??o independente.
 
-Antes de documentar V2.6/V2.7 como funcionalidade disponível no produto, sincronizar o código do Studio para um caminho versionado e então:
-
-1. executar e guardar logs de testes backend e frontend;
-2. comprovar a validação visual no navegador, incluindo o botão Isolar etiqueta;
-3. validar máscaras contra anotações humanas sem reutilizar o conjunto para estimar generalização;
-4. comprovar persistência e preservação dos hashes originais;
-5. executar OCR e ZXing nos derivados e registrar resultados sem substituir leituras históricas;
-6. documentar explicitamente falhas, limitações e o status desativado da integração Mobile/SAP/Zebra.
-
-Até esses critérios serem atendidos, classificar o Studio como **experimental, fora deste repositório e sem homologação de precisão**.

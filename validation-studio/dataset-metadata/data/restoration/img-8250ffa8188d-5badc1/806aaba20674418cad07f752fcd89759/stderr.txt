@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "<STUDIO_WORKSPACE>scripts/restoration_worker.py", line 14, in <module>
+    log('startup','RUNNING',pid=os.getpid());p=cfg['photo'];src=Path(p['path']);
+                                               ~~~^^^^^^^^^
+KeyError: 'photo'
+

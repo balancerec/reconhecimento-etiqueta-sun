@@ -1,0 +1,74 @@
+{
+  "schema_version": "SUN-V2.6",
+  "image": {
+    "path": "photos/20261120_011437.jpg",
+    "sha256": "23fa178f4567fbefbf24f80fa4055bcf6e5080c660bbd898afb0c6c077414e6e",
+    "coordinate_space": "EXIF-normalized original pixels",
+    "width": 2296,
+    "height": 4080
+  },
+  "physical_copies": [],
+  "candidate_regions": [
+    {
+      "region_id": "label-0",
+      "quad": [
+        [
+          1043.1065673828125,
+          2468.39990234375
+        ],
+        [
+          1783.1878662109375,
+          2485.8857421875
+        ],
+        [
+          1756.9644775390625,
+          3587.485595703125
+        ],
+        [
+          871.197998046875,
+          3878.914306640625
+        ]
+      ],
+      "method": "blue_hull_corner_quad",
+      "area": 854987.6101522843,
+      "detection_confidence": null,
+      "id": "label-0",
+      "mask_recipe": "V2.3 frozen HSV/convex hull",
+      "geometric_confidence": null
+    },
+    {
+      "region_id": "label-1",
+      "quad": [
+        [
+          1078.071044921875,
+          1320.17138671875
+        ],
+        [
+          1806.4974365234375,
+          1323.085693359375
+        ],
+        [
+          1783.1878662109375,
+          2433.428466796875
+        ],
+        [
+          1048.9339599609375,
+          2415.94287109375
+        ]
+      ],
+      "method": "blue_hull_corner_quad",
+      "area": 819506.4182741116,
+      "detection_confidence": null,
+      "id": "label-1",
+      "mask_recipe": "V2.3 frozen HSV/convex hull",
+      "geometric_confidence": null
+    }
+  ],
+  "legacy_logistic_units_unchanged": [],
+  "integration_enabled": false,
+  "ground_truth_used": false,
+  "catalog_used_for_completion": false,
+  "execution": "spatial reprocessing of immutable OCR; no new neural inference in this stage",
+  "input_prediction_sha256": "5c0bc7482f4fe576ec40243d4011f2d85c811ec324882174bb2a2db12295b9de"
+}
+

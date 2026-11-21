@@ -1,0 +1,12 @@
+{
+  "input": "photos/20250929_075640.jpg",
+  "seed": [
+    0,
+    3963
+  ],
+  "mask": "<STUDIO_WORKSPACE>data/segmentations/img-8250ffa8188d-5badc1/b2618138d3534c3492275bf6a4db6c28.mask.png",
+  "rgba": "<STUDIO_WORKSPACE>data/segmentations/img-8250ffa8188d-5badc1/b2618138d3534c3492275bf6a4db6c28.rgba.png",
+  "overlay": "<STUDIO_WORKSPACE>data/segmentations/img-8250ffa8188d-5badc1/b2618138d3534c3492275bf6a4db6c28.overlay.png",
+  "json": "<STUDIO_WORKSPACE>data/segmentations/img-8250ffa8188d-5badc1/b2618138d3534c3492275bf6a4db6c28.json"
+}
+

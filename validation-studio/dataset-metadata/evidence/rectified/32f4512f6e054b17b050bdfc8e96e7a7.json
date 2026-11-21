@@ -1,0 +1,26 @@
+{
+  "input": "photos/20250929_075640.jpg",
+  "output": "<STUDIO_WORKSPACE>evidence/rectified/32f4512f6e054b17b050bdfc8e96e7a7.png",
+  "points": [
+    [
+      1107,
+      1479
+    ],
+    [
+      507,
+      2408
+    ],
+    [
+      2223,
+      3309
+    ],
+    [
+      2719.883056640625,
+      2085.885009765625
+    ]
+  ],
+  "brightness": -67,
+  "contrast": 1.23,
+  "saturation": 0
+}
+

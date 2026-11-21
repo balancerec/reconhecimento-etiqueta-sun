@@ -1,0 +1,26 @@
+PASS {'test': 'click 20250929_075640.jpg copy0', 'detail': 200}
+PASS {'test': 'mask/polygon', 'detail': {'area': 2245896, 'vertices': 4}}
+PASS {'test': 'PNG RGBA color type', 'detail': None}
+PASS {'test': 'original dimensions', 'detail': (3060, 4080)}
+PASS {'test': 'source unchanged', 'detail': None}
+PASS {'test': 'refine and regenerate mask', 'detail': 200}
+PASS {'test': 'confirm persistent proposal', 'detail': None}
+PASS {'test': 'reopen after service reload simulation', 'detail': None}
+PASS {'test': 'click 20261120_005329.jpg copy0', 'detail': 200}
+PASS {'test': 'mask/polygon', 'detail': {'area': 2688016, 'vertices': 4}}
+PASS {'test': 'PNG RGBA color type', 'detail': None}
+PASS {'test': 'original dimensions', 'detail': (4080, 2296)}
+PASS {'test': 'source unchanged', 'detail': None}
+PASS {'test': 'refine and regenerate mask', 'detail': 200}
+PASS {'test': 'confirm persistent proposal', 'detail': None}
+PASS {'test': 'reopen after service reload simulation', 'detail': None}
+PASS {'test': 'click 20261120_005329.jpg copy1', 'detail': 200}
+PASS {'test': 'mask/polygon', 'detail': {'area': 1583993, 'vertices': 4}}
+PASS {'test': 'PNG RGBA color type', 'detail': None}
+PASS {'test': 'original dimensions', 'detail': (4080, 2296)}
+PASS {'test': 'source unchanged', 'detail': None}
+PASS {'test': 'refine and regenerate mask', 'detail': 200}
+PASS {'test': 'confirm persistent proposal', 'detail': None}
+PASS {'test': 'reopen after service reload simulation', 'detail': None}
+PASS {'test': 'invalid click 422', 'detail': None}
+PASS {'test': 'unknown image 404', 'detail': None}

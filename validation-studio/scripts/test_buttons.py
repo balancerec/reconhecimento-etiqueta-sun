@@ -1,0 +1,17 @@
+import sys,os,json,tempfile
+from pathlib import Path
+from fastapi.testclient import TestClient
+from vision.api.app import create_app
+root=Path(__file__).resolve().parents[1];tmp=root/'evidence'/'button-tests';tmp.mkdir(parents=True,exist_ok=True);app=create_app(db_path=tmp/'annotations.sqlite');c=TestClient(app);token=c.get('/api/session').json()['token'];headers={'X-Studio-Token':token};photos=c.get('/api/photos').json();p=next(x for x in photos if x['name']=='20250929_075640.jpg');detail=c.get('/api/photos/'+p['id']).json();q=detail['template']['copies'][0]['polygon_original'];seed={'x':int(sum(v[0] for v in q)/len(q)),'y':int(sum(v[1] for v in q)/len(q))};out=[]
+def add(button,status,evidence):out.append({'button':button,'result':status,'evidence':evidence})
+# API-backed segmentation action
+r=c.post('/api/v261/segmentation/click',headers=headers,json={'image_id':p['id'],'click_original':seed});add('Seleção inteligente', 'PASS' if r.status_code==200 else 'FAIL',{'http':r.status_code})
+if r.status_code==200:
+ z=r.json();sid=z['segmentation_id'];add('Contorno quadrilateral','PASS' if len(z.get('quadrilateral',[]))==4 else 'FAIL',{'vertices':len(z.get('quadrilateral',[]))});g=c.get(f"/api/v261/segmentation/{p['id']}/{sid}/png");add('Isolar etiqueta','PASS' if g.status_code==200 and g.content[25]==6 else 'FAIL',{'http':g.status_code,'rgba':g.content[25]==6});rf=c.post('/api/v261/segmentation/refine',headers=headers,json={'image_id':p['id'],'segmentation_id':sid,'polygon':z['quadrilateral']});add('Ajustar contorno','PASS' if rf.status_code==200 else 'FAIL',{'http':rf.status_code});cf=c.post('/api/v261/segmentation/confirm',headers=headers,json={'image_id':p['id'],'segmentation_id':sid,'copy_id':'copy-test'});add('Confirmar contorno','PASS' if cf.status_code==200 else 'FAIL',{'http':cf.status_code});get=c.get(f"/api/v261/segmentation/{p['id']}/{sid}");add('Recuperar contorno','PASS' if get.status_code==200 else 'FAIL',{'http':get.status_code})
+# human draft endpoints isolated db
+body=detail['template'];body.update({'reviewer':'button-test','expected_revision':0});sv=c.post('/api/annotations/save',headers=headers,json=body);add('Salvar rascunho','PASS' if sv.status_code==200 else 'FAIL',{'http':sv.status_code});ap=c.post('/api/annotations/approve',headers=headers,json=body);add('Aprovar incompleto','BLOCKED_EXPECTED' if ap.status_code==422 else 'UNEXPECTED',{'http':ap.status_code});ev=c.get('/api/evaluation');add('Avaliação','PASS' if ev.status_code==200 else 'FAIL',{'http':ev.status_code});ex=c.post('/api/export',headers=headers,json={});add('Exportar','PASS' if ex.status_code==200 else 'FAIL',{'http':ex.status_code});
+# routes/browser-only actions are deliberately not reported as passed
+for name in ['Zoom −','Ajustar','Zoom +','Girar 90°','Aura ON','Descartar proposta','Restaurar foto','+ Via','Concluir polígono','Retificar perspectiva','Blocos OCR','Fechar prévia','Próxima','workflow tabs','sliders restauração','comparar original','restaurar padrões','desfazer/refazer']:
+ add(name,'NOT_BROWSER_TESTED','A automação da aba Edge não está disponível; handler/efeito visual requer clique real')
+(root/'V272-BUTTON-TEST-RESULTS.json').write_text(json.dumps({'screenshot':'Captura de tela 2026-11-21 022725.png','app_tested':'FastAPI TestClient, isolated temporary annotation DB','results':out,'browser_host':'unavailable'},indent=2,ensure_ascii=False),encoding='utf-8');print(json.dumps(out,ensure_ascii=False))
+

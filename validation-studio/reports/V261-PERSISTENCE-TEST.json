@@ -1,0 +1,5 @@
+{
+  "confirm_writes_atomic_json": true,
+  "get_after_confirm": true,
+  "process_restart_recovery": "same filesystem JSON is reopened by GET; process restart not exercised"
+}

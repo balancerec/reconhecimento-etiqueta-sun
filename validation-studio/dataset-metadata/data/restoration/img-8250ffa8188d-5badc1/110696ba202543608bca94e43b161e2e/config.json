@@ -1,0 +1,16 @@
+{
+  "input": "photos/20250929_075640.jpg",
+  "out": "<STUDIO_WORKSPACE>data/restoration/img-8250ffa8188d-5badc1/110696ba202543608bca94e43b161e2e",
+  "params": {
+    "brightness": 0.0,
+    "contrast": 1.0,
+    "saturation": 1.0,
+    "sharpness": 35,
+    "deblur": 20,
+    "denoise": 15,
+    "clahe": 25
+  },
+  "id": "110696ba202543608bca94e43b161e2e",
+  "original_sha256": "8250ffa8188d3f63ef9e3a600f7bbbd7afa8a1b96760b4c86c8f7bc5625b8f6b"
+}
+

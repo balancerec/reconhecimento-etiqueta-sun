@@ -1,0 +1,13 @@
+{
+  "photo": "20261120_005329.jpg",
+  "copies_segmented": 2,
+  "separate_segmentation_ids": true,
+  "logistics_mutated": false,
+  "historical_expected": {
+    "sscc": "100789465031448370",
+    "quantity": 72,
+    "lastro": 18
+  },
+  "consolidator_reexecuted": false,
+  "status": "segmentation independence verified; logistic assertion pending"
+}

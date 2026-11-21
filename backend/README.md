@@ -6,4 +6,4 @@ Execute o compose da raiz do repositório. Consulte [../README.md](../README.md)
 
 Os comandos e o escopo da validação da versão 0.2.0 estão em [VALIDACAO.md](VALIDACAO.md). Eles não representam uma medição de acurácia em fotografias industriais.
 
-O Validation Studio V2.6/V2.7 citado em conversas de desenvolvimento está em um workspace experimental fora deste repositório. Consulte [../docs/VALIDATION-STUDIO-STATUS.md](../docs/VALIDATION-STUDIO-STATUS.md); seus recursos não fazem parte deste backend versionado.
+O código experimental do Validation Studio V2.6/V2.7 está em [../validation-studio/](../validation-studio/), separado deste backend e não carregado por ele. Consulte [../docs/VALIDATION-STUDIO-STATUS.md](../docs/VALIDATION-STUDIO-STATUS.md); a presença do código no repositório não o habilita em produção.
