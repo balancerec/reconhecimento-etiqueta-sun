@@ -1,0 +1,3 @@
+{"stage": "startup", "status": "RUNNING", "elapsed_seconds": 0.0, "pid": 46056}
+{"stage": "worker", "status": "FAILED", "elapsed_seconds": 0.0031, "error": "KeyError('photo')", "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\balancerec\\AppData\\Local\\Temp\\sun-v26-studio-20261120-01\\scripts\\restoration_worker.py\", line 14, in <module>\n    log('startup','RUNNING',pid=os.getpid());p=cfg['photo'];src=Path(p['path']);\n                                               ~~~^^^^^^^^^\nKeyError: 'photo'\n"}
+

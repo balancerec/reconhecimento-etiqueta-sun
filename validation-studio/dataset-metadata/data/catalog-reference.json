@@ -1,0 +1,702 @@
+{
+  "schema": "SUN-documentary-material-reference-v1",
+  "materials": [
+    {
+      "sku": "337248",
+      "description_documentary": "GLADE DIFUS COASTAL CITRUS 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "328856",
+      "description_documentary": "GLADE DIFUS F AGUAS FLORAIS 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "337637",
+      "description_documentary": "GLADE DIFUS FRUTAS FLORES VIB 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "328858",
+      "description_documentary": "GLADE DIFUS LAVANDA 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "386435",
+      "description_documentary": "GLADE DIFUS LAVANDA 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "328857",
+      "description_documentary": "GLADE DIFUS LEMBRANCA INFANC 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "386437",
+      "description_documentary": "GLADE DIFUS LEMBRANCA INFANC 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "343633",
+      "description_documentary": "GLADE DIFUS LIVRE LEVE LILAS 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "343634",
+      "description_documentary": "GLADE DIFUS SUAVE NAS NUVENS 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "328855",
+      "description_documentary": "GLADE DIFUS TOQUE DE MACIEZ 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "386439",
+      "description_documentary": "GLADE DIFUS TOQUE DE MACIEZ 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "376697",
+      "description_documentary": "GLADE DIFUSOR ÁGUAS FLOR ENTUS 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "376703",
+      "description_documentary": "GLADE DIFUSOR ALGODAO ACONCHEGO 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "371738",
+      "description_documentary": "GLADE DIFUSOR AURA FRESH 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "387340",
+      "description_documentary": "GLADE DIFUSOR BRINDE A NORONHA 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "376699",
+      "description_documentary": "GLADE DIFUSOR CITRUS ENERGIA 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "373568",
+      "description_documentary": "GLADE DIFUSOR COTTON DREAM 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "371728",
+      "description_documentary": "GLADE DIFUSOR ENERGIA FLORAL 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "356050",
+      "description_documentary": "GLADE DIFUSOR FIM DE TARDE 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "376705",
+      "description_documentary": "GLADE DIFUSOR FLOR DELICADEZA 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "376695",
+      "description_documentary": "GLADE DIFUSOR FRUTAS ROMANCE 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "383321",
+      "description_documentary": "GLADE DIFUSOR HF ENERGY CITRUS 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "383309",
+      "description_documentary": "GLADE DIFUSOR HF FRESH FLOWERS 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "383323",
+      "description_documentary": "GLADE DIFUSOR HF RELAX LAVENDER 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "399132",
+      "description_documentary": "GLADE DIFUSOR HF RELAX LAVENDER 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "389322",
+      "description_documentary": "GLADE DIFUSOR HF RF FRESH FLOW 300ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "389320",
+      "description_documentary": "GLADE DIFUSOR HF RF RELAX LAV 300ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "629479",
+      "description_documentary": "GLADE DIFUSOR JAZMIN/ORCHID 6X48ML",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "376701",
+      "description_documentary": "GLADE DIFUSOR LAVANDA TRANQU 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "629478",
+      "description_documentary": "GLADE DIFUSOR LEMONGRASS/CITRUS 6X48ML",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "373570",
+      "description_documentary": "GLADE DIFUSOR LILAC BLOSSOM 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "389296",
+      "description_documentary": "GLADE DIFUSOR RF LAVANDA 300ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "389298",
+      "description_documentary": "GLADE DIFUSOR RF LEMB INF 300ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "355978",
+      "description_documentary": "GLADE DIFUSOR SOMBRA E AGUA 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "387338",
+      "description_documentary": "GLADE DIFUSOR VOO EM BONITO 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "365165",
+      "description_documentary": "PACK GLADE DIFUSOR SOMBRA 2X100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "365167",
+      "description_documentary": "PACK GLADE DIFUSOR VIAGEM 2X100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "358802",
+      "description_documentary": "PR GLADE DIFUSOR LAVANDA 2UN 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "387532",
+      "description_documentary": "PR GLADE DIFUSOR LAVANDA 2UN 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "380600",
+      "description_documentary": "PR GLADE DIFUSOR LAVANDA 3UN 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 2,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "387530",
+      "description_documentary": "PR GLADE DIFUSOR LAVANDA 3UN 100ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 2,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "607749",
+      "description_documentary": "SE GLADE DIFUSOR JAZMIN/ORCHID",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 2,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "244610",
+      "description_documentary": "SG GLADE DIFUSOR MANGO (SPRING 24 - NC)",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "source_sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "page": 2,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "387331",
+      "description_documentary": "GLADE ODORIZANTE SPRAY TMACIEZ 120ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-odorizante-aussie.pdf",
+      "source_sha256": "53474690cb42ffcb9d55835a5c56c638db84804b48e7a5ebf06c1eb08f0ba6bc",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "387329",
+      "description_documentary": "GLADE ODORIZANTE SPRAY LAVANDA 120ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-odorizante-aussie.pdf",
+      "source_sha256": "53474690cb42ffcb9d55835a5c56c638db84804b48e7a5ebf06c1eb08f0ba6bc",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "387325",
+      "description_documentary": "GLADE ODORIZANTE CONCEN TMACIEZ 120ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-odorizante-aussie.pdf",
+      "source_sha256": "53474690cb42ffcb9d55835a5c56c638db84804b48e7a5ebf06c1eb08f0ba6bc",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "387327",
+      "description_documentary": "GLADE ODORIZANTE CONCEN LEMB IN 120ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-odorizante-aussie.pdf",
+      "source_sha256": "53474690cb42ffcb9d55835a5c56c638db84804b48e7a5ebf06c1eb08f0ba6bc",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "387279",
+      "description_documentary": "GLADE ODORIZANTE CONCEN LAVANDA 120ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-odorizante-aussie.pdf",
+      "source_sha256": "53474690cb42ffcb9d55835a5c56c638db84804b48e7a5ebf06c1eb08f0ba6bc",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "387321",
+      "description_documentary": "GLADE ODORIZANTE CONCEN EUCALIP 120ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-odorizante-aussie.pdf",
+      "source_sha256": "53474690cb42ffcb9d55835a5c56c638db84804b48e7a5ebf06c1eb08f0ba6bc",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "387323",
+      "description_documentary": "GLADE ODORIZANTE CONCEN CITRONE 120ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-odorizante-aussie.pdf",
+      "source_sha256": "53474690cb42ffcb9d55835a5c56c638db84804b48e7a5ebf06c1eb08f0ba6bc",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "399118",
+      "description_documentary": "GLADE ODOR CONCEN CHA BRANCO 120ML 12",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-odorizante-aussie.pdf",
+      "source_sha256": "53474690cb42ffcb9d55835a5c56c638db84804b48e7a5ebf06c1eb08f0ba6bc",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    },
+    {
+      "sku": "408537",
+      "description_documentary": "PR GLADE ODOR CONCEN CHA BCO 3UN 24",
+      "language": "PT",
+      "source_pdf": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-odorizante-aussie.pdf",
+      "source_sha256": "53474690cb42ffcb9d55835a5c56c638db84804b48e7a5ebf06c1eb08f0ba6bc",
+      "page": 1,
+      "source_report_date": "2026-08-07",
+      "source_kind": "user_provided_material_list_PDF",
+      "visually_inspected_page": true,
+      "current_active_material_status_verified": false
+    }
+  ],
+  "source_PDFs": [
+    {
+      "path": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-difusor-reeds.pdf",
+      "sha256": "60b18ce63a06b0610fd4826284712dabaaa392688d28bdcdaf779d54cdc89b3c",
+      "pages": 2
+    },
+    {
+      "path": "C:\\Users\\balancerec\\Documents\\Codex\\2026-08-08\\analise-integralmente-este-projeto-chamado-centerline\\work\\package-v6\\centerline-l120-corrigido-v6\\docs\\referencias\\sku-glade-odorizante-aussie.pdf",
+      "sha256": "53474690cb42ffcb9d55835a5c56c638db84804b48e7a5ebf06c1eb08f0ba6bc",
+      "pages": 1
+    }
+  ],
+  "material_rows": 52,
+  "unique_SKUs": 52,
+  "ambiguous_descriptions": [
+    {
+      "description": "GLADE DIFUS LAVANDA 100ML 12",
+      "SKUs": [
+        "328858",
+        "386435"
+      ],
+      "description_to_SKU_lookup_safe": false
+    },
+    {
+      "description": "GLADE DIFUS LEMBRANCA INFANC 100ML 12",
+      "SKUs": [
+        "328857",
+        "386437"
+      ],
+      "description_to_SKU_lookup_safe": false
+    },
+    {
+      "description": "GLADE DIFUS TOQUE DE MACIEZ 100ML 12",
+      "SKUs": [
+        "328855",
+        "386439"
+      ],
+      "description_to_SKU_lookup_safe": false
+    },
+    {
+      "description": "GLADE DIFUSOR HF RELAX LAVENDER 100ML 12",
+      "SKUs": [
+        "383323",
+        "399132"
+      ],
+      "description_to_SKU_lookup_safe": false
+    },
+    {
+      "description": "PR GLADE DIFUSOR LAVANDA 2UN 100ML 12",
+      "SKUs": [
+        "358802",
+        "387532"
+      ],
+      "description_to_SKU_lookup_safe": false
+    },
+    {
+      "description": "PR GLADE DIFUSOR LAVANDA 3UN 100ML 12",
+      "SKUs": [
+        "380600",
+        "387530"
+      ],
+      "description_to_SKU_lookup_safe": false
+    }
+  ],
+  "policy": {
+    "documentary_catalog_separate_from_OCR": true,
+    "catalog_completion_used_in_inference": false,
+    "human_ground_truth_replaced": false,
+    "historical_V25_outputs_modified": false,
+    "catalog_match_proves_photo_OCR_correct": false,
+    "integration_enabled": false
+  }
+}
+

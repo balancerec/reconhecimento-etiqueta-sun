@@ -1,0 +1,40 @@
+{
+  "processing_id": "110696ba202543608bca94e43b161e2e",
+  "original_sha256": "8250ffa8188d3f63ef9e3a600f7bbbd7afa8a1b96760b4c86c8f7bc5625b8f6b",
+  "derivative_sha256": "492341fb8f5a968efd72ac9c49179badd84e7ca1726982f731620e02121a60fb",
+  "parameters": {
+    "brightness": 0.0,
+    "contrast": 1.0,
+    "saturation": 1.0,
+    "sharpness": 35,
+    "deblur": 20,
+    "denoise": 15,
+    "clahe": 25
+  },
+  "stage_paths": {
+    "original": "<STUDIO_WORKSPACE>data/restoration/img-8250ffa8188d-5badc1/110696ba202543608bca94e43b161e2e/original.png",
+    "denoised": "<STUDIO_WORKSPACE>data/restoration/img-8250ffa8188d-5badc1/110696ba202543608bca94e43b161e2e/denoised.png",
+    "deblurred": "<STUDIO_WORKSPACE>data/restoration/img-8250ffa8188d-5badc1/110696ba202543608bca94e43b161e2e/deblurred.png",
+    "clahe": "<STUDIO_WORKSPACE>data/restoration/img-8250ffa8188d-5badc1/110696ba202543608bca94e43b161e2e/clahe.png",
+    "restored": "<STUDIO_WORKSPACE>data/restoration/img-8250ffa8188d-5badc1/110696ba202543608bca94e43b161e2e/restored.png"
+  },
+  "quality": {
+    "variance_laplacian": 360.2244129660244,
+    "mean_luminance": 128.5115368287838,
+    "saturated_fraction": 0.00038671023965141613,
+    "edge_density": 0.021098615916955017
+  },
+  "barcode_restored": [],
+  "backend": {
+    "image_processing": "OpenCV CPU",
+    "ocr": "not run in this worker",
+    "cuda_used": false
+  },
+  "elapsed_seconds": 41.7414834999945,
+  "warnings": [
+    "Deblurring is conservative unsharp masking; no PSF estimated.",
+    "Enhancement does not establish text truth."
+  ],
+  "schema_version": "SUN-V2.7"
+}
+

@@ -1,0 +1,10 @@
+{
+  "distribution": "pydantic-core",
+  "version": "2.50.4",
+  "source": "existing bundled Python distribution, unchanged",
+  "wheel": "pydantic_core-2.50.4-cp312-cp312-win_amd64.whl",
+  "tag": "cp312-cp312-win_amd64",
+  "sha256": "cabe00e254b9cd8df95bdd902992bafbbfb8207aa3d29496262dbfbbe1e316ff",
+  "network_used": false
+}
+

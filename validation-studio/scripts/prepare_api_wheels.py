@@ -1,6 +1,6 @@
 from pathlib import Path
 import zipfile,json,os,shutil,re,hashlib
-R=Path(os.environ['TEMP'])/'sun-v26-studio-20261120-01';root=Path(r'C:\Users\balancerec\AppData\Local\pip\Cache\http-v2');names={'fastapi','starlette','uvicorn','anyio','httpx','httpcore','pydantic','pydantic-core','typing-extensions','typing-inspection','annotated-types','annotated-doc','sniffio','idna','click','h11','colorama','certifi','opentelemetry-api','importlib-metadata','zipp'};out=R/'wheelhouse';out.mkdir(exist_ok=True);rows=[]
+R=Path(os.environ['TEMP'])/'sun-v26-studio-20261120-01';root=Path(os.environ.get('LOCALAPPDATA', str(Path.home()/'AppData/Local')))/'pip'/'Cache'/'http-v2';names={'fastapi','starlette','uvicorn','anyio','httpx','httpcore','pydantic','pydantic-core','typing-extensions','typing-inspection','annotated-types','annotated-doc','sniffio','idna','click','h11','colorama','certifi','opentelemetry-api','importlib-metadata','zipp'};out=R/'wheelhouse';out.mkdir(exist_ok=True);rows=[]
 for p in root.rglob('*.body'):
  try:
   with zipfile.ZipFile(p) as z:

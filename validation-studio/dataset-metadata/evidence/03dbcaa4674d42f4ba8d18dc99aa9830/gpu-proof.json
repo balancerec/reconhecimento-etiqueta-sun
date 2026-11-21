@@ -1,0 +1,48 @@
+{
+  "requested": "cuda",
+  "effective": "unproven",
+  "cuda_proven": false,
+  "events_by_provider": {},
+  "profiles": [
+    {
+      "model": "<GPU_PYTHON_ENV>\\Lib\\site-packages\\rapidocr_onnxruntime\\models\\ch_PP-OCRv4_det_infer.onnx",
+      "model_sha256": "d2a7720d45a54257208b1e13e36a8479894cb74155a5efe29462512d42f49da9",
+      "profile": "<STUDIO_WORKSPACE>evidence/03dbcaa4674d42f4ba8d18dc99aa9830/profiles/ch_PP-OCRv4_det_infer_2026-11-20_18-20-05.json",
+      "profile_sha256": "eff23843f79877301c4e518799ce779a26fae062806acf4c92531642071cb086",
+      "configured_providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ],
+      "events_by_provider": {},
+      "operators": []
+    },
+    {
+      "model": "<GPU_PYTHON_ENV>\\Lib\\site-packages\\rapidocr_onnxruntime\\models\\ch_ppocr_mobile_v2.0_cls_infer.onnx",
+      "model_sha256": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c",
+      "profile": "<STUDIO_WORKSPACE>evidence/03dbcaa4674d42f4ba8d18dc99aa9830/profiles/ch_ppocr_mobile_v2.0_cls_infer_2026-11-20_18-20-06.json",
+      "profile_sha256": "18521dcab00e9e9979129c7e544ed3c013a13d812bf4ecb0b6f780c6045a6405",
+      "configured_providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ],
+      "events_by_provider": {},
+      "operators": []
+    },
+    {
+      "model": "<GPU_PYTHON_ENV>\\Lib\\site-packages\\rapidocr_onnxruntime\\models\\ch_PP-OCRv4_rec_infer.onnx",
+      "model_sha256": "48fc40f24f6d2a207a2b1091d3437eb3cc3eb6b676dc3ef9c37384005483683b",
+      "profile": "<STUDIO_WORKSPACE>evidence/03dbcaa4674d42f4ba8d18dc99aa9830/profiles/ch_PP-OCRv4_rec_infer_2026-11-20_18-20-06.json",
+      "profile_sha256": "7471fd41c820336ace85f187005173cab630b1285d845a689d4ace18d164ad95",
+      "configured_providers": [
+        "CUDAExecutionProvider",
+        "CPUExecutionProvider"
+      ],
+      "events_by_provider": {},
+      "operators": []
+    }
+  ],
+  "calls": [],
+  "fallback_policy": "CPU partition allowed and reported; whole-session/runtime retry rejected",
+  "evidence_scope": "one source image per OCR instance, all regions/orientation trials and warmup included"
+}
+

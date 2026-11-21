@@ -1,0 +1,23 @@
+[
+  {
+    "cat": "Session",
+    "pid": 48888,
+    "tid": 38064,
+    "dur": 46067,
+    "ts": 129,
+    "ph": "X",
+    "name": "model_loading_uri",
+    "args": {}
+  },
+  {
+    "cat": "Session",
+    "pid": 48888,
+    "tid": 38064,
+    "dur": 165848,
+    "ts": 333940,
+    "ph": "X",
+    "name": "session_initialization",
+    "args": {}
+  }
+]
+

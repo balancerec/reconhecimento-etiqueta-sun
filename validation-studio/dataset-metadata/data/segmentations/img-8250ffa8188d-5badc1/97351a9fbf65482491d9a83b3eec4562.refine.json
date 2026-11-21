@@ -1,0 +1,24 @@
+{
+  "input": "photos/20250929_075640.jpg",
+  "polygon": [
+    [
+      1114,
+      1229
+    ],
+    [
+      2842,
+      2138
+    ],
+    [
+      2217,
+      3325
+    ],
+    [
+      489,
+      2416
+    ]
+  ],
+  "mask": "<STUDIO_WORKSPACE>data/segmentations/img-8250ffa8188d-5badc1/97351a9fbf65482491d9a83b3eec4562.mask.png",
+  "rgba": "<STUDIO_WORKSPACE>data/segmentations/img-8250ffa8188d-5badc1/97351a9fbf65482491d9a83b3eec4562.rgba.png"
+}
+

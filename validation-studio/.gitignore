@@ -1,7 +1,7 @@
 .venv*/
-data/
-evidence/
-wheelhouse/
+/data/
+/evidence/
+/wheelhouse/
 **/__pycache__/
 *.py[cod]
 *.jpg
@@ -14,4 +14,8 @@ wheelhouse/
 *.sqlite
 *.db
 *.zip
+!/dataset-metadata/**/*.sqlite
+!/dataset-metadata/**/*.db
+!/packages/V261-final-reproducible-source.zip
+!/packages/V272-unified-workspace.zip
 

@@ -1,0 +1,16 @@
+{
+  "schema_version": "SUN-V24-immutable-studio-input",
+  "image": {
+    "path": "photos/20261104_023855.jpg",
+    "sha256": "8f4d4f64eb61856419b1367a83b2daa4598cfbd5d63ed1e823b8871da806b3ab",
+    "coordinate_space": "EXIF-normalized original pixels",
+    "width": 2296,
+    "height": 4080
+  },
+  "physical_copies": [],
+  "candidate_regions": [],
+  "logistic_units": [],
+  "integration_enabled": false,
+  "source_prediction": "V25 verified V24 output; not human annotations"
+}
+

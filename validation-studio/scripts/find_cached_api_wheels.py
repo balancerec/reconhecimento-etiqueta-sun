@@ -1,6 +1,6 @@
 from pathlib import Path
 import zipfile,json,os
-root=Path(r'C:\Users\balancerec\AppData\Local\pip\Cache\http-v2');wanted={'fastapi','starlette','uvicorn','anyio','httpx','pydantic','pydantic-core','typing-extensions','click','h11','sniffio','idna'};found=[];count=0
+root=Path(os.environ.get('LOCALAPPDATA', str(Path.home()/'AppData/Local')))/'pip'/'Cache'/'http-v2';wanted={'fastapi','starlette','uvicorn','anyio','httpx','pydantic','pydantic-core','typing-extensions','click','h11','sniffio','idna'};found=[];count=0
 for p in root.rglob('*.body'):
  count+=1
  try:

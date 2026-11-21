@@ -1,0 +1,75 @@
+{
+  "width": 3060,
+  "height": 4080,
+  "click_original": {
+    "x": 2724,
+    "y": 2077
+  },
+  "contour": [
+    [
+      1115,
+      1473
+    ],
+    [
+      506,
+      2409
+    ],
+    [
+      2222,
+      3311
+    ],
+    [
+      2640,
+      2300
+    ],
+    [
+      2729,
+      2273
+    ],
+    [
+      2723,
+      2101
+    ],
+    [
+      2863,
+      2170
+    ],
+    [
+      2085,
+      1610
+    ],
+    [
+      2628,
+      2039
+    ],
+    [
+      1900,
+      1772
+    ],
+    [
+      1944,
+      1707
+    ],
+    [
+      1866,
+      1759
+    ]
+  ],
+  "area_pixels": 2294391,
+  "component_count": 605,
+  "color_model": "local median HSV seed tolerance",
+  "confidence_calibrated": null,
+  "status": "HUMAN_CONFIRMED",
+  "warnings": [
+    "classical color segmentation; inspect false inclusion/exclusion"
+  ],
+  "mask": "<STUDIO_WORKSPACE>data/segmentations/img-8250ffa8188d-5badc1/82da97ffa95d4843a78ba47a6187905c.mask.png",
+  "rgba": "<STUDIO_WORKSPACE>data/segmentations/img-8250ffa8188d-5badc1/82da97ffa95d4843a78ba47a6187905c.rgba.png",
+  "overlay": "<STUDIO_WORKSPACE>data/segmentations/img-8250ffa8188d-5badc1/82da97ffa95d4843a78ba47a6187905c.overlay.png",
+  "segmentation_id": "82da97ffa95d4843a78ba47a6187905c",
+  "image_id": "img-8250ffa8188d-5badc1",
+  "copy_id": "seg-82da97ff",
+  "reviewed": true,
+  "source_sha256": "8250ffa8188d3f63ef9e3a600f7bbbd7afa8a1b96760b4c86c8f7bc5625b8f6b"
+}
+

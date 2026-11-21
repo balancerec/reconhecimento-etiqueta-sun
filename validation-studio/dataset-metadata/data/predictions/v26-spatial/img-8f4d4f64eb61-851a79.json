@@ -1,0 +1,19 @@
+{
+  "schema_version": "SUN-V2.6",
+  "image": {
+    "path": "photos/20261104_023855.jpg",
+    "sha256": "8f4d4f64eb61856419b1367a83b2daa4598cfbd5d63ed1e823b8871da806b3ab",
+    "coordinate_space": "EXIF-normalized original pixels",
+    "width": 2296,
+    "height": 4080
+  },
+  "physical_copies": [],
+  "candidate_regions": [],
+  "legacy_logistic_units_unchanged": [],
+  "integration_enabled": false,
+  "ground_truth_used": false,
+  "catalog_used_for_completion": false,
+  "execution": "spatial reprocessing of immutable OCR; no new neural inference in this stage",
+  "input_prediction_sha256": "5e8289083101b004ab0bf61ecb17488b43ee348b7b9213b5bbca8200817aec68"
+}
+

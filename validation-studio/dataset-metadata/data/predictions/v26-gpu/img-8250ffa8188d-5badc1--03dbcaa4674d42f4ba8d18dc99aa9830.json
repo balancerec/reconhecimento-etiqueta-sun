@@ -1,0 +1,2976 @@
+{
+  "schema_version": "SUN-V2.6",
+  "image": {
+    "path": "photos/20250929_075640.jpg",
+    "sha256": "8250ffa8188d3f63ef9e3a600f7bbbd7afa8a1b96760b4c86c8f7bc5625b8f6b",
+    "coordinate_space": "EXIF-normalized original pixels",
+    "width": 3060,
+    "height": 4080
+  },
+  "physical_copies": [
+    {
+      "copy_id": "copy-1",
+      "region_id": "label-0",
+      "quad_original": [
+        [
+          1136.5714111328125,
+          1474.6285400390625
+        ],
+        [
+          2797.71435546875,
+          2109.94287109375
+        ],
+        [
+          2214.857177734375,
+          3310.628662109375
+        ],
+        [
+          504.1714172363281,
+          2404.28564453125
+        ]
+      ],
+      "visibility": "not_frame_clipped_visibility_unreviewed",
+      "fields": {
+        "sku": {
+          "value": null,
+          "status": "missing",
+          "candidates": [],
+          "qualified_values": [],
+          "confidence_calibrated": null,
+          "human_review_required": true,
+          "selection_policy": "unique qualified observed value only; no majority or ground-truth selection"
+        },
+        "descricao": {
+          "value": null,
+          "status": "missing",
+          "candidates": [],
+          "qualified_values": [],
+          "confidence_calibrated": null,
+          "human_review_required": true,
+          "selection_policy": "unique qualified observed value only; no majority or ground-truth selection"
+        },
+        "qtde": {
+          "value": null,
+          "status": "missing",
+          "candidates": [],
+          "qualified_values": [],
+          "confidence_calibrated": null,
+          "human_review_required": true,
+          "selection_policy": "unique qualified observed value only; no majority or ground-truth selection"
+        },
+        "lastro": {
+          "value": null,
+          "status": "missing",
+          "candidates": [],
+          "qualified_values": [],
+          "confidence_calibrated": null,
+          "human_review_required": true,
+          "selection_policy": "unique qualified observed value only; no majority or ground-truth selection"
+        },
+        "lote": {
+          "value": "8269652",
+          "status": "accepted_candidate",
+          "candidates": [
+            {
+              "field": "lote",
+              "raw_value": "8269652",
+              "normalized_value": "8269652",
+              "source": "RapidOCR_PP-OCRv4_fresh_baseline",
+              "recipe": "legacy_upright_header_same_row",
+              "polygon_original": [
+                [
+                  2314.245361328125,
+                  2060.823486328125
+                ],
+                [
+                  2485.980712890625,
+                  2127.931640625
+                ],
+                [
+                  2462.8916015625,
+                  2172.88818359375
+                ],
+                [
+                  2291.797119140625,
+                  2105.110107421875
+                ]
+              ],
+              "orientation": 0,
+              "confidence_raw": 0.9982032009533474,
+              "confidence_calibrated": null,
+              "character_confidences": null,
+              "character_confidence_limitation": "not exposed by current OCR interface",
+              "status": "candidate",
+              "evidence_ids": [
+                "legacy:copy-1:upright_header_same_row"
+              ],
+              "copy_id": "copy-1",
+              "matches_large_printed_number": false,
+              "legacy_observation": {
+                "raw_value": "8269652",
+                "normalized_value": "8269652",
+                "value": "8269652",
+                "field": "lote",
+                "copy_id": "copy-1",
+                "region_id": "label-0",
+                "polygon_original": [
+                  [
+                    2314.245361328125,
+                    2060.823486328125
+                  ],
+                  [
+                    2485.980712890625,
+                    2127.931640625
+                  ],
+                  [
+                    2462.8916015625,
+                    2172.88818359375
+                  ],
+                  [
+                    2291.797119140625,
+                    2105.110107421875
+                  ]
+                ],
+                "confidence": 0.9982032009533474,
+                "confidence_semantics": "uncalibrated OCR score",
+                "source": "RapidOCR_PP-OCRv4_fresh_baseline",
+                "method": "upright_header_same_row",
+                "status": "observed_candidate",
+                "ambiguities": [],
+                "provider_evidence": "baseline-gpu-proof.json"
+              },
+              "qualification_reasons": []
+            }
+          ],
+          "qualified_values": [
+            "8269652"
+          ],
+          "confidence_calibrated": null,
+          "human_review_required": true,
+          "selection_policy": "unique qualified observed value only; no majority or ground-truth selection"
+        },
+        "documento_entrada": {
+          "value": null,
+          "status": "missing",
+          "candidates": [],
+          "qualified_values": [],
+          "confidence_calibrated": null,
+          "human_review_required": true,
+          "selection_policy": "unique qualified observed value only; no majority or ground-truth selection"
+        },
+        "validade_impressa": {
+          "value": "2 ANO",
+          "status": "accepted_candidate",
+          "candidates": [
+            {
+              "field": "validade_impressa",
+              "raw_value": "2ANO",
+              "normalized_value": "2 ANO",
+              "source": "RapidOCR_PP-OCRv4_fresh_baseline",
+              "recipe": "legacy_geometry_ordered_blocks",
+              "polygon_original": [
+                [
+                  1932.13232421875,
+                  1994.795654296875
+                ],
+                [
+                  2128.047119140625,
+                  2071.391845703125
+                ],
+                [
+                  2105.81640625,
+                  2111.830810546875
+                ],
+                [
+                  1910.9439697265625,
+                  2033.73828125
+                ]
+              ],
+              "orientation": 0,
+              "confidence_raw": 0.8670953065156937,
+              "confidence_calibrated": null,
+              "character_confidences": null,
+              "character_confidence_limitation": "not exposed by current OCR interface",
+              "status": "candidate",
+              "evidence_ids": [
+                "legacy:copy-1:geometry_ordered_blocks"
+              ],
+              "copy_id": "copy-1",
+              "matches_large_printed_number": false,
+              "legacy_observation": {
+                "raw_value": "2ANO",
+                "normalized_value": "2 ANO",
+                "value": "2 ANO",
+                "field": "validade_impressa",
+                "copy_id": "copy-1",
+                "region_id": "label-0",
+                "polygon_original": [
+                  [
+                    1932.13232421875,
+                    1994.795654296875
+                  ],
+                  [
+                    2128.047119140625,
+                    2071.391845703125
+                  ],
+                  [
+                    2105.81640625,
+                    2111.830810546875
+                  ],
+                  [
+                    1910.9439697265625,
+                    2033.73828125
+                  ]
+                ],
+                "confidence": 0.8670953065156937,
+                "confidence_semantics": "uncalibrated OCR score",
+                "source": "RapidOCR_PP-OCRv4_fresh_baseline",
+                "method": "geometry_ordered_blocks",
+                "status": "observed_printed_value",
+                "ambiguities": [],
+                "spatial_association_verified": true,
+                "identity_association_eligible": true,
+                "identity_eligibility_reason": "not identity field",
+                "provider_evidence": "baseline-gpu-proof.json"
+              },
+              "qualification_reasons": []
+            },
+            {
+              "field": "validade_impressa",
+              "raw_value": "2 ANO",
+              "normalized_value": "2 ANO",
+              "source": "RapidOCR_PP-OCRv4",
+              "recipe": "legacy_color_1x",
+              "polygon_original": [
+                [
+                  2128.966796875,
+                  2071.764404296875
+                ],
+                [
+                  2106.371337890625,
+                  2114.929931640625
+                ],
+                [
+                  1981.8072509765625,
+                  2065.6669921875
+                ],
+                [
+                  1915.3499755859375,
+                  2033.6715087890625
+                ],
+                [
+                  1935.254638671875,
+                  1998.849365234375
+                ],
+                [
+                  2004.1865234375,
+                  2024.011962890625
+                ]
+              ],
+              "orientation": 0,
+              "confidence_raw": 0.9829814831415812,
+              "confidence_calibrated": null,
+              "character_confidences": null,
+              "character_confidence_limitation": "not exposed by current OCR interface",
+              "status": "candidate",
+              "evidence_ids": [
+                "legacy:copy-1:color_1x"
+              ],
+              "copy_id": "copy-1",
+              "matches_large_printed_number": false,
+              "legacy_observation": {
+                "raw_value": "2 ANO",
+                "normalized_value": "2 ANO",
+                "value": "2 ANO",
+                "field": "validade_impressa",
+                "copy_id": "copy-1",
+                "region_id": "label-0",
+                "polygon_original": [
+                  [
+                    2128.966796875,
+                    2071.764404296875
+                  ],
+                  [
+                    2106.371337890625,
+                    2114.929931640625
+                  ],
+                  [
+                    1981.8072509765625,
+                    2065.6669921875
+                  ],
+                  [
+                    1915.3499755859375,
+                    2033.6715087890625
+                  ],
+                  [
+                    1935.254638671875,
+                    1998.849365234375
+                  ],
+                  [
+                    2004.1865234375,
+                    2024.011962890625
+                  ]
+                ],
+                "confidence": 0.9829814831415812,
+                "confidence_semantics": "uncalibrated OCR score",
+                "source": "RapidOCR_PP-OCRv4",
+                "method": "color_1x",
+                "status": "observed_printed_value",
+                "ambiguities": [],
+                "spatial_association_verified": true,
+                "provider_evidence": "recovery-gpu-proof.json"
+              },
+              "qualification_reasons": []
+            },
+            {
+              "field": "validade_impressa",
+              "raw_value": "2 ANO",
+              "normalized_value": "2 ANO",
+              "source": "RapidOCR_PP-OCRv4",
+              "recipe": "legacy_color_2x",
+              "polygon_original": [
+                [
+                  2128.574951171875,
+                  2073.500732421875
+                ],
+                [
+                  2105.2666015625,
+                  2115.912353515625
+                ],
+                [
+                  1981.57470703125,
+                  2065.098876953125
+                ],
+                [
+                  1915.3416748046875,
+                  2032.7305908203125
+                ],
+                [
+                  1935.9122314453125,
+                  1998.6513671875
+                ],
+                [
+                  2005.0640869140625,
+                  2023.43212890625
+                ]
+              ],
+              "orientation": 0,
+              "confidence_raw": 0.9851870735486349,
+              "confidence_calibrated": null,
+              "character_confidences": null,
+              "character_confidence_limitation": "not exposed by current OCR interface",
+              "status": "candidate",
+              "evidence_ids": [
+                "legacy:copy-1:color_2x"
+              ],
+              "copy_id": "copy-1",
+              "matches_large_printed_number": false,
+              "legacy_observation": {
+                "raw_value": "2 ANO",
+                "normalized_value": "2 ANO",
+                "value": "2 ANO",
+                "field": "validade_impressa",
+                "copy_id": "copy-1",
+                "region_id": "label-0",
+                "polygon_original": [
+                  [
+                    2128.574951171875,
+                    2073.500732421875
+                  ],
+                  [
+                    2105.2666015625,
+                    2115.912353515625
+                  ],
+                  [
+                    1981.57470703125,
+                    2065.098876953125
+                  ],
+                  [
+                    1915.3416748046875,
+                    2032.7305908203125
+                  ],
+                  [
+                    1935.9122314453125,
+                    1998.6513671875
+                  ],
+                  [
+                    2005.0640869140625,
+                    2023.43212890625
+                  ]
+                ],
+                "confidence": 0.9851870735486349,
+                "confidence_semantics": "uncalibrated OCR score",
+                "source": "RapidOCR_PP-OCRv4",
+                "method": "color_2x",
+                "status": "observed_printed_value",
+                "ambiguities": [],
+                "spatial_association_verified": true,
+                "provider_evidence": "recovery-gpu-proof.json"
+              },
+              "qualification_reasons": []
+            },
+            {
+              "field": "validade_impressa",
+              "raw_value": "2 ANO",
+              "normalized_value": "2 ANO",
+              "source": "RapidOCR_PP-OCRv4",
+              "recipe": "legacy_gray",
+              "polygon_original": [
+                [
+                  2129.4609375,
+                  2072.912109375
+                ],
+                [
+                  2105.5126953125,
+                  2116.492431640625
+                ],
+                [
+                  1981.8072509765625,
+                  2065.6669921875
+                ],
+                [
+                  1915.3499755859375,
+                  2033.6715087890625
+                ],
+                [
+                  1935.254638671875,
+                  1998.849365234375
+                ],
+                [
+                  2005.941650390625,
+                  2022.852294921875
+                ]
+              ],
+              "orientation": 0,
+              "confidence_raw": 0.9882315595944723,
+              "confidence_calibrated": null,
+              "character_confidences": null,
+              "character_confidence_limitation": "not exposed by current OCR interface",
+              "status": "candidate",
+              "evidence_ids": [
+                "legacy:copy-1:gray"
+              ],
+              "copy_id": "copy-1",
+              "matches_large_printed_number": false,
+              "legacy_observation": {
+                "raw_value": "2 ANO",
+                "normalized_value": "2 ANO",
+                "value": "2 ANO",
+                "field": "validade_impressa",
+                "copy_id": "copy-1",
+                "region_id": "label-0",
+                "polygon_original": [
+                  [
+                    2129.4609375,
+                    2072.912109375
+                  ],
+                  [
+                    2105.5126953125,
+                    2116.492431640625
+                  ],
+                  [
+                    1981.8072509765625,
+                    2065.6669921875
+                  ],
+                  [
+                    1915.3499755859375,
+                    2033.6715087890625
+                  ],
+                  [
+                    1935.254638671875,
+                    1998.849365234375
+                  ],
+                  [
+                    2005.941650390625,
+                    2022.852294921875
+                  ]
+                ],
+                "confidence": 0.9882315595944723,
+                "confidence_semantics": "uncalibrated OCR score",
+                "source": "RapidOCR_PP-OCRv4",
+                "method": "gray",
+                "status": "observed_printed_value",
+                "ambiguities": [],
+                "spatial_association_verified": true,
+                "provider_evidence": "recovery-gpu-proof.json"
+              },
+              "qualification_reasons": []
+            }
+          ],
+          "qualified_values": [
+            "2 ANO"
+          ],
+          "confidence_calibrated": null,
+          "human_review_required": true,
+          "selection_policy": "unique qualified observed value only; no majority or ground-truth selection"
+        },
+        "sscc": {
+          "value": null,
+          "status": "conflicting",
+          "candidates": [
+            {
+              "field": "sscc",
+              "raw_value": "(00)100789465029216585",
+              "normalized_value": "100789465029216585",
+              "source": "ZXing-C++",
+              "recipe": "legacy_rectified_copy_color",
+              "polygon_original": [
+                [
+                  840.4588012695312,
+                  2061.696044921875
+                ],
+                [
+                  2361.0341796875,
+                  2771.757080078125
+                ],
+                [
+                  2158.134765625,
+                  3261.85498046875
+                ],
+                [
+                  595.7352294921875,
+                  2437.121337890625
+                ]
+              ],
+              "orientation": 0,
+              "confidence_raw": null,
+              "confidence_calibrated": null,
+              "character_confidences": null,
+              "character_confidence_limitation": "not exposed by current OCR interface",
+              "status": "candidate",
+              "evidence_ids": [
+                "legacy:copy-1:rectified_copy_color"
+              ],
+              "copy_id": "copy-1",
+              "matches_large_printed_number": false,
+              "legacy_observation": {
+                "raw_value": "(00)100789465029216585",
+                "normalized_value": "100789465029216585",
+                "value": "100789465029216585",
+                "field": "sscc",
+                "copy_id": "copy-1",
+                "region_id": "label-0",
+                "polygon_original": [
+                  [
+                    840.4588012695312,
+                    2061.696044921875
+                  ],
+                  [
+                    2361.0341796875,
+                    2771.757080078125
+                  ],
+                  [
+                    2158.134765625,
+                    3261.85498046875
+                  ],
+                  [
+                    595.7352294921875,
+                    2437.121337890625
+                  ]
+                ],
+                "confidence": null,
+                "confidence_semantics": "not provided",
+                "source": "ZXing-C++",
+                "method": "rectified_copy_color",
+                "status": "observed_candidate",
+                "ambiguities": [],
+                "spatial_association_verified": true,
+                "symbology_identifier": "]C1",
+                "ai": "00"
+              },
+              "qualification_reasons": []
+            },
+            {
+              "field": "sscc",
+              "raw_value": "(00)100789465029216585",
+              "normalized_value": "100789465029216585",
+              "source": "ZXing-C++",
+              "recipe": "legacy_rectified_copy_blue",
+              "polygon_original": [
+                [
+                  840.4588012695312,
+                  2061.696044921875
+                ],
+                [
+                  2361.0341796875,
+                  2771.757080078125
+                ],
+                [
+                  2160.080810546875,
+                  3257.9013671875
+                ],
+                [
+                  597.7994384765625,
+                  2434.040283203125
+                ]
+              ],
+              "orientation": 0,
+              "confidence_raw": null,
+              "confidence_calibrated": null,
+              "character_confidences": null,
+              "character_confidence_limitation": "not exposed by current OCR interface",
+              "status": "candidate",
+              "evidence_ids": [
+                "legacy:copy-1:rectified_copy_blue"
+              ],
+              "copy_id": "copy-1",
+              "matches_large_printed_number": false,
+              "legacy_observation": {
+                "raw_value": "(00)100789465029216585",
+                "normalized_value": "100789465029216585",
+                "value": "100789465029216585",
+                "field": "sscc",
+                "copy_id": "copy-1",
+                "region_id": "label-0",
+                "polygon_original": [
+                  [
+                    840.4588012695312,
+                    2061.696044921875
+                  ],
+                  [
+                    2361.0341796875,
+                    2771.757080078125
+                  ],
+                  [
+                    2160.080810546875,
+                    3257.9013671875
+                  ],
+                  [
+                    597.7994384765625,
+                    2434.040283203125
+                  ]
+                ],
+                "confidence": null,
+                "confidence_semantics": "not provided",
+                "source": "ZXing-C++",
+                "method": "rectified_copy_blue",
+                "status": "observed_candidate",
+                "ambiguities": [],
+                "spatial_association_verified": true,
+                "symbology_identifier": "]C1",
+                "ai": "00"
+              },
+              "qualification_reasons": []
+            },
+            {
+              "field": "sscc",
+              "raw_value": "(00)1 00 70946 502921656 5",
+              "normalized_value": "100709465029216565",
+              "source": "RapidOCR_PP-OCRv4",
+              "recipe": "legacy_adaptive",
+              "polygon_original": [
+                [
+                  1620.5513916015625,
+                  2296.865478515625
+                ],
+                [
+                  1593.57958984375,
+                  2358.148681640625
+                ],
+                [
+                  1478.2822265625,
+                  2337.236083984375
+                ],
+                [
+                  785.4940185546875,
+                  2003.35400390625
+                ],
+                [
+                  841.9942016601562,
+                  1921.5919189453125
+                ],
+                [
+                  1534.2506103515625,
+                  2246.90673828125
+                ]
+              ],
+              "orientation": 0,
+              "confidence_raw": 0.8276717563470205,
+              "confidence_calibrated": null,
+              "character_confidences": null,
+              "character_confidence_limitation": "not exposed by current OCR interface",
+              "status": "candidate",
+              "evidence_ids": [
+                "legacy:copy-1:adaptive"
+              ],
+              "copy_id": "copy-1",
+              "matches_large_printed_number": false,
+              "legacy_observation": {
+                "raw_value": "(00)1 00 70946 502921656 5",
+                "normalized_value": "100709465029216565",
+                "value": "100709465029216565",
+                "field": "sscc",
+                "copy_id": "copy-1",
+                "region_id": "label-0",
+                "polygon_original": [
+                  [
+                    1620.5513916015625,
+                    2296.865478515625
+                  ],
+                  [
+                    1593.57958984375,
+                    2358.148681640625
+                  ],
+                  [
+                    1478.2822265625,
+                    2337.236083984375
+                  ],
+                  [
+                    785.4940185546875,
+                    2003.35400390625
+                  ],
+                  [
+                    841.9942016601562,
+                    1921.5919189453125
+                  ],
+                  [
+                    1534.2506103515625,
+                    2246.90673828125
+                  ]
+                ],
+                "confidence": 0.8276717563470205,
+                "confidence_semantics": "uncalibrated OCR score",
+                "source": "RapidOCR_PP-OCRv4",
+                "method": "adaptive",
+                "status": "observed_candidate",
+                "ambiguities": [],
+                "spatial_association_verified": true,
+                "provider_evidence": "recovery-gpu-proof.json"
+              },
+              "qualification_reasons": []
+            }
+          ],
+          "qualified_values": [
+            "100709465029216565",
+            "100789465029216585"
+          ],
+          "confidence_calibrated": null,
+          "human_review_required": true,
+          "selection_policy": "unique qualified observed value only; no majority or ground-truth selection"
+        }
+      },
+      "raw_OCR_blocks": [
+        {
+          "id": 0,
+          "text": "1EM328858",
+          "confidence": 0.8513208362791274,
+          "polygon_local": [
+            [
+              27.0,
+              60.0
+            ],
+            [
+              385.0,
+              65.0
+            ],
+            [
+              385.0,
+              121.0
+            ],
+            [
+              26.0,
+              117.0
+            ]
+          ],
+          "confidence_semantics": "uncalibrated OCR score",
+          "polygon_original": [
+            [
+              1129.902587890625,
+              1520.6265869140625
+            ],
+            [
+              1394.6536865234375,
+              1627.582763671875
+            ],
+            [
+              1370.2816162109375,
+              1665.3709716796875
+            ],
+            [
+              1104.167724609375,
+              1557.2412109375
+            ]
+          ]
+        },
+        {
+          "id": 1,
+          "text": "GLADE DIFUS LAVANDA 100ML 12",
+          "confidence": 0.9511687713009971,
+          "polygon_local": [
+            [
+              906.0,
+              63.0
+            ],
+            [
+              1810.0,
+              52.0
+            ],
+            [
+              1811.0,
+              118.0
+            ],
+            [
+              907.0,
+              128.0
+            ]
+          ],
+          "confidence_semantics": "uncalibrated OCR score",
+          "polygon_original": [
+            [
+              1815.0870361328125,
+              1789.19873046875
+            ],
+            [
+              2650.4638671875,
+              2103.1162109375
+            ],
+            [
+              2624.892578125,
+              2156.71875
+            ],
+            [
+              1788.1640625,
+              1836.229248046875
+            ]
+          ]
+        },
+        {
+          "id": 2,
+          "text": "OIDE",
+          "confidence": 0.6191768907010555,
+          "polygon_local": [
+            [
+              43.0,
+              146.0
+            ],
+            [
+              208.0,
+              146.0
+            ],
+            [
+              208.0,
+              206.0
+            ],
+            [
+              43.0,
+              206.0
+            ]
+          ],
+          "confidence_semantics": "uncalibrated OCR score",
+          "polygon_original": [
+            [
+              1103.6934814453125,
+              1580.999267578125
+            ],
+            [
+              1225.1536865234375,
+              1629.1422119140625
+            ],
+            [
+              1198.633544921875,
+              1669.2403564453125
+            ],
+            [
+              1077.0784912109375,
+              1620.34814453125
+            ]
+          ]
+        },
+        {
+          "id": 3,
+          "text": "BT:",
+          "confidence": 0.9742147127787272,
+          "polygon_local": [
+            [
+              844.0,
+              147.0
+            ],
+            [
+              943.0,
+              149.0
+            ],
+            [
+              941.0,
+              210.0
+            ],
+            [
+              842.0,
+              207.0
+            ]
+          ],
+          "confidence_semantics": "uncalibrated OCR score",
+          "polygon_original": [
+            [
+              1727.0538330078125,
+              1828.9683837890625
+            ],
+            [
+              1809.672119140625,
+              1863.518310546875
+            ],
+            [
+              1781.648681640625,
+              1907.37060546875
+            ],
+            [
+              1699.390869140625,
+              1871.554931640625
+            ]
+          ]
+        },
+        {
+          "id": 4,
+          "text": "LT:",
+          "confidence": 0.9697580933570862,
+          "polygon_local": [
+            [
+              1319.0,
+              145.0
+            ],
+            [
+              1396.0,
+              145.0
+            ],
+            [
+              1396.0,
+              205.0
+            ],
+            [
+              1319.0,
+              205.0
+            ]
+          ],
+          "confidence_semantics": "uncalibrated OCR score",
+          "polygon_original": [
+            [
+              2142.758056640625,
+              1991.92236328125
+            ],
+            [
+              2213.56591796875,
+              2019.9815673828125
+            ],
+            [
+              2188.31591796875,
+              2066.366455078125
+            ],
+            [
+              2117.387939453125,
+              2037.8446044921875
+            ]
+          ]
+        },
+        {
+          "id": 5,
+          "text": "8269652",
+          "confidence": 0.9981345789773124,
+          "polygon_local": [
+            [
+              1501.0,
+              143.0
+            ],
+            [
+              1683.0,
+              143.0
+            ],
+            [
+              1683.0,
+              202.0
+            ],
+            [
+              1501.0,
+              202.0
+            ]
+          ],
+          "confidence_semantics": "uncalibrated OCR score",
+          "polygon_original": [
+            [
+              2312.65673828125,
+              2057.358154296875
+            ],
+            [
+              2487.78125,
+              2126.720947265625
+            ],
+            [
+              2463.458740234375,
+              2174.0888671875
+            ],
+            [
+              2288.0078125,
+              2103.58740234375
+            ]
+          ]
+        },
+        {
+          "id": 6,
+          "text": "1八",
+          "confidence": 0.6288328468799591,
+          "polygon_local": [
+            [
+              569.0,
+              155.0
+            ],
+            [
+              619.0,
+              160.0
+            ],
+            [
+              615.0,
+              203.0
+            ],
+            [
+              564.0,
+              198.0
+            ]
+          ],
+          "confidence_semantics": "uncalibrated OCR score",
+          "polygon_original": [
+            [
+              1499.3900146484375,
+              1745.6500244140625
+            ],
+            [
+              1537.1578369140625,
+              1765.016845703125
+            ],
+            [
+              1515.1495361328125,
+              1793.90966796875
+            ],
+            [
+              1476.59619140625,
+              1774.0361328125
+            ]
+          ]
+        },
+        {
+          "id": 7,
+          "text": "IASIRO",
+          "confidence": 0.7782217860221863,
+          "polygon_local": [
+            [
+              20.0,
+              227.0
+            ],
+            [
+              194.0,
+              232.0
+            ],
+            [
+              192.0,
+              292.0
+            ],
+            [
+              19.0,
+              287.0
+            ]
+          ],
+          "confidence_semantics": "uncalibrated OCR score",
+          "polygon_original": [
+            [
+              1051.0374755859375,
+              1627.449462890625
+            ],
+            [
+              1176.6251220703125,
+              1682.4827880859375
+            ],
+            [
+              1148.305419921875,
+              1722.3541259765625
+            ],
+            [
+              1023.4083862304688,
+              1666.80859375
+            ]
+          ]
+        },
+        {
+          "id": 8,
+          "text": "VALIDADE",
+          "confidence": 0.9627633839845657,
+          "polygon_local": [
+            [
+              722.0,
+              236.0
+            ],
+            [
+              938.0,
+              239.0
+            ],
+            [
+              937.0,
+              290.0
+            ],
+            [
+              722.0,
+              288.0
+            ]
+          ],
+          "confidence_semantics": "uncalibrated OCR score",
+          "polygon_original": [
+            [
+              1587.41650390625,
+              1852.338623046875
+            ],
+            [
+              1766.500244140625,
+              1927.635498046875
+            ],
+            [
+              1743.3758544921875,
+              1964.9420166015625
+            ],
+            [
+              1564.519287109375,
+              1889.7056884765625
+            ]
+          ]
+        },
+        {
+          "id": 9,
+          "text": "2ANO",
+          "confidence": 0.8670953065156937,
+          "polygon_local": [
+            [
+              1129.0,
+              239.0
+            ],
+            [
+              1345.0,
+              236.0
+            ],
+            [
+              1345.0,
+              288.0
+            ],
+            [
+              1130.0,
+              290.0
+            ]
+          ],
+          "confidence_semantics": "uncalibrated OCR score",
+          "polygon_original": [
+            [
+              1932.13232421875,
+              1994.795654296875
+            ],
+            [
+              2128.047119140625,
+              2071.391845703125
+            ],
+            [
+              2105.81640625,
+              2111.830810546875
+            ],
+            [
+              1910.9439697265625,
+              2033.73828125
+            ]
+          ]
+        },
+        {
+          "id": 10,
+          "text": "D001N1nADA5079943000",
+          "confidence": 0.700951624661684,
+          "polygon_local": [
+            [
+              19.0,
+              311.0
+            ],
+            [
+              618.0,
+              316.0
+            ],
+            [
+              618.0,
+              368.0
+            ],
+            [
+              19.0,
+              362.0
+            ]
+          ],
+          "confidence_semantics": "uncalibrated OCR score",
+          "polygon_original": [
+            [
+              1012.587890625,
+              1682.7552490234375
+            ],
+            [
+              1467.636474609375,
+              1875.0296630859375
+            ],
+            [
+              1444.405029296875,
+              1912.3291015625
+            ],
+            [
+              989.4827270507812,
+              1716.8062744140625
+            ]
+          ]
+        },
+        {
+          "id": 11,
+          "text": "FORN.",
+          "confidence": 0.8706475019454956,
+          "polygon_local": [
+            [
+              761.0,
+              312.0
+            ],
+            [
+              879.0,
+              312.0
+            ],
+            [
+              879.0,
+              374.0
+            ],
+            [
+              761.0,
+              374.0
+            ]
+          ],
+          "confidence_semantics": "uncalibrated OCR score",
+          "polygon_original": [
+            [
+              1585.9903564453125,
+              1920.289306640625
+            ],
+            [
+              1684.5047607421875,
+              1960.952880859375
+            ],
+            [
+              1657.0631103515625,
+              2006.89404296875
+            ],
+            [
+              1558.4237060546875,
+              1965.5582275390625
+            ]
+          ]
+        },
+        {
+          "id": 12,
+          "text": "78946502921658",
+          "confidence": 0.9981983006000519,
+          "polygon_local": [
+            [
+              98.0,
+              396.0
+            ],
+            [
+              1669.0,
+              401.0
+            ],
+            [
+              1668.0,
+              593.0
+            ],
+            [
+              98.0,
+              588.0
+            ]
+          ],
+          "confidence_semantics": "uncalibrated OCR score",
+          "polygon_original": [
+            [
+              1031.6546630859375,
+              1763.9251708984375
+            ],
+            [
+              2366.010009765625,
+              2331.151123046875
+            ],
+            [
+              2281.8125,
+              2492.276123046875
+            ],
+            [
+              943.0093994140625,
+              1895.952392578125
+            ]
+          ]
+        },
+        {
+          "id": 13,
+          "text": "8600",
+          "confidence": 0.9510719329118729,
+          "polygon_local": [
+            [
+              11.0,
+              625.0
+            ],
+            [
+              126.0,
+              625.0
+            ],
+            [
+              126.0,
+              673.0
+            ],
+            [
+              11.0,
+              673.0
+            ]
+          ],
+          "confidence_semantics": "uncalibrated OCR score",
+          "polygon_original": [
+            [
+              862.0612182617188,
+              1893.444580078125
+            ],
+            [
+              946.3460693359375,
+              1930.9937744140625
+            ],
+            [
+              923.7313232421875,
+              1964.8040771484375
+            ],
+            [
+              839.4072875976562,
+              1926.7952880859375
+            ]
+          ]
+        },
+        {
+          "id": 14,
+          "text": "(00)",
+          "confidence": 0.8267161846160889,
+          "polygon_local": [
+            [
+              23.0,
+              681.0
+            ],
+            [
+              128.0,
+              691.0
+            ],
+            [
+              120.0,
+              771.0
+            ],
+            [
+              15.0,
+              761.0
+            ]
+          ],
+          "confidence_semantics": "uncalibrated OCR score",
+          "polygon_original": [
+            [
+              844.3378295898438,
+              1936.3125
+            ],
+            [
+              916.6953735351562,
+              1978.2095947265625
+            ],
+            [
+              872.6609497070312,
+              2032.4569091796875
+            ],
+            [
+              800.4069213867188,
+              1989.8287353515625
+            ]
+          ]
+        },
+        {
+          "id": 15,
+          "text": "70940",
+          "confidence": 0.9185755014419555,
+          "polygon_local": [
+            [
+              313.0,
+              698.0
+            ],
+            [
+              534.0,
+              702.0
+            ],
+            [
+              533.0,
+              765.0
+            ],
+            [
+              312.0,
+              762.0
+            ]
+          ],
+          "confidence_semantics": "uncalibrated OCR score",
+          "polygon_original": [
+            [
+              1052.779541015625,
+              2046.390625
+            ],
+            [
+              1223.64501953125,
+              2127.71435546875
+            ],
+            [
+              1193.07177734375,
+              2174.542236328125
+            ],
+            [
+              1021.630859375,
+              2092.658203125
+            ]
+          ]
+        }
+      ],
+      "anchors": [
+        {
+          "field": "lote",
+          "block_id": 4,
+          "raw_anchor_text": "LT:",
+          "normalized_anchor": "LOTE",
+          "rule": "right_header_LOTE_caption",
+          "box": [
+            1319.0,
+            145.0,
+            1396.0,
+            205.0
+          ],
+          "polygon_local": [
+            [
+              1319.0,
+              145.0
+            ],
+            [
+              1396.0,
+              145.0
+            ],
+            [
+              1396.0,
+              205.0
+            ],
+            [
+              1319.0,
+              205.0
+            ]
+          ],
+          "confidence_raw": 0.9697580933570862
+        },
+        {
+          "field": "validade_impressa",
+          "block_id": 8,
+          "raw_anchor_text": "VALIDADE",
+          "normalized_anchor": "VALIDADE",
+          "rule": "literal_VALIDADE",
+          "box": [
+            722.0,
+            236.0,
+            938.0,
+            290.0
+          ],
+          "polygon_local": [
+            [
+              722.0,
+              236.0
+            ],
+            [
+              938.0,
+              239.0
+            ],
+            [
+              937.0,
+              290.0
+            ],
+            [
+              722.0,
+              288.0
+            ]
+          ],
+          "confidence_raw": 0.9627633839845657
+        }
+      ],
+      "orientation": {
+        "selected_angle": null,
+        "status": "conflicting_or_insufficient_orientation",
+        "plausible_angles": [
+          0,
+          90,
+          180,
+          270
+        ],
+        "trials": [
+          {
+            "angle": 0,
+            "score": 4,
+            "anchor_fields": [
+              "lote",
+              "validade_impressa"
+            ],
+            "OCR_outputs": [
+              {
+                "id": 0,
+                "text": "1EM328858",
+                "confidence": 0.8513208362791274,
+                "polygon_local": [
+                  [
+                    27.0,
+                    60.0
+                  ],
+                  [
+                    385.0,
+                    65.0
+                  ],
+                  [
+                    385.0,
+                    121.0
+                  ],
+                  [
+                    26.0,
+                    117.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 1,
+                "text": "GLADE DIFUS LAVANDA 100ML 12",
+                "confidence": 0.9511687713009971,
+                "polygon_local": [
+                  [
+                    906.0,
+                    63.0
+                  ],
+                  [
+                    1810.0,
+                    52.0
+                  ],
+                  [
+                    1811.0,
+                    118.0
+                  ],
+                  [
+                    907.0,
+                    128.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 2,
+                "text": "OIDE",
+                "confidence": 0.6191768907010555,
+                "polygon_local": [
+                  [
+                    43.0,
+                    146.0
+                  ],
+                  [
+                    208.0,
+                    146.0
+                  ],
+                  [
+                    208.0,
+                    206.0
+                  ],
+                  [
+                    43.0,
+                    206.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 3,
+                "text": "BT:",
+                "confidence": 0.9742147127787272,
+                "polygon_local": [
+                  [
+                    844.0,
+                    147.0
+                  ],
+                  [
+                    943.0,
+                    149.0
+                  ],
+                  [
+                    941.0,
+                    210.0
+                  ],
+                  [
+                    842.0,
+                    207.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 4,
+                "text": "LT:",
+                "confidence": 0.9697580933570862,
+                "polygon_local": [
+                  [
+                    1319.0,
+                    145.0
+                  ],
+                  [
+                    1396.0,
+                    145.0
+                  ],
+                  [
+                    1396.0,
+                    205.0
+                  ],
+                  [
+                    1319.0,
+                    205.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 5,
+                "text": "8269652",
+                "confidence": 0.9981345789773124,
+                "polygon_local": [
+                  [
+                    1501.0,
+                    143.0
+                  ],
+                  [
+                    1683.0,
+                    143.0
+                  ],
+                  [
+                    1683.0,
+                    202.0
+                  ],
+                  [
+                    1501.0,
+                    202.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 6,
+                "text": "1八",
+                "confidence": 0.6288328468799591,
+                "polygon_local": [
+                  [
+                    569.0,
+                    155.0
+                  ],
+                  [
+                    619.0,
+                    160.0
+                  ],
+                  [
+                    615.0,
+                    203.0
+                  ],
+                  [
+                    564.0,
+                    198.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 7,
+                "text": "IASIRO",
+                "confidence": 0.7782217860221863,
+                "polygon_local": [
+                  [
+                    20.0,
+                    227.0
+                  ],
+                  [
+                    194.0,
+                    232.0
+                  ],
+                  [
+                    192.0,
+                    292.0
+                  ],
+                  [
+                    19.0,
+                    287.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 8,
+                "text": "VALIDADE",
+                "confidence": 0.9627633839845657,
+                "polygon_local": [
+                  [
+                    722.0,
+                    236.0
+                  ],
+                  [
+                    938.0,
+                    239.0
+                  ],
+                  [
+                    937.0,
+                    290.0
+                  ],
+                  [
+                    722.0,
+                    288.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 9,
+                "text": "2ANO",
+                "confidence": 0.8670953065156937,
+                "polygon_local": [
+                  [
+                    1129.0,
+                    239.0
+                  ],
+                  [
+                    1345.0,
+                    236.0
+                  ],
+                  [
+                    1345.0,
+                    288.0
+                  ],
+                  [
+                    1130.0,
+                    290.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 10,
+                "text": "D001N1nADA5079943000",
+                "confidence": 0.700951624661684,
+                "polygon_local": [
+                  [
+                    19.0,
+                    311.0
+                  ],
+                  [
+                    618.0,
+                    316.0
+                  ],
+                  [
+                    618.0,
+                    368.0
+                  ],
+                  [
+                    19.0,
+                    362.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 11,
+                "text": "FORN.",
+                "confidence": 0.8706475019454956,
+                "polygon_local": [
+                  [
+                    761.0,
+                    312.0
+                  ],
+                  [
+                    879.0,
+                    312.0
+                  ],
+                  [
+                    879.0,
+                    374.0
+                  ],
+                  [
+                    761.0,
+                    374.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 12,
+                "text": "78946502921658",
+                "confidence": 0.9981983006000519,
+                "polygon_local": [
+                  [
+                    98.0,
+                    396.0
+                  ],
+                  [
+                    1669.0,
+                    401.0
+                  ],
+                  [
+                    1668.0,
+                    593.0
+                  ],
+                  [
+                    98.0,
+                    588.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 13,
+                "text": "8600",
+                "confidence": 0.9510719329118729,
+                "polygon_local": [
+                  [
+                    11.0,
+                    625.0
+                  ],
+                  [
+                    126.0,
+                    625.0
+                  ],
+                  [
+                    126.0,
+                    673.0
+                  ],
+                  [
+                    11.0,
+                    673.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 14,
+                "text": "(00)",
+                "confidence": 0.8267161846160889,
+                "polygon_local": [
+                  [
+                    23.0,
+                    681.0
+                  ],
+                  [
+                    128.0,
+                    691.0
+                  ],
+                  [
+                    120.0,
+                    771.0
+                  ],
+                  [
+                    15.0,
+                    761.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 15,
+                "text": "70940",
+                "confidence": 0.9185755014419555,
+                "polygon_local": [
+                  [
+                    313.0,
+                    698.0
+                  ],
+                  [
+                    534.0,
+                    702.0
+                  ],
+                  [
+                    533.0,
+                    765.0
+                  ],
+                  [
+                    312.0,
+                    762.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              }
+            ],
+            "SSCC_qualification": "global fragments not identity proof"
+          },
+          {
+            "angle": 90,
+            "score": 2,
+            "anchor_fields": [
+              "validade_impressa"
+            ],
+            "OCR_outputs": [
+              {
+                "id": 0,
+                "text": "GLADE DIFUS LAVANDA 100ML 12",
+                "confidence": 0.9402537399104663,
+                "polygon_local": [
+                  [
+                    55.0,
+                    127.0
+                  ],
+                  [
+                    121.0,
+                    127.0
+                  ],
+                  [
+                    129.0,
+                    1034.0
+                  ],
+                  [
+                    64.0,
+                    1035.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 1,
+                "text": "8269652",
+                "confidence": 0.9986461060387748,
+                "polygon_local": [
+                  [
+                    145.0,
+                    252.0
+                  ],
+                  [
+                    203.0,
+                    252.0
+                  ],
+                  [
+                    203.0,
+                    437.0
+                  ],
+                  [
+                    145.0,
+                    437.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 2,
+                "text": "78946502921658",
+                "confidence": 0.9979576851640429,
+                "polygon_local": [
+                  [
+                    391.0,
+                    259.0
+                  ],
+                  [
+                    609.0,
+                    260.0
+                  ],
+                  [
+                    601.0,
+                    1853.0
+                  ],
+                  [
+                    382.0,
+                    1851.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 3,
+                "text": "LT:",
+                "confidence": 0.8461862802505493,
+                "polygon_local": [
+                  [
+                    150.0,
+                    485.0
+                  ],
+                  [
+                    202.0,
+                    485.0
+                  ],
+                  [
+                    202.0,
+                    622.0
+                  ],
+                  [
+                    150.0,
+                    622.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 4,
+                "text": "ANO",
+                "confidence": 0.9540197849273682,
+                "polygon_local": [
+                  [
+                    236.0,
+                    590.0
+                  ],
+                  [
+                    294.0,
+                    590.0
+                  ],
+                  [
+                    294.0,
+                    773.0
+                  ],
+                  [
+                    236.0,
+                    773.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 5,
+                "text": "VALIDADE",
+                "confidence": 0.9635344669222832,
+                "polygon_local": [
+                  [
+                    237.0,
+                    998.0
+                  ],
+                  [
+                    291.0,
+                    998.0
+                  ],
+                  [
+                    291.0,
+                    1219.0
+                  ],
+                  [
+                    237.0,
+                    1219.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 6,
+                "text": "0002766/09",
+                "confidence": 0.5606628462672234,
+                "polygon_local": [
+                  [
+                    320.0,
+                    1322.0
+                  ],
+                  [
+                    364.0,
+                    1322.0
+                  ],
+                  [
+                    364.0,
+                    1604.0
+                  ],
+                  [
+                    320.0,
+                    1604.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 7,
+                "text": "00002 001(00）",
+                "confidence": 0.7547743778962356,
+                "polygon_local": [
+                  [
+                    686.0,
+                    1394.0
+                  ],
+                  [
+                    776.0,
+                    1395.0
+                  ],
+                  [
+                    768.0,
+                    1918.0
+                  ],
+                  [
+                    678.0,
+                    1917.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 8,
+                "text": "3010",
+                "confidence": 0.7660882920026779,
+                "polygon_local": [
+                  [
+                    145.0,
+                    1727.0
+                  ],
+                  [
+                    208.0,
+                    1727.0
+                  ],
+                  [
+                    208.0,
+                    1899.0
+                  ],
+                  [
+                    145.0,
+                    1899.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 9,
+                "text": "ASIHO",
+                "confidence": 0.7420770287513733,
+                "polygon_local": [
+                  [
+                    232.0,
+                    1740.0
+                  ],
+                  [
+                    291.0,
+                    1740.0
+                  ],
+                  [
+                    291.0,
+                    1910.0
+                  ],
+                  [
+                    232.0,
+                    1910.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 10,
+                "text": "000",
+                "confidence": 0.7651793559392294,
+                "polygon_local": [
+                  [
+                    318.0,
+                    1822.0
+                  ],
+                  [
+                    362.0,
+                    1822.0
+                  ],
+                  [
+                    362.0,
+                    1908.0
+                  ],
+                  [
+                    318.0,
+                    1908.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              }
+            ],
+            "SSCC_qualification": "global fragments not identity proof"
+          },
+          {
+            "angle": 180,
+            "score": 2,
+            "anchor_fields": [
+              "validade_impressa"
+            ],
+            "OCR_outputs": [
+              {
+                "id": 0,
+                "text": "00601007",
+                "confidence": 0.7049532197415829,
+                "polygon_local": [
+                  [
+                    1405.0,
+                    566.0
+                  ],
+                  [
+                    1839.0,
+                    570.0
+                  ],
+                  [
+                    1839.0,
+                    637.0
+                  ],
+                  [
+                    1404.0,
+                    633.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 1,
+                "text": "(00",
+                "confidence": 0.7409649888674418,
+                "polygon_local": [
+                  [
+                    1819.0,
+                    568.0
+                  ],
+                  [
+                    1911.0,
+                    574.0
+                  ],
+                  [
+                    1907.0,
+                    642.0
+                  ],
+                  [
+                    1814.0,
+                    636.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 2,
+                "text": "78946502921658",
+                "confidence": 0.9770498318331582,
+                "polygon_local": [
+                  [
+                    270.0,
+                    740.0
+                  ],
+                  [
+                    1835.0,
+                    740.0
+                  ],
+                  [
+                    1835.0,
+                    935.0
+                  ],
+                  [
+                    270.0,
+                    935.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 3,
+                "text": "FORN.",
+                "confidence": 0.8219492852687835,
+                "polygon_local": [
+                  [
+                    1068.0,
+                    965.0
+                  ],
+                  [
+                    1171.0,
+                    965.0
+                  ],
+                  [
+                    1171.0,
+                    1020.0
+                  ],
+                  [
+                    1068.0,
+                    1020.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 4,
+                "text": "D00 1N1NADA5079943000",
+                "confidence": 0.7221276745909736,
+                "polygon_local": [
+                  [
+                    1316.0,
+                    966.0
+                  ],
+                  [
+                    1920.0,
+                    971.0
+                  ],
+                  [
+                    1920.0,
+                    1023.0
+                  ],
+                  [
+                    1316.0,
+                    1019.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 5,
+                "text": "2ANO",
+                "confidence": 0.9575362205505371,
+                "polygon_local": [
+                  [
+                    592.0,
+                    1046.0
+                  ],
+                  [
+                    806.0,
+                    1046.0
+                  ],
+                  [
+                    806.0,
+                    1097.0
+                  ],
+                  [
+                    592.0,
+                    1097.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 6,
+                "text": "VALIDADE:",
+                "confidence": 0.9358313348558214,
+                "polygon_local": [
+                  [
+                    994.0,
+                    1044.0
+                  ],
+                  [
+                    1217.0,
+                    1044.0
+                  ],
+                  [
+                    1217.0,
+                    1098.0
+                  ],
+                  [
+                    994.0,
+                    1098.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 7,
+                "text": "IASIRO",
+                "confidence": 0.7977631787459055,
+                "polygon_local": [
+                  [
+                    1744.0,
+                    1043.0
+                  ],
+                  [
+                    1917.0,
+                    1046.0
+                  ],
+                  [
+                    1916.0,
+                    1105.0
+                  ],
+                  [
+                    1743.0,
+                    1101.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 8,
+                "text": "8269652",
+                "confidence": 0.9983420372009277,
+                "polygon_local": [
+                  [
+                    255.0,
+                    1134.0
+                  ],
+                  [
+                    434.0,
+                    1134.0
+                  ],
+                  [
+                    434.0,
+                    1190.0
+                  ],
+                  [
+                    255.0,
+                    1190.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 9,
+                "text": "LT:",
+                "confidence": 0.9662958383560181,
+                "polygon_local": [
+                  [
+                    546.0,
+                    1132.0
+                  ],
+                  [
+                    616.0,
+                    1132.0
+                  ],
+                  [
+                    616.0,
+                    1185.0
+                  ],
+                  [
+                    546.0,
+                    1185.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 10,
+                "text": "BT:",
+                "confidence": 0.9748409191767374,
+                "polygon_local": [
+                  [
+                    996.0,
+                    1126.0
+                  ],
+                  [
+                    1094.0,
+                    1126.0
+                  ],
+                  [
+                    1094.0,
+                    1188.0
+                  ],
+                  [
+                    996.0,
+                    1188.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 11,
+                "text": "1010",
+                "confidence": 0.957226499915123,
+                "polygon_local": [
+                  [
+                    1732.0,
+                    1128.0
+                  ],
+                  [
+                    1894.0,
+                    1128.0
+                  ],
+                  [
+                    1894.0,
+                    1184.0
+                  ],
+                  [
+                    1732.0,
+                    1184.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 12,
+                "text": "GLADE DIFUS LAVANDA 100ML 12",
+                "confidence": 0.9734354657786233,
+                "polygon_local": [
+                  [
+                    129.0,
+                    1218.0
+                  ],
+                  [
+                    1029.0,
+                    1210.0
+                  ],
+                  [
+                    1030.0,
+                    1269.0
+                  ],
+                  [
+                    129.0,
+                    1278.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              }
+            ],
+            "SSCC_qualification": "global fragments not identity proof"
+          },
+          {
+            "angle": 270,
+            "score": 2,
+            "anchor_fields": [
+              "validade_impressa"
+            ],
+            "OCR_outputs": [
+              {
+                "id": 0,
+                "text": "(00）10070040",
+                "confidence": 0.8889516244331995,
+                "polygon_local": [
+                  [
+                    567.0,
+                    14.0
+                  ],
+                  [
+                    653.0,
+                    15.0
+                  ],
+                  [
+                    646.0,
+                    548.0
+                  ],
+                  [
+                    560.0,
+                    547.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 1,
+                "text": "D0O EN1HADA:5079943000",
+                "confidence": 0.778889848427339,
+                "polygon_local": [
+                  [
+                    967.0,
+                    16.0
+                  ],
+                  [
+                    1033.0,
+                    17.0
+                  ],
+                  [
+                    1021.0,
+                    624.0
+                  ],
+                  [
+                    954.0,
+                    622.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 2,
+                "text": "IASIRO",
+                "confidence": 0.7937325537204742,
+                "polygon_local": [
+                  [
+                    1040.0,
+                    24.0
+                  ],
+                  [
+                    1102.0,
+                    23.0
+                  ],
+                  [
+                    1106.0,
+                    194.0
+                  ],
+                  [
+                    1043.0,
+                    195.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 3,
+                "text": "1600",
+                "confidence": 0.8810569494962692,
+                "polygon_local": [
+                  [
+                    663.0,
+                    34.0
+                  ],
+                  [
+                    698.0,
+                    33.0
+                  ],
+                  [
+                    701.0,
+                    125.0
+                  ],
+                  [
+                    666.0,
+                    126.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 4,
+                "text": "CIDI",
+                "confidence": 0.5124094448983669,
+                "polygon_local": [
+                  [
+                    1128.0,
+                    40.0
+                  ],
+                  [
+                    1187.0,
+                    42.0
+                  ],
+                  [
+                    1182.0,
+                    205.0
+                  ],
+                  [
+                    1123.0,
+                    203.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 5,
+                "text": "78946502921658",
+                "confidence": 0.9978815913200378,
+                "polygon_local": [
+                  [
+                    732.0,
+                    97.0
+                  ],
+                  [
+                    951.0,
+                    97.0
+                  ],
+                  [
+                    951.0,
+                    1683.0
+                  ],
+                  [
+                    732.0,
+                    1683.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 6,
+                "text": "二",
+                "confidence": 0.996370792388916,
+                "polygon_local": [
+                  [
+                    1050.0,
+                    522.0
+                  ],
+                  [
+                    1092.0,
+                    522.0
+                  ],
+                  [
+                    1092.0,
+                    579.0
+                  ],
+                  [
+                    1050.0,
+                    579.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 7,
+                "text": "VALIDADE",
+                "confidence": 0.9472095146775246,
+                "polygon_local": [
+                  [
+                    1043.0,
+                    723.0
+                  ],
+                  [
+                    1097.0,
+                    723.0
+                  ],
+                  [
+                    1097.0,
+                    933.0
+                  ],
+                  [
+                    1043.0,
+                    933.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 8,
+                "text": "FORN",
+                "confidence": 0.8495503440499306,
+                "polygon_local": [
+                  [
+                    966.0,
+                    762.0
+                  ],
+                  [
+                    1023.0,
+                    762.0
+                  ],
+                  [
+                    1023.0,
+                    861.0
+                  ],
+                  [
+                    966.0,
+                    861.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 9,
+                "text": "GLADE DIFUS LAVANDA 100ML 12",
+                "confidence": 0.9425080056701388,
+                "polygon_local": [
+                  [
+                    1203.0,
+                    905.0
+                  ],
+                  [
+                    1271.0,
+                    904.0
+                  ],
+                  [
+                    1282.0,
+                    1812.0
+                  ],
+                  [
+                    1213.0,
+                    1813.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 10,
+                "text": "2ANO",
+                "confidence": 0.9456226080656052,
+                "polygon_local": [
+                  [
+                    1042.0,
+                    1129.0
+                  ],
+                  [
+                    1100.0,
+                    1129.0
+                  ],
+                  [
+                    1100.0,
+                    1349.0
+                  ],
+                  [
+                    1042.0,
+                    1349.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 11,
+                "text": "二",
+                "confidence": 0.9782041311264038,
+                "polygon_local": [
+                  [
+                    1137.0,
+                    1324.0
+                  ],
+                  [
+                    1179.0,
+                    1324.0
+                  ],
+                  [
+                    1179.0,
+                    1385.0
+                  ],
+                  [
+                    1137.0,
+                    1385.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              },
+              {
+                "id": 12,
+                "text": "8269652",
+                "confidence": 0.9984459110668727,
+                "polygon_local": [
+                  [
+                    1130.0,
+                    1498.0
+                  ],
+                  [
+                    1192.0,
+                    1498.0
+                  ],
+                  [
+                    1192.0,
+                    1684.0
+                  ],
+                  [
+                    1130.0,
+                    1684.0
+                  ]
+                ],
+                "confidence_semantics": "uncalibrated OCR score"
+              }
+            ],
+            "SSCC_qualification": "global fragments not identity proof"
+          }
+        ],
+        "ground_truth_used": false
+      },
+      "coordinate_orientation_applied": 0,
+      "original_to_rectified": [
+        [
+          1.531186355894663,
+          1.0415907515181064,
+          -3276.2620864558407
+        ],
+        [
+          -0.6599852794486992,
+          1.7256495513044192,
+          -1794.5716780692073
+        ],
+        [
+          8.66566668430899e-05,
+          0.00019622470677950498,
+          1.0
+        ]
+      ],
+      "recovery_rois": [
+        {
+          "field": "lote",
+          "box": [
+            1400,
+            124,
+            1930,
+            226
+          ],
+          "anchor": {
+            "field": "lote",
+            "block_id": 4,
+            "raw_anchor_text": "LT:",
+            "normalized_anchor": "LOTE",
+            "rule": "right_header_LOTE_caption",
+            "box": [
+              1319.0,
+              145.0,
+              1396.0,
+              205.0
+            ],
+            "polygon_local": [
+              [
+                1319.0,
+                145.0
+              ],
+              [
+                1396.0,
+                145.0
+              ],
+              [
+                1396.0,
+                205.0
+              ],
+              [
+                1319.0,
+                205.0
+              ]
+            ],
+            "confidence_raw": 0.9697580933570862
+          }
+        },
+        {
+          "field": "validade_impressa",
+          "box": [
+            942,
+            217,
+            1930,
+            308
+          ],
+          "anchor": {
+            "field": "validade_impressa",
+            "block_id": 8,
+            "raw_anchor_text": "VALIDADE",
+            "normalized_anchor": "VALIDADE",
+            "rule": "literal_VALIDADE",
+            "box": [
+              722.0,
+              236.0,
+              938.0,
+              290.0
+            ],
+            "polygon_local": [
+              [
+                722.0,
+                236.0
+              ],
+              [
+                938.0,
+                239.0
+              ],
+              [
+                937.0,
+                290.0
+              ],
+              [
+                722.0,
+                288.0
+              ]
+            ],
+            "confidence_raw": 0.9627633839845657
+          }
+        }
+      ],
+      "human_review_required": true
+    }
+  ],
+  "candidate_regions": [
+    {
+      "region_id": "label-0",
+      "quad": [
+        [
+          1136.5714111328125,
+          1474.6285400390625
+        ],
+        [
+          2797.71435546875,
+          2109.94287109375
+        ],
+        [
+          2214.857177734375,
+          3310.628662109375
+        ],
+        [
+          504.1714172363281,
+          2404.28564453125
+        ]
+      ],
+      "method": "blue_hull_corner_quad",
+      "area": 2269736.6399999997,
+      "detection_confidence": null,
+      "id": "label-0",
+      "mask_recipe": "V2.3 frozen HSV/convex hull",
+      "geometric_confidence": null
+    }
+  ],
+  "legacy_logistic_units_unchanged": [],
+  "integration_enabled": false,
+  "ground_truth_used": false,
+  "catalog_used_for_completion": false,
+  "execution": "fresh CUDA dedicated-ROI inference plus spatial legacy evidence; native Windows auxiliary when available",
+  "input_prediction_sha256": "be4a198c68ffeea0f54a48c0b2f937f31b56b7903f27e520b9888ee7a30d2c93",
+  "evidence_root": "<STUDIO_WORKSPACE>evidence/03dbcaa4674d42f4ba8d18dc99aa9830",
+  "neural_evidence": [],
+  "gpu_proof": "<STUDIO_WORKSPACE>evidence/03dbcaa4674d42f4ba8d18dc99aa9830/gpu-proof.json",
+  "access_log": [
+    "c:/users/balancerec/appdata/local/temp/sun-v26-studio-20261120-01/data/predictions/v24/img-8250ffa8188d-5badc1.json",
+    "c:/users/balancerec/appdata/local/temp/sun-v26-studio-20261120-01/evidence/03dbcaa4674d42f4ba8d18dc99aa9830/gpu-proof.json",
+    "c:/users/balancerec/appdata/local/temp/sun-v26-studio-20261120-01/evidence/03dbcaa4674d42f4ba8d18dc99aa9830/job.json",
+    "c:/users/balancerec/appdata/local/temp/sun-v26-studio-20261120-01/evidence/03dbcaa4674d42f4ba8d18dc99aa9830/native-inputs.json",
+    "c:/users/balancerec/appdata/local/temp/sun-v26-studio-20261120-01/evidence/03dbcaa4674d42f4ba8d18dc99aa9830/neural-evidence.json",
+    "c:/users/balancerec/appdata/local/temp/sun-v26-studio-20261120-01/evidence/03dbcaa4674d42f4ba8d18dc99aa9830/profiles/ch_pp-ocrv4_det_infer_2026-11-20_18-20-05.json",
+    "c:/users/balancerec/appdata/local/temp/sun-v26-studio-20261120-01/evidence/03dbcaa4674d42f4ba8d18dc99aa9830/profiles/ch_pp-ocrv4_rec_infer_2026-11-20_18-20-06.json",
+    "c:/users/balancerec/appdata/local/temp/sun-v26-studio-20261120-01/evidence/03dbcaa4674d42f4ba8d18dc99aa9830/profiles/ch_ppocr_mobile_v2.0_cls_infer_2026-11-20_18-20-06.json",
+    "c:/users/balancerec/pictures/etiquetas/benchmark-sun/.venv/lib/site-packages/rapidocr_onnxruntime/models/ch_pp-ocrv4_det_infer.onnx",
+    "c:/users/balancerec/pictures/etiquetas/benchmark-sun/.venv/lib/site-packages/rapidocr_onnxruntime/models/ch_pp-ocrv4_rec_infer.onnx",
+    "c:/users/balancerec/pictures/etiquetas/benchmark-sun/.venv/lib/site-packages/rapidocr_onnxruntime/models/ch_ppocr_mobile_v2.0_cls_infer.onnx",
+    "c:/users/balancerec/pictures/etiquetas/etiquetas sun/20250929_075640.jpg"
+  ]
+}
+

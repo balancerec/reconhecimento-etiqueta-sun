@@ -1,0 +1,62 @@
+{
+  "width": 4080,
+  "height": 2296,
+  "click_original": {
+    "x": 3497,
+    "y": 1338
+  },
+  "contour": [
+    [
+      2918,
+      666
+    ],
+    [
+      2912,
+      1987
+    ],
+    [
+      4079,
+      2013
+    ],
+    [
+      4079,
+      678
+    ]
+  ],
+  "area_pixels": 1583993,
+  "component_count": 43,
+  "color_model": "local median HSV seed tolerance",
+  "confidence_calibrated": null,
+  "status": "HUMAN_CONFIRMED",
+  "warnings": [
+    "classical color segmentation; inspect false inclusion/exclusion"
+  ],
+  "mask": "<STUDIO_WORKSPACE>data/segmentations/img-6092e2c65e1c-a1b07d/c1419f1a9f334454a0734dfefd49ecd2.mask.png",
+  "rgba": "<STUDIO_WORKSPACE>data/segmentations/img-6092e2c65e1c-a1b07d/c1419f1a9f334454a0734dfefd49ecd2.rgba.png",
+  "overlay": "<STUDIO_WORKSPACE>data/segmentations/img-6092e2c65e1c-a1b07d/c1419f1a9f334454a0734dfefd49ecd2.overlay.png",
+  "segmentation_id": "c1419f1a9f334454a0734dfefd49ecd2",
+  "image_id": "img-6092e2c65e1c-a1b07d",
+  "copy_id": "copy-2",
+  "reviewed": true,
+  "source_sha256": "6092e2c65e1cfa8ee08eedd1c4bf1ff2212391c6e43f2712a9fa2665d05a0ba9",
+  "polygon": [
+    [
+      2918,
+      666
+    ],
+    [
+      2912,
+      1987
+    ],
+    [
+      4079,
+      2013
+    ],
+    [
+      4079,
+      678
+    ]
+  ],
+  "revision": 1
+}
+
