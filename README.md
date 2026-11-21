@@ -79,3 +79,7 @@ node test-ui-flow.cjs
 ```
 
 Para testes HTTP fora do Docker, instale `backend/requirements-dev.txt` com FastAPI, Pillow e NumPy. Para o pipeline completo, use o Docker, que inclui pesos de OCR e bibliotecas nativas.
+
+## Validation Studio V2.6/V2.7
+
+O Validation Studio experimental e o laboratório de restauração V2.7 são desenvolvidos em um workspace local separado; não estão incluídos nesta versão 0.2.0 do repositório, do instalador ou do Docker. Os relatos anteriores de API não constituem validação visual, homologação do isolamento ou prova de melhoria do OCR. Consulte [docs/VALIDATION-STUDIO-STATUS.md](docs/VALIDATION-STUDIO-STATUS.md) para o escopo, limitações e critérios pendentes.
